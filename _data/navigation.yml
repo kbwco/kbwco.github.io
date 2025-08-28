@@ -1,3 +1,7 @@
+- name: Sets
+  link: /sets.html
+- name: Cards
+  link: /cards.html
 - name: About
   link: /
 - name: GitHub

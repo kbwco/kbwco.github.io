@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="infobox">
+    <div class="infobox-title">{{page.title}}</div>
+    {% if page.image.path %}
+    <div class="infobox-image">
+        <a href="/assets/images/{{page.image.path}}" target="_blank">
+            <img src="/assets/images/{{page.image.path}}" alt="{{page.image.text}}">
+        </a>
+    </div>
+    {% endif %}
+    <table class="infobox-table">
+        <tr>
+            <th>Abbreviation</th>
+            <td>{{page.abbreviation}}</td>
+        </tr>
+        <tr>
+            <th>Author</th>
+            <td>{{page.author}}</td>
+        </tr>
+        <tr>
+            <th>Created</th>
+            <td>{{page.created-date}}</td>
+        </tr>
+    </table>
+</div>
+{{content}}

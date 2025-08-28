@@ -1,8 +1,30 @@
 theme: jekyll-theme-midnight
 title: 1000 Blank White Cards Online
 description: The online card game you can play however you want!
+collections:
+  cards:
+    output: true
+  categories:
+    output: true
+  sets:
+    output: true
 
 defaults:
+  - scope:
+      path: ""
+      type: "cards"
+    values:
+      layout: "card"
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+      type: "sets"
+    values:
+      layout: "set"
   - scope:
       path: ""
     values:

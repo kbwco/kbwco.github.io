@@ -1,0 +1,61 @@
+---
+layout: default
+---
+{% assign set = site.sets | where:"title", page.set.name | first %}
+{% assign cards-in-set = site.cards | where:"set.name", page.set.name | size %}
+{% if page.author %}
+  {% assign author = page.author %}
+{% else %}
+  {% assign author = set.author %}
+{% endif %}
+{% if page.created-date %}
+  {% assign created-date = page.created-date %}
+{% else %}
+  {% assign created-date = set.created-date %}
+{% endif %}
+<div class="infobox">
+    <div class="infobox-title">{{page.title}}</div>
+    {% if page.image.path or page.image.computer-path %}
+    <div class="infobox-image">
+        {% if page.image.path %}
+        <a href="/assets/images/{{page.image.path}}" target="_blank">
+            <img src="/assets/images/{{page.image.path}}" alt="{{page.image.text}}">
+        </a>
+        {% endif %}
+        {% if page.image.computer-path %}
+        <a href="/assets/images/{{page.image.computer-path}}" target="_blank">
+            <img src="/assets/images/{{page.image.computer-path}}" alt="{{page.image.computer-text}}">
+        </a>
+        {% endif %}
+    </div>
+    {% endif %}
+    <table class="infobox-table">
+        <tr>
+            <th>Set</th>
+            <td><a href="{{set.url}}">{{set.title}}</a> {{page.set.number}}/{{cards-in-set}}</td>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <td>{{page.category}}</td>
+        </tr>
+        <tr>
+            <th>Flavor Text</th>
+            <td>{{page.flavor-text | markdownify}}</td>
+        </tr>
+        {% if page.extra-text %}
+        <tr>
+            <th>Extra Text</th>
+            <td>{{page.extra-text | markdownify}}</td>
+        </tr>
+        {% endif %}
+        <tr>
+            <th>Author</th>
+            <td>{{author}}</td>
+        </tr>
+        <tr>
+            <th>Created</th>
+            <td>{{created-date}}</td>
+        </tr>
+    </table>
+</div>
+{{content}}
