@@ -3,6 +3,6 @@ title: A New X.O.D.Ah
 abbreviation: RO
 number: 7
 author: Brett
-created-date: null
+created-date: April 21, 2017
 ---
 Some info about the set TBA.
