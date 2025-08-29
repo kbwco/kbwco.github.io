@@ -39,6 +39,16 @@ layout: default
             <td>{{page.category}}</td>
         </tr>
         <tr>
+            <th>Effect(s)</th>
+            <td>
+                <ul>
+                {% for effect in page.effects %}
+                <li>{{effect}}</li>
+                {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        <tr>
             <th>Flavor Text</th>
             <td>{{page.flavor-text | markdownify}}</td>
         </tr>
