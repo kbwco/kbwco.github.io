@@ -1,34 +1,46 @@
 ---
 layout: default
 ---
-{% assign set = site.sets | where:"title", page.set.name | first %}
-{% assign cards-in-set = site.cards | where:"set.name", page.set.name | size %}
-{% if page.author %}
-  {% assign author = page.author %}
-{% else %}
-  {% assign author = set.author %}
-{% endif %}
-{% if page.created-date %}
-  {% assign created-date = page.created-date %}
-{% else %}
-  {% assign created-date = set.created-date %}
-{% endif %}
+{%- assign set = site.sets | where:"title", page.set.name | first -%}
+{%- assign cards = site.cards | where:"set.name", set.title -%}
+{%- assign found_alts = "" | split: "" -%}
+{%- for card in site.cards -%}
+{%- if card.alternates -%}
+{%- for alt in card.alternates -%}
+{%- if alt.set.name == set.title -%}
+{%- assign alt.title = card.title -%}
+{%- assign cards = cards | push: alt -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign cards-in-set = cards | size -%}
+{%- if page.author -%}
+  {%- assign author = page.author -%}
+{%- else -%}
+  {%- assign author = set.author -%}
+{%- endif -%}
+{%- if page.created-date -%}
+  {%- assign created-date = page.created-date -%}
+{%- else -%}
+  {%- assign created-date = set.created-date -%}
+{%- endif -%}
 <div class="infobox">
     <div class="infobox-title">{{page.title}}</div>
-    {% if page.image.path or page.image.computer-path %}
+    {% if page.image.path or page.image.computer-path -%}
     <div class="infobox-image">
-        {% if page.image.path %}
+        {% if page.image.path -%}
         <a href="/assets/images/{{page.image.path}}" target="_blank">
             <img src="/assets/images/{{page.image.path}}" alt="{{page.image.text}}">
         </a>
-        {% endif %}
-        {% if page.image.computer-path %}
+        {% endif -%}
+        {%- if page.image.computer-path -%}
         <a href="/assets/images/{{page.image.computer-path}}" target="_blank">
             <img src="/assets/images/{{page.image.computer-path}}" alt="{{page.image.computer-text}}">
         </a>
-        {% endif %}
+        {%- endif %}
     </div>
-    {% endif %}
+    {% endif -%}
     <table class="infobox-table">
         <tr>
             <th>Set</th>
@@ -45,9 +57,9 @@ layout: default
             <th>Effect(s)</th>
             <td>
                 <ul>
-                {% for effect in page.effects %}
+                {% for effect in page.effects -%}
                 <li>{{effect}}</li>
-                {% endfor %}
+                {% endfor -%}
                 </ul>
             </td>
         </tr>
@@ -55,12 +67,12 @@ layout: default
             <th>Flavor Text</th>
             <td>{{page.flavor-text | markdownify}}</td>
         </tr>
-        {% if page.extra-text %}
+        {% if page.extra-text -%}
         <tr>
             <th>Extra Text</th>
             <td>{{page.extra-text | markdownify}}</td>
         </tr>
-        {% endif %}
+        {%- endif %}
         <tr>
             <th>Author</th>
             <td>{{author}}</td>
@@ -72,3 +84,98 @@ layout: default
     </table>
 </div>
 {{content}}
+{% if page.alternates %}
+<h2 id="alternates">Alternates</h2>
+<div class="alt-infoboxes">
+{% for alt in page.alternates %}
+<div class="alt-infobox">
+    <div class="infobox-title">{{alt.title}}</div>
+    {% if alt.image.path or alt.image.computer-path -%}
+    <div class="infobox-image">
+        {% if alt.image.path -%}
+        <a href="/assets/images/{{alt.image.path}}" target="_blank">
+            <img src="/assets/images/{{alt.image.path}}" alt="{{alt.image.text}}">
+        </a>
+        {% endif -%}
+        {%- if alt.image.computer-path -%}
+        <a href="/assets/images/{{alt.image.computer-path}}" target="_blank">
+            <img src="/assets/images/{{alt.image.computer-path}}" alt="{{alt.image.computer-text}}">
+        </a>
+        {%- endif %}
+    </div>
+    {% endif -%}
+    <table class="infobox-table">
+        {%- assign set = site.sets | where:"title", alt.set.name | first -%}
+        {%- assign cards = site.cards | where:"set.name", set.title -%}
+        {%- assign found_alts = "" | split: "" -%}
+        {%- for card in site.cards -%}
+        {%- if card.alternates -%}
+        {%- for alt in card.alternates -%}
+        {%- if alt.set.name == set.title -%}
+        {%- assign alt.title = card.title -%}
+        {%- assign cards = cards | push: alt -%}
+        {%- endif -%}
+        {%- endfor -%}
+        {%- endif -%}
+        {%- endfor -%}
+        {%- assign cards-in-set = cards | size -%}
+        {%- if alt.author -%}
+        {%- assign author = alt.author -%}
+        {%- else -%}
+        {%- assign author = set.author -%}
+        {%- endif -%}
+        {%- if alt.created-date -%}
+        {%- assign created-date = alt.created-date -%}
+        {%- else -%}
+        {%- assign created-date = set.created-date -%}
+        {%- endif -%}
+        <tr>
+            <th>Set</th>
+            <td><a href="{{set.url}}">{{set.title}}</a> {{alt.set.number}}
+                {%- unless set.exclude-total -%}
+                /{{cards-in-set}}
+                {%- endunless -%}</td>
+        </tr>
+        {%- if alt.category -%}
+        <tr>
+            <th>Category</th>
+            <td>{{alt.category}}</td>
+        </tr>
+        {%- endif -%}
+        {%- if alt.effects -%}
+        <tr>
+            <th>Effect(s)</th>
+            <td>
+                <ul>
+                    {% for effect in alt.effects -%}
+                    <li>{{effect}}</li>
+                    {% endfor -%}
+                </ul>
+            </td>
+        </tr>
+        {%- endif -%}
+        {%- if alt.flavor-text -%}
+        <tr>
+            <th>Flavor Text</th>
+            <td>{{alt.flavor-text | markdownify}}</td>
+        </tr>
+        {%- endif -%}
+        {% if alt.extra-text -%}
+        <tr>
+            <th>Extra Text</th>
+            <td>{{alt.extra-text | markdownify}}</td>
+        </tr>
+        {%- endif %}
+        <tr>
+            <th>Author</th>
+            <td>{{author}}</td>
+        </tr>
+        <tr>
+            <th>Created</th>
+            <td>{{created-date}}</td>
+        </tr>
+    </table>
+</div>
+{% endfor %}
+</div>
+{% endif %}

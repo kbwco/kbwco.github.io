@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Friends
-sorting-title: >
-  FRIENDS
 image: 
   path: cards/scanned/basement/02 Friends.png
   text: Friends
@@ -11,8 +9,8 @@ set:
   number: 2
 category: Relationship
 effects: 
-  - >
-    Discard any cards dealing with isolation or being alone.
+- |-
+  Discard any cards dealing with isolation or being alone.
 flavor-text: You got friends (somehow).
 ---
 Some actual info about this thing TBA.

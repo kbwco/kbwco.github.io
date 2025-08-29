@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Heart of the Cards
-sorting-title: >
-  HEART OF THE CARDS
 image: 
   path: cards/scanned/xodah/06 Heart of the Cards.png
   text: Heart of the Cards
@@ -11,8 +9,8 @@ set:
   number: 6
 category: Yu-gi-oh
 effects: 
-  - >
-    Say the name of a card, if you draw it, you win. Blanks don't count. Must be used before you draw for your turn
+- |-
+  Say the name of a card, if you draw it, you win. Blanks don't count. Must be used before you draw for your turn
 flavor-text: "Are the cards blessing you?"
 ---
 Some actual info about this thing TBA.

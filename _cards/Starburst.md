@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Starburst
-sorting-title: >
-  STARBURST
 image: 
   path: cards/scanned/snacks/05 Starburst.png
   text: Starburst
@@ -11,8 +9,8 @@ set:
   number: 5
 category: 
 effects: 
-  - >
-    Every player picks one card on their field to keep and discard all the others
+- |-
+  Every player picks one card on their field to keep and discard all the others
 flavor-text: "I'm da bes."
 ---
 Some actual info about this thing TBA.

@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   You are a Pirate!
-sorting-title: >
-  YOU ARE A PIRATE!
 image: 
   path: cards/scanned/bukkit/12 You are a Pirate!.png
   text: You are a Pirate!
@@ -11,12 +9,12 @@ set:
   number: 12
 category: 
 effects: 
-  - >
-    If Offline ≠ Hacker is in play, must be played immediately on same side.
-  - >
-    Accusation - Prove you're not a pirate or that it's okay. Do so in 6 turns or you must be richest to win the game.
-  - >
-    Boost: Discard your hand.
+- |-
+  If Offline ≠ Hacker is in play, must be played immediately on same side.
+- |-
+  Accusation - Prove you're not a pirate or that it's okay. Do so in 6 turns or you must be richest to win the game.
+- |-
+  Boost: Discard your hand.
 flavor-text: Limewire had a point, you know...
 ---
 Some actual info about this thing TBA.

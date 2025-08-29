@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Divorce
-sorting-title: >
-  DIVORCE
 image: 
   path: cards/scanned/celebrations/11 Divorce.png
   text: Divorce
@@ -11,8 +9,8 @@ set:
   number: 11
 category: Isolation
 effects: 
-  - >
-    Destroy all marriage related cards in play
+- |-
+  Destroy all marriage related cards in play
 flavor-text: "Gb bae"
 ---
 Some actual info about this thing TBA.

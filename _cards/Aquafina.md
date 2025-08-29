@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Aquafina
-sorting-title: >
-  AQUAFINA
 image: 
   path: cards/scanned/snacks/06 Aquafina.png
   text: Aquafina
@@ -11,8 +9,8 @@ set:
   number: 6
 category: 
 effects: 
-  - >
-    Field card: All cards being played delayed are destroyed after they come into effect
+- |-
+  Field card: All cards being played delayed are destroyed after they come into effect
 flavor-text: "pure water, perfect taste."
 ---
 Some actual info about this thing TBA.

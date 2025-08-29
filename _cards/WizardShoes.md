@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Wizard Shoes
-sorting-title: >
-  WIZARD SHOES
 image: 
   path: cards/scanned/college/11 Wizard Shoes.png
   text: Wizard Shoes
@@ -11,12 +9,12 @@ set:
   number: 11
 category: Wizard Clothes
 effects: 
-  - >
-    You got wizard shoes.
-  - >
-    Any magic aimed at your feet is only 1/2 effective as normal.
-  - >
-    + 5 Magic
+- |-
+  You got wizard shoes.
+- |-
+  Any magic aimed at your feet is only 1/2 effective as normal.
+- |-
+  + 5 Magic
 flavor-text: Your a wiz-boy, Harold!
 ---
 Some actual info about this thing TBA.

@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   We're all in this together
-sorting-title: >
-  WE'RE ALL IN THIS TOGETHER
 image: 
   path: cards/scanned/celebrations/03 We're All in This Together.png
   text: We're all in this together
@@ -11,8 +9,8 @@ set:
   number: 3
 category: Empathy
 effects: 
-  - >
-    The player with less cards draws until they have the same amount as the player with the most cards
+- |-
+  The player with less cards draws until they have the same amount as the player with the most cards
 flavor-text: "The musical"
 ---
 Some actual info about this thing TBA.

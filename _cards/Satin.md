@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Satin
-sorting-title: >
-  SATIN
 image: 
   path: cards/scanned/pregame/10 Satin Card.png
   text: Satin
@@ -13,10 +11,10 @@ set:
   number: 10
 category: Anti-Satanic
 effects: 
-  - >
-    Discard Satan from anyone's hand or play.
-  - >
-    This can be played at any time.
+- |-
+  Discard Satan from anyone's hand or play.
+- |-
+  This can be played at any time.
 flavor-text: You spelled Satan wrong!
 ---
 Some actual info about this thing TBA.

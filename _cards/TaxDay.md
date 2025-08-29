@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Tax Day
-sorting-title: >
-  TAX DAY
 image: 
   path: cards/scanned/pregame/08 Tax Day Card.png
   text: Tax Day
@@ -13,8 +11,8 @@ set:
   number: 8
 category: Taxes
 effects: 
-  - >
-    Lose all your money.
+- |-
+  Lose all your money.
 flavor-text: The government comes and takes all your money by force.
 ---
 Some actual info about this thing TBA.

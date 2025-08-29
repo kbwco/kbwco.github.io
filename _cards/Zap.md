@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Zap
-sorting-title: >
-  ZAP
 image: 
   path: cards/scanned/poptarts/07 Zap.png
   text: Zap
@@ -11,8 +9,8 @@ set:
   number: 7
 category: Spells
 effects: 
-  - >
-    Lose a turn
+- |-
+  Lose a turn
 flavor-text: Just a little jolt.
 ---
 Some actual info about this thing TBA.

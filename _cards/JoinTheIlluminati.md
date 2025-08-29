@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Join the Illuminati
-sorting-title: >
-  JOIN THE ILLUMINATI
 image: 
   path: cards/scanned/illuminati/14 Join the Illuminati.png
   text: Join the Illuminati
@@ -11,8 +9,8 @@ set:
   number: 14
 category: 
 effects: 
-  - >
-    Take one Illuminati card from the graveyard or deck (prioritize graveyard) and add it to your hand
+- |-
+  Take one Illuminati card from the graveyard or deck (prioritize graveyard) and add it to your hand
 flavor-text: "Dreams are real."
 ---
 Some actual info about this thing TBA.

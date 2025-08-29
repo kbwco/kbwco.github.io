@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Failed College
-sorting-title: >
-  FAILED COLLEGE
 image: 
   path: cards/scanned/market/12 Failed College.png
   text: Failed College
@@ -11,8 +9,8 @@ set:
   number: 12
 category: College
 effects: 
-  - >
-    Lose 25 intelligence
+- |-
+  Lose 25 intelligence
 flavor-text: You flunked out of college.
 ---
 Some actual info about this thing TBA.

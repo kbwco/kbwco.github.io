@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   All-Seeing Eye
-sorting-title: >
-  ALL-SEEING EYE
 image: 
   path: cards/scanned/illuminati/01 All-Seeing Eye.png
   text: All-Seeing Eye
@@ -11,8 +9,8 @@ set:
   number: 1
 category: 
 effects: 
-  - >
-    Look at your opponents hand.
+- |-
+  Look at your opponents hand.
 flavor-text: "He sees you when your sleeping."
 ---
 Some actual info about this thing TBA.

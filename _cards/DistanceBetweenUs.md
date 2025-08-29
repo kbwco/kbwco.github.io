@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Distance Between Us
-sorting-title: >
-  DISTANCE BETWEEN US
 image: 
   path: cards/scanned/illuminati/05 Distance Between Us.png
   text: Distance Between Us
@@ -11,8 +9,8 @@ set:
   number: 5
 category: 
 effects: 
-  - >
-    Field Card: (1 effect) if a player hits 0 cards (in hand), they draw until they have the same number as there opponent, then discard this card.
+- |-
+  Field Card: (1 effect) if a player hits 0 cards (in hand), they draw until they have the same number as there opponent, then discard this card.
 flavor-text: "So close yet so far away."
 ---
 Some actual info about this thing TBA.

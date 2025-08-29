@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   You Have Too Many!
-sorting-title: >
-  YOU HAVE TOO MANY!
 image: 
   path: cards/scanned/market/11 You Have Too Many!.png
   text: You Have Too Many!
@@ -11,8 +9,8 @@ set:
   number: 11
 category: Basic Card
 effects: 
-  - >
-    Randomly discard down to 10 cards.
+- |-
+  Randomly discard down to 10 cards.
 flavor-text: We gave you too many cards. Get rid of some.
 ---
 Some actual info about this thing TBA.

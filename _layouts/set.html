@@ -1,16 +1,29 @@
 ---
 layout: default
 ---
-{% assign cards-in-set = site.cards | where:"set.name", page.title | size %}
+{%- assign cards = site.cards | where:"set.name", page.title -%}
+{%- assign found_alts = "" | split: "" -%}
+{%- for card in site.cards -%}
+{%- if card.alternates -%}
+{%- for alt in card.alternates -%}
+{%- if alt.set.name == page.title -%}
+{%- assign alt.title = card.title -%}
+{%- assign cards = cards | push: alt -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign cards-in-set = cards | size -%}
+{%- assign cards = cards | sort: "set.number" -%}
 <div class="infobox">
     <div class="infobox-title">{{page.title}}</div>
-    {% if page.image.path %}
+    {% if page.image.path -%}
     <div class="infobox-image">
         <a href="/assets/images/{{page.image.path}}" target="_blank">
             <img src="/assets/images/{{page.image.path}}" alt="{{page.image.text}}">
         </a>
     </div>
-    {% endif %}
+    {%- endif %}
     <table class="infobox-table">
         <tr>
             <th>Abbreviation</th>
@@ -30,29 +43,32 @@ layout: default
         </tr>
     </table>
 </div>
-{{content}}
-
+{{content | markdownify}}
 <h2 id="cards">Cards</h2>
-{% assign cards = site.cards | where: "set.name", page.title | sort: "set.number" %}
 <table class="card-table">
     <tr>
-        {% for card in cards %}
+        {% for card in cards -%}
+        {%- assign url = card.url -%}
+        {%- unless card.url -%}
+        {%- assign real_card = cards | where: "title", card.title | first -%}
+        {%- assign url = real_card.url -%}
+        {%- endunless -%}
         <td class="card-cell">
-            <a href="{{card.url}}">{{card.title}}</a>
-            {% if card.image.computer-path %}
+            <a href="{{url}}">{{card.title}}</a>
+            {%- if card.image.computer-path -%}
             <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
                 <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
             </a>
-            {% else %}
+            {%- else -%}
             <a href="/assets/images/{{card.image.path}}" target="_blank">
                 <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
             </a>
-            {% endif %}
+            {%- endif -%}
         </td>
-        {% assign mod = forloop.index0 | modulo: 3 %}
-        {% if mod == 2 and forloop.last == false %}
+        {%- assign mod = forloop.index0 | modulo: 3 -%}
+        {%- if mod == 2 and forloop.last == false %}
         </tr><tr>
-        {% endif %}
+        {%- endif -%}
         {% endfor %}
     </tr>
 </table>

@@ -1,8 +1,6 @@
 ---
-title: >
+title: |-
   Replay!
-sorting-title: >
-  REPLAY!
 image: 
   path: cards/scanned/market2/09 Replay!.png
   text: Replay!
@@ -11,10 +9,10 @@ set:
   number: 9
 category: Repetition
 effects: 
-  - >
-    May be played at any time.
-  - >
-    Do the effect of the last card you played again.
+- |-
+  May be played at any time.
+- |-
+  Do the effect of the last card you played again.
 flavor-text: Do it again!
 ---
 Some actual info about this thing TBA.

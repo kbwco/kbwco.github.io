@@ -3,7 +3,7 @@ title: Cards
 ---
 This is the alphabetical listing of all cards. To find cards by set, see the 
 [Sets page](/sets.html).
-{% assign cards = site.cards | sort: "sorting-title" %}
+{% assign cards = site.cards | sort_natural: "title" %}
 {% assign current_letter = "" %}
 {% for card in cards %}
 {% assign first_char = card.title | slice: 0, 1 | upcase %}
