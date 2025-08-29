@@ -1,9 +1,9 @@
 ---
 title: God
 image: 
-  path: scanned/pregame/02 God Card.png
+  path: cards/scanned/pregame/02 God Card.png
   text: God
-  computer-path: computer/pregame/02 God Card.png
+  computer-path: cards/computer/pregame/02 God Card.png
   computer-text: God
 set:
   name: Pregame

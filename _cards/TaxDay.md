@@ -1,9 +1,9 @@
 ---
 title: Tax Day
 image: 
-  path: scanned/pregame/08 Tax Day Card.png
+  path: cards/scanned/pregame/08 Tax Day Card.png
   text: Tax Day
-  computer-path: computer/pregame/08 Tax Day Card.png
+  computer-path: cards/computer/pregame/08 Tax Day Card.png
   computer-text: Tax Day
 set:
   name: Pregame

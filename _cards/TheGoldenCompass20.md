@@ -1,9 +1,9 @@
 ---
 title: The Golden Compass 2.0
 image: 
-  path: scanned/pregame/04 The Golden Compass 2.0 Card.png
+  path: cards/scanned/pregame/04 The Golden Compass 2.0 Card.png
   text: The Golden Compass 2.0
-  computer-path: computer/pregame/04 The Golden Compass 2.0 Card.png
+  computer-path: cards/computer/pregame/04 The Golden Compass 2.0 Card.png
   computer-text: The Golden Compass 2.0
 set:
   name: Pregame

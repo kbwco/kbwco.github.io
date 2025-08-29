@@ -1,9 +1,9 @@
 ---
 title: Satin
 image: 
-  path: scanned/pregame/10 Satin Card.png
+  path: cards/scanned/pregame/10 Satin Card.png
   text: Satin
-  computer-path: computer/pregame/10 Satin Card.png
+  computer-path: cards/computer/pregame/10 Satin Card.png
   computer-text: Satin
 set:
   name: Pregame

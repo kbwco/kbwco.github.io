@@ -1,9 +1,9 @@
 ---
 title: Bible
 image: 
-  path: scanned/pregame/06 Bible Card.png
+  path: cards/scanned/pregame/06 Bible Card.png
   text: Bible
-  computer-path: computer/pregame/06 Bible Card.png
+  computer-path: cards/computer/pregame/06 Bible Card.png
   computer-text: Bible
 set:
   name: Pregame

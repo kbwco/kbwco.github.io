@@ -1,9 +1,9 @@
 ---
 title: Satan
 image: 
-  path: scanned/pregame/09 Satan Card.png
+  path: cards/scanned/pregame/09 Satan Card.png
   text: Satan
-  computer-path: computer/pregame/09 Satan Card.png
+  computer-path: cards/computer/pregame/09 Satan Card.png
   computer-text: Satan
 set:
   name: Pregame

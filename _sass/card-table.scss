@@ -1,0 +1,22 @@
+.card-table {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-cell {
+  text-align: center;
+  vertical-align: bottom;
+  max-width: 33%;
+}
+
+.card-cell img {
+  max-height: 450px;  /* limit height */
+  width: auto;        /* keep aspect ratio */
+  display: block;     /* prevent inline spacing issues */
+  margin: 0 auto;     /* center horizontally */
+}
+
+.card-cell a {
+  font-size: 20px;
+}

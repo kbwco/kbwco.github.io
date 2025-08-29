@@ -1,9 +1,9 @@
 ---
 title: Didn't Learn Directions!
 image: 
-  path: scanned/pregame/07 Didn't Learn Directions! Card.png
+  path: cards/scanned/pregame/07 Didn't Learn Directions! Card.png
   text: Didn't Learn Directions!
-  computer-path: computer/pregame/07 Didn't Learn Directions! Card.png
+  computer-path: cards/computer/pregame/07 Didn't Learn Directions! Card.png
   computer-text: Didn't Learn Directions!
 set:
   name: Pregame

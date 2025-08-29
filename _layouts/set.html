@@ -26,3 +26,28 @@ layout: default
     </table>
 </div>
 {{content}}
+
+<h2 id="cards">Cards</h2>
+{% assign cards = site.cards | where: "set.name", page.title | sort: "set.number" %}
+<table class="card-table">
+    <tr>
+        {% for card in cards %}
+        <td class="card-cell">
+            <a href="{{card.url}}">{{card.title}}</a>
+            {% if card.image.computer-path %}
+            <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
+                <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
+            </a>
+            {% else %}
+            <a href="/assets/images/{{card.image.path}}" target="_blank">
+                <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
+            </a>
+            {% endif %}
+        </td>
+        {% assign mod = forloop.index0 | modulo: 3 %}
+        {% if mod == 2 and forloop.last == false %}
+        </tr><tr>
+        {% endif %}
+        {% endfor %}
+    </tr>
+</table>

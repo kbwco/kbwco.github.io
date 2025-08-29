@@ -1,0 +1,29 @@
+---
+# Jekyll parse please
+---
+@import "jekyll-theme-midnight";
+
+/* override section in all contexts */
+.wrapper,
+section,
+body section,
+body main section {
+  max-width: 100%;
+  width: 90%;
+  margin: 70px auto 20px auto;
+  padding: 30px 20px;
+}
+
+/* override inside theme’s media queries */
+@media print, screen and (max-width: 720px) {
+  body main section, main section, section {
+    max-width: 90%;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body main section, main section, section {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}

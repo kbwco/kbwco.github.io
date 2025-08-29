@@ -1,15 +1,15 @@
 ---
 title: Bible Study
-image:
-  path: scanned/pregame/01 Bible Study Card.png
+image: 
+  path: cards/scanned/pregame/01 Bible Study Card.png
   text: Bible Study
-  computer-path: computer/pregame/01 Bible Study Card.png
+  computer-path: cards/computer/pregame/01 Bible Study Card.png
   computer-text: Bible Study
 set:
   name: Pregame
   number: 1
 category: Bible
-effects:
+effects: 
   - +5 Bible Points
 flavor-text: You and a friend attend a Bible study
 extra-text: If God is present, add 5 more Bible points.
