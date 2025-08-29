@@ -1,5 +1,8 @@
 ---
-title: Bible Study
+title: >
+  Bible Study
+sorting-title: >
+  BIBLE STUDY
 image: 
   path: cards/scanned/pregame/01 Bible Study Card.png
   text: Bible Study
@@ -10,7 +13,8 @@ set:
   number: 1
 category: Bible
 effects: 
-  - +5 Bible Points
+  - >
+    +5 Bible Points
 flavor-text: You and a friend attend a Bible study
 extra-text: If God is present, add 5 more Bible points.
 ---

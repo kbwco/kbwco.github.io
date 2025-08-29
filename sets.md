@@ -6,8 +6,8 @@ This is all the sets. To see a list of individual cards, go to the
 
 ## Chronological List
 {% assign sets = site.sets | sort: "number" %}
-{% for set in sets %}
-* [{{set.title}}]({{set.url}})
+{% for set in sets -%}
+1. [{{set.title}}]({{set.url}})
 {% endfor %}
 
 ## Alphabetical List

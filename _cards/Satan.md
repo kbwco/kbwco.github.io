@@ -1,5 +1,8 @@
 ---
-title: Satan
+title: >
+  Satan
+sorting-title: >
+  SATAN
 image: 
   path: cards/scanned/pregame/09 Satan Card.png
   text: Satan
@@ -10,8 +13,10 @@ set:
   number: 9
 category: Satanic
 effects: 
-  - Discard all Christian cards.
-  - All Satanic cards' effects are doubled and protected.
+  - >
+    Discard all Christian cards.
+  - >
+    All Satanic cards' effects are doubled and protected.
 flavor-text: He's big, fat, and red, and children love him... no wait, wrong guy, he's Satan.
 ---
 Some actual info about this thing TBA.
