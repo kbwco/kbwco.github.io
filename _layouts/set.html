@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign cards-in-set = site.cards | where:"set.name", page.title | size %}
 <div class="infobox">
     <div class="infobox-title">{{page.title}}</div>
     {% if page.image.path %}
@@ -22,6 +23,10 @@ layout: default
         <tr>
             <th>Created</th>
             <td>{{page.created-date}}</td>
+        </tr>
+        <tr>
+            <th>Number of Cards</th>
+            <td>{{cards-in-set}}</td>
         </tr>
     </table>
 </div>
