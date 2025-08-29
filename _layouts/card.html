@@ -32,7 +32,10 @@ layout: default
     <table class="infobox-table">
         <tr>
             <th>Set</th>
-            <td><a href="{{set.url}}">{{set.title}}</a> {{page.set.number}}/{{cards-in-set}}</td>
+            <td><a href="{{set.url}}">{{set.title}}</a> {{page.set.number}}
+                {%- unless set.exclude-total -%}
+                /{{cards-in-set}}
+                {%- endunless -%}</td>
         </tr>
         <tr>
             <th>Category</th>
