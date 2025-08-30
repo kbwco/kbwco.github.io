@@ -1,4 +1,201 @@
 ---
 layout: default
 ---
+{%- assign cards = site.cards | where:"category", page.title -%}
+{%- assign sub-categories = "" | split: "" -%}
+{%- assign child-categories = "" | split: "" -%}
+{%- assign cards-in-sub-categories = "" | split: "" -%}
+{%- for category in site.categories -%}
+{%- if category.parent-categories and category.parent-categories contains page.title -%}
+{%- assign child-categories = child-categories | push: category -%}
+{%- endif -%}
+{%- if category.ancestor-categories and category.ancestor-categories contains page.title -%}
+{%- assign sub-categories = sub-categories | push:category -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign child-categories = child-categories | sort_natural:"title" -%}
+{%- assign sub-categories = sub-categories | sort_natural:"title" -%}
+{%- for card in site.cards -%}
+{%- if card.category -%}
+{%- assign found-sub-category = sub-categories | where: "title", card.category -%}
+{%- unless found-sub-category == empty -%}
+{%- assign cards-in-sub-categories = cards-in-sub-categories | push: card -%}
+{%- endunless -%}
+{%- endif -%}
+{%- if card.alternates -%}
+{%- for alt in card.alternates -%}
+{%- assign alt-category = alt.category -%}
+{%- unless alt-category -%}
+{%- assign alt-category = card.category -%}
+{%- endunless -%}
+{%- if alt-category -%}
+{%- if alt-category == page.title -%}
+{%- assign cards = cards | push: alt -%}
+{%- else -%}
+{%- assign found-sub-category = sub-categories | where: "title", alt-category -%}
+{%- unless found-sub-category == empty -%}
+{%- assign cards-in-sub-categories = cards-in-sub-categories | push: alt -%}
+{%- endunless -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign cards-in-category = cards | size -%}
+{%- assign cards-in-sub-categories-count = cards-in-sub-categories | size -%}
+{%- assign cards-in-category-and-subs = cards-in-category | plus: cards-in-sub-categories-count -%}
+{%- assign cards = cards | sort_natural: "title" -%}
+<div class="infobox">
+    <div class="infobox-title">{{page.title}}</div>
+    {% if page.image.path -%}
+    <div class="infobox-image">
+        <a href="/assets/images/{{page.image.path}}" target="_blank">
+            <img src="/assets/images/{{page.image.path}}" alt="{{page.image.text}}">
+        </a>
+    </div>
+    {%- endif %}
+    <table class="infobox-table">
+        {% if page.parent-categories %}
+        <tr>
+            <th>Parent Categories</th>
+            <td><ul>
+                {% for category-title in page.parent-categories %}
+                {% assign category = site.categories | where: "title", category-title | first %}
+                <li><a href="{{category.url}}">{{category.title}}</a></li>
+                {% endfor %}
+            </ul></td>
+        </tr>
+        {% endif %}
+        {% unless child-categories == empty %}
+        <tr>
+            <th>Child Categories</th>
+            <td><ul>
+                {% for category in child-categories %}
+                <li><a href="{{category.url}}">{{category.title}}</a></li>
+                {% endfor %}
+            </ul></td>
+        </tr>
+        {% endunless %}
+        {% if page.vs-category %}
+        {% assign category = site.categories | where: "title", page.vs-category | first %}
+        <tr>
+            <th>Vs. Category</th>
+            <td><a href="{{category.url}}">{{category.title}}</a></td>
+        </tr>
+        {% endif %}
+        {% if page.first-card %}
+        {% assign card = site.cards | where: "title", page.first-card | first %}
+        <tr>
+            <th>First Card in Category</th>
+            <td><a href="{{card.url}}">{{card.title}}</a></td>
+        </tr>
+        {% endif %}
+        {% if page.first-card-ref %}
+        {% assign card = site.cards | where: "title", page.first-card-ref | first %}
+        <tr>
+            <th>First Card Referencing the Category</th>
+            <td><a href="{{card.url}}">{{card.title}}</a></td>
+        </tr>
+        {% endif %}
+        <tr>
+            <th>Category #</th>
+            <td>{{page.number}}</td>
+        </tr>
+        <tr>
+            <th>Created</th>
+            <td>{{page.created-date}}</td>
+        </tr>
+        <tr>
+            <th>Number of Cards</th>
+            <td>{{cards-in-category}}</td>
+        </tr>
+        {% unless cards-in-category == cards-in-category-and-subs %}
+        <tr>
+            <th>Number of Cards (Counting Sub-Categories)</th>
+            <td>{{cards-in-category-and-subs}}</td>
+        </tr>
+        {% endunless %}
+    </table>
+</div>
+{{page.blurb | markdownify}}
 {{content}}
+<h2 id="cards">Cards</h2>
+<table class="card-table">
+    <tr>
+        {% for card in cards -%}
+        {%- assign url = card.url -%}
+        {%- unless card.url -%}
+        {%- assign real_card = cards | where: "title", card.title | first -%}
+        {%- assign url = real_card.url -%}
+        {%- endunless -%}
+        <td class="card-cell">
+            <a href="{{url}}">{{card.title}}</a>
+            {%- if card.image.computer-path -%}
+            <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
+                <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
+            </a>
+            {%- else -%}
+            <a href="/assets/images/{{card.image.path}}" target="_blank">
+                <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
+            </a>
+            {%- endif -%}
+        </td>
+        {%- assign mod = forloop.index0 | modulo: 3 -%}
+        {%- if mod == 2 and forloop.last == false %}
+    </tr><tr>
+    {%- endif -%}
+    {% endfor %}
+</tr>
+</table>
+{% unless sub-categories == empty %}
+<h2 id="subcategories">Sub-Categories</h2>
+<blockquote>Note: Sub-Categories here is referring to any descendant categories, not just child categories.</blockquote>
+{% for category in sub-categories %}
+<h3 id="{{category.title | slugify}}"><a href="{{category.url}}">{{category.title}}</a></h3>
+<p>{{category.blurb | markdownify}}</p>
+{%- assign cards-in-sub-category = site.cards | where:"category", category.title -%}
+{%- for card in site.cards -%}
+{%- if card.alternates -%}
+{%- for alt in card.alternates -%}
+{%- assign alt-category = alt.category -%}
+{%- unless alt-category -%}
+{%- assign alt-category = card.category -%}
+{%- endunless -%}
+{%- if alt-category -%}
+{%- if alt-category == page.title -%}
+{%- assign cards-in-sub-category = cards-in-sub-category | push: alt -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign cards-in-sub-category = cards-in-sub-category | sort_natural:"title" -%}
+<table class="card-table">
+    <tr>
+        {% for card in cards-in-sub-category -%}
+        {%- assign url = card.url -%}
+        {%- unless card.url -%}
+        {%- assign real_card = cards | where: "title", card.title | first -%}
+        {%- assign url = real_card.url -%}
+        {%- endunless -%}
+        <td class="card-cell">
+            <a href="{{url}}">{{card.title}}</a>
+            {%- if card.image.computer-path -%}
+            <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
+                <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
+            </a>
+            {%- else -%}
+            <a href="/assets/images/{{card.image.path}}" target="_blank">
+                <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
+            </a>
+            {%- endif -%}
+        </td>
+        {%- assign mod = forloop.index0 | modulo: 3 -%}
+        {%- if mod == 2 and forloop.last == false %}
+    </tr><tr>
+    {%- endif -%}
+    {% endfor %}
+</tr>
+</table>
+{% endfor %}
+{% endunless %}

@@ -2,12 +2,10 @@
 layout: default
 ---
 {%- assign cards = site.cards | where:"set.name", page.title -%}
-{%- assign found_alts = "" | split: "" -%}
 {%- for card in site.cards -%}
 {%- if card.alternates -%}
 {%- for alt in card.alternates -%}
 {%- if alt.set.name == page.title -%}
-{%- assign alt.title = card.title -%}
 {%- assign cards = cards | push: alt -%}
 {%- endif -%}
 {%- endfor -%}
@@ -28,6 +26,10 @@ layout: default
         <tr>
             <th>Abbreviation</th>
             <td>{{page.abbreviation}}</td>
+        </tr>
+        <tr>
+            <th>Set #</th>
+            <td>{{page.number}}</td>
         </tr>
         <tr>
             <th>Author</th>

@@ -49,9 +49,18 @@ layout: default
                 /{{cards-in-set}}
                 {%- endunless -%}</td>
         </tr>
+        {% assign category = empty %}
+        {% if page.category %}
+        {% assign category = site.categories | where: "title", page.category %}
+        {% endif %}
         <tr>
             <th>Category</th>
+            {% if category == empty %}
             <td>{{page.category}}</td>
+            {% else %}
+            {% assign category = category | first %}
+            <td><a href="{{category.url}}">{{category.title}}</a></td>
+            {% endif %}
         </tr>
         <tr>
             <th>Effect(s)</th>
