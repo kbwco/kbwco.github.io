@@ -149,33 +149,27 @@ layout: default
 {{page.blurb | markdownify}}
 {{content}}
 <h2 id="cards">Cards</h2>
-<table class="card-table">
-    <tr>
-        {% for card in cards -%}
-        {%- assign url = card.url -%}
-        {%- unless card.url -%}
-        {%- assign real_card = cards | where: "title", card.title | first -%}
-        {%- assign url = real_card.url -%}
-        {%- endunless -%}
-        <td class="card-cell">
-            <a href="{{url}}">{{card.title}}</a>
-            {%- if card.image.computer-path -%}
-            <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
-                <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
-            </a>
-            {%- else -%}
-            <a href="/assets/images/{{card.image.path}}" target="_blank">
-                <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
-            </a>
-            {%- endif -%}
-        </td>
-        {%- assign mod = forloop.index0 | modulo: 3 -%}
-        {%- if mod == 2 and forloop.last == false %}
-    </tr><tr>
-    {%- endif -%}
+<div class="card-grid">
+    {% for card in cards -%}
+    {%- assign url = card.url -%}
+    {%- unless card.url -%}
+    {%- assign real_card = cards | where: "title", card.title | first -%}
+    {%- assign url = real_card.url -%}
+    {%- endunless -%}
+    <div class="card">
+        <a href="{{url}}">{{card.title}}</a>
+        {%- if card.image.computer-path -%}
+        <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
+            <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
+        </a>
+        {%- else -%}
+        <a href="/assets/images/{{card.image.path}}" target="_blank">
+            <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
+        </a>
+        {%- endif -%}
+    </div>
     {% endfor %}
-</tr>
-</table>
+</div>
 {% unless sub-categories == empty %}
 <h2 id="subcategories">Sub-Categories</h2>
 <blockquote>Note: Sub-Categories here is referring to any descendant categories, not just child categories.</blockquote>
@@ -199,32 +193,26 @@ layout: default
 {%- endif -%}
 {%- endfor -%}
 {%- assign cards-in-sub-category = cards-in-sub-category | sort_natural:"title" -%}
-<table class="card-table">
-    <tr>
-        {% for card in cards-in-sub-category -%}
-        {%- assign url = card.url -%}
-        {%- unless card.url -%}
-        {%- assign real_card = cards | where: "title", card.title | first -%}
-        {%- assign url = real_card.url -%}
-        {%- endunless -%}
-        <td class="card-cell">
-            <a href="{{url}}">{{card.title}}</a>
-            {%- if card.image.computer-path -%}
-            <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
-                <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
-            </a>
-            {%- else -%}
-            <a href="/assets/images/{{card.image.path}}" target="_blank">
-                <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
-            </a>
-            {%- endif -%}
-        </td>
-        {%- assign mod = forloop.index0 | modulo: 3 -%}
-        {%- if mod == 2 and forloop.last == false %}
-    </tr><tr>
-    {%- endif -%}
+<div class="card-grid">
+    {% for card in cards-in-sub-category -%}
+    {%- assign url = card.url -%}
+    {%- unless card.url -%}
+    {%- assign real_card = cards | where: "title", card.title | first -%}
+    {%- assign url = real_card.url -%}
+    {%- endunless -%}
+    <div class="card">
+        <a href="{{url}}">{{card.title}}</a>
+        {%- if card.image.computer-path -%}
+        <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
+            <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
+        </a>
+        {%- else -%}
+        <a href="/assets/images/{{card.image.path}}" target="_blank">
+            <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
+        </a>
+        {%- endif -%}
+    </div>
     {% endfor %}
-</tr>
-</table>
+</div>
 {% endfor %}
 {% endunless %}
