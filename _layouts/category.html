@@ -101,9 +101,38 @@ layout: default
             <th>Category #</th>
             <td>{{page.number}}</td>
         </tr>
+        {% if page.first-card == empty and page.first-card-ref -%}
+        {%- assign created-date-card = site.cards | where: "title", page.first-card-ref | first -%}
+        {%- else if page.first-card-ref == empty and page.first-card -%}
+        {%- assign created-date-card = site.cards | where: "title", page.first-card | first -%}
+        {%- else -%}
+        {%- assign first-card = site.cards | where: "title", page.first-card | first -%}
+        {%- assign first-card-ref = site.cards | where: "title", page.first-card-ref | first -%}
+        {%- if first-card.set.name == first-card-ref.site.name -%}
+        {%- if first-card.set.number < first-card-ref.set.number -%}
+        {%- assign created-date-card = first-card -%}
+        {%- else -%}
+        {%- assign created-date-card = first-card-ref -%}
+        {%- endif -%}
+        {%- else -%}
+        {%- assign first-card-set = site.sets | where: "title", first-card.set.name | first -%}
+        {%- assign first-card-ref-set = site.sets | where: "title", first-card-ref.set.name | first -%}
+        {%- if first-card-set.number < first-card-ref-set.number -%}
+        {%- assign created-date-card = first-card -%}
+        {%- else -%}
+        {%- assign created-date-card = first-card-ref -%}
+        {%- endif -%}
+        {%- endif -%}
+        {%- endif -%}
+        {%- if created-date-card.created-date -%}
+        {%- assign created-date = created-date-card.created-date -%}
+        {%- else -%}
+        {%- assign created-date-set = site.sets | where: "title", created-date-card.set.name | first -%}
+        {%- assign created-date = created-date-set.created-date -%}
+        {%- endif -%}
         <tr>
             <th>Created</th>
-            <td>{{page.created-date}}</td>
+            <td>{{created-date}}</td>
         </tr>
         <tr>
             <th>Number of Cards</th>
