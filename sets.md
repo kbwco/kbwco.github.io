@@ -1,9 +1,8 @@
 ---
 title: Sets
+note: This is a list of all the sets. To see a list of individual cards, go to the
+  [Cards page](/cards.html).
 ---
-This is all the sets. To see a list of individual cards, go to the 
-[Cards page](/cards.html).
-
 ## Chronological List
 {% assign sets = site.sets | sort: "number" %}
 {% for set in sets -%}

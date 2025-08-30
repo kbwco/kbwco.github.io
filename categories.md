@@ -1,9 +1,8 @@
 ---
 title: Categories
+note: This is a list of all the categories of cards. To see a list of individual cards, 
+  go to the [Cards page](/cards.html).
 ---
-This is all the categories of cards. To see a list of individual cards, go to the
-[Cards page](/cards.html).
-
 ## Chronological List
 {% assign categories = site.categories | sort: "number" %}
 {% for category in categories -%}
