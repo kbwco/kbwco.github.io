@@ -2,6 +2,7 @@
 title: Christian
 number: 1
 blurb: Cards that deal with Christian topics, e.g. the Bible, God, Jesus, Moses, Paul, etc.
+vs-category: Anti-Christian
 first-card: |-
   Bible Study
 first-card-ref: |-

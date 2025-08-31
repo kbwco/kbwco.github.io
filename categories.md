@@ -3,6 +3,13 @@ title: Categories
 note: This is a list of all the categories of cards. To see a list of individual cards, 
   go to the [Cards page](/cards.html).
 ---
+## Visual Diagram
+This is a visual diagram of all the categories
+
+<a href="/assets/images/categories/diagram/current.png" target="_blank">
+<img src="/assets/images/categories/diagram/current.png" alt="Category Diagram">
+</a>
+
 ## Chronological List
 {% assign categories = site.categories | sort: "number" %}
 {% for category in categories -%}
