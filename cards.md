@@ -13,6 +13,6 @@ note: This is the alphabetical listing of all cards. To find cards by set, see t
 <ul>
 {%- assign current_letter = first_char -%}
 {% endif %}
-<li><a href="{{card.url}}">{{card.title}}</a></li>
+<li><a href="{{card.url}}">{{card.title}}</a>{% if card.alternates %} - x{{card.alternates|size|plus:1}}{% endif %}</li>
 {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
