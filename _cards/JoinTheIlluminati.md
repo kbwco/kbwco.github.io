@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 14
-category: 
 effects: 
 - |-
   Take one Illuminati card from the graveyard or deck (prioritize graveyard) and add it to your hand

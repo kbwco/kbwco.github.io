@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 6
-category: 
 effects: 
 - |-
   Field Card: All players have 20 hp, damage taken before this card is played carries over.

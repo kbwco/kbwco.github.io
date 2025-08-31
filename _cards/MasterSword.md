@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 7
-category: 
 effects: 
 - |-
   Equipment: Can only be played if you are equal or above 10 hp (it will not go away if you drop below 10hp)

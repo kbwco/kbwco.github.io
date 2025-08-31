@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 9
-category: 
 effects: 
 - |-
   If you possess all pieces of the retarded one, you win

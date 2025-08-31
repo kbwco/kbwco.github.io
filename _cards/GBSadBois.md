@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 7
-category: 
 effects: 
 - |-
   Any card with sad people or angry people in its picture are discarded from the field and both players hands.

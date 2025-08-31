@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 11
-category: 
 effects: 
 - |-
   Destroy all cards in play or in players hands that have an animal in the picture or card name.

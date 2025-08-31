@@ -7,7 +7,6 @@ image:
 set:
   name: Jym Gam
   number: 1
-category: 
 effects: 
 - |-
   Trap Card: When Computer Version is played, all players must immediately play all their basic cards.

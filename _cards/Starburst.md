@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 5
-category: 
 effects: 
 - |-
   Every player picks one card on their field to keep and discard all the others

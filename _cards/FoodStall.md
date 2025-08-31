@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 4
-category: 
 effects: 
 - |-
   All chili dog loving hedgehogs are played from wherever they are. (except banish pile)

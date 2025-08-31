@@ -7,7 +7,6 @@ image:
 set:
   name: Jym Gam
   number: 3
-category: 
 effects: 
 - |-
   Play when an opponent plays a card.

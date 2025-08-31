@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 16
-category: 
 effects: 
 - |-
   Cannot be played, must be specially summoned by the Illuminati.

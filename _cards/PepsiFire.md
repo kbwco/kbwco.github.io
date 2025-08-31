@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 4
-category: 
 effects: 
 - |-
   Field card: All cards played take one round to activate

@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 11
-category: 
 effects: 
 - |-
   Must be played immediately upon pickup.

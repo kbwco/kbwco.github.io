@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 5
-category: 
 effects: 
 - |-
   Field Card: (1 effect) if a player hits 0 cards (in hand), they draw until they have the same number as there opponent, then discard this card.

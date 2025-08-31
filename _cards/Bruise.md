@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 12
-category: 
 effects: 
 - |-
   each player chooses one bad effect card and uses it on there opponent

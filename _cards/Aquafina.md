@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 6
-category: 
 effects: 
 - |-
   Field card: All cards being played delayed are destroyed after they come into effect

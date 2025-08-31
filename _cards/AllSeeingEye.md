@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 1
-category: 
 effects: 
 - |-
   Look at your opponents hand.

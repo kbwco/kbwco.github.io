@@ -7,7 +7,6 @@ image:
 set:
   name: Bukkit's No Better!
   number: 12
-category: 
 effects: 
 - |-
   If Offline ≠ Hacker is in play, must be played immediately on same side.
@@ -16,5 +15,6 @@ effects:
 - |-
   Boost: Discard your hand.
 flavor-text: Limewire had a point, you know...
+game-created: 6
 ---
 Some actual info about this thing TBA.

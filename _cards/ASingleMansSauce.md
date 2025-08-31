@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 8
-category: 
 effects: 
 - |-
   Can only be played on a single man. Keeps you single and ready to mingle. Relationship cards no longer effect you.

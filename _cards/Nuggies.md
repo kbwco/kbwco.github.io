@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 2
-category: 
 effects: 
 - |-
   Field Card: Any player with a card relating to dip on there field draws 2 cards at the start of each turn.

@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 8
-category: 
 effects: 
 - |-
   Equipment:

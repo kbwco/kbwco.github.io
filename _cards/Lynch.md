@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 10
-category: 
 effects: 
 - |-
   destroy all cards with bad people in their pictures.

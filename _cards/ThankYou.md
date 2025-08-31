@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 3
-category: 
 effects: 
 - |-
   Bring the nuggies into play, no matter where they are. (except banished)

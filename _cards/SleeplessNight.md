@@ -7,7 +7,6 @@ image:
 set:
   name: Jym Gam
   number: 2
-category: 
 effects: 
 - |-
   Use a random number generator for 1 through 10. Discard that many cards if you have them.

@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 2
-category: 
 effects: 
 - |-
   All cards containing a count, have the count reset and starts again.

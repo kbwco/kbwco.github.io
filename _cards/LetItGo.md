@@ -7,7 +7,6 @@ image:
 set:
   name: Illuminati & RPG
   number: 15
-category: 
 effects: 
 - |-
   May be played at any time.

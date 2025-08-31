@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 9
-category: 
 effects: 
 - |-
   Gives proof for your point against an accusation.

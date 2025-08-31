@@ -7,7 +7,6 @@ image:
 set:
   name: Snacks & Options
   number: 14
-category: 
 effects: 
 - |-
   Field Card: All delayed activation cards and this card are protected.
