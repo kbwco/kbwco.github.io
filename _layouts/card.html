@@ -25,6 +25,12 @@ layout: default
 {%- else -%}
   {%- assign created-date = set.created-date -%}
 {%- endif -%}
+{%- if page.game-created -%}
+{%- assign game-created-num = page.game-created -%}
+{%- else -%}
+{%- assign game-created-num = set.game-created -%}
+{%- endif -%}
+{%- assign game-created = site.games | where:"number", game-created-num | first -%}
 <div class="infobox">
     <div class="infobox-title">{{page.title}}</div>
     {% if page.image.path or page.image.computer-path -%}
@@ -48,6 +54,16 @@ layout: default
                 {%- unless set.exclude-total -%}
                 /{{cards-in-set}}
                 {%- endunless -%}</td>
+        </tr>
+        <tr>
+            <th>Game Created</th>
+            <td>
+                {%- if game-created -%}
+                <a href="{{game-created.url}}">{{game-created.title}}</a>
+                {%- else -%}
+                Game #{{game-created-num}}
+                {%- endif -%}
+            </td>
         </tr>
         {% assign category = empty %}
         {% if page.category %}
@@ -74,12 +90,12 @@ layout: default
         </tr>
         <tr>
             <th>Flavor Text</th>
-            <td>{{page.flavor-text | markdownify}}</td>
+            <td>{{page.flavor-text}}</td>
         </tr>
         {% if page.extra-text -%}
         <tr>
             <th>Extra Text</th>
-            <td>{{page.extra-text | markdownify}}</td>
+            <td>{{page.extra-text}}</td>
         </tr>
         {%- endif %}
         <tr>

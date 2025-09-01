@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{%- assign base-cards-created = site.cards | where: "game-created", page.number -%}
+{%- assign all-cards-created = base-cards-created -%}
+{%- assign sets-created = site.sets | where: "game-created", page.number -%}
+{%- for set in sets-created -%}
+{%- assign cards-in-set = site.cards | where: "set.name", set.title -%}
+{%- assign all-cards-created = all-cards-created | concat: cards-in-set -%}
+{%- endfor -%}
+<div class="infobox">
+    <div class="infobox-title">{{page.title}}</div>
+    {% if page.image.path -%}
+    <div class="infobox-image">
+        <a href="/assets/images/{{page.image.path}}" target="_blank">
+            <img src="/assets/images/{{page.image.path}}" alt="{{page.image.text}}">
+        </a>
+    </div>
+    {%- endif %}
+    <table class="infobox-table">
+        <tr>
+            <th>Game #</th>
+            <td>{{page.number}}</td>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <td>{{page.played-date}}</td>
+        </tr>
+        {% if page.pre-drawn-cards and page.blanks -%}
+        {%- assign num-cards = page.pre-drawn-cards | plus: page.blanks -%}
+        <tr>
+            <th>Number of Cards</th>
+            <td>{{num-cards}} ({{page.pre-drawn-cards}} existing + {{page.blanks}} blanks)</td>
+        </tr>
+        {%- endif %}
+        {% unless all-cards-created == empty -%}
+        <tr>
+            <th>Cards Created</th>
+            <td>{{all-cards-created | size}}</td>
+        </tr>
+        {%- endunless %}
+        {% if page.winners -%}
+        <tr>
+            <th>Winners</th>
+            <td><ul>{% for winner in page.winners %}
+                <li>{{winner}}</li>
+            {% endfor %}</ul></td>
+        </tr>
+        {%- endif %}
+        {% if page.losers -%}
+        <tr>
+            <th>Losers</th>
+            <td><ul>{% for loser in page.losers %}
+                <li>{{loser}}</li>
+            {% endfor %}</ul></td>
+        </tr>
+        {%- endif %}
+        {% if page.game-ending-card -%}
+        {%- assign card = site.cards | where: "title", page.game-ending-card -%}
+        <tr>
+            <th>Game Ending Card</th>
+            <td><a href="{{card.url}}">{{card.title}}</a></td>
+        </tr>
+        {%- endif %}
+        {% if page.game-ending-condition -%}
+        <tr>
+            <th>Game Ending Condition</th>
+            <td>{{page.game-ending-condition}}</td>
+        </tr>
+        {%- endif %}
+    </table>
+</div>
+{{content}}

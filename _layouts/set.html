@@ -13,6 +13,7 @@ layout: default
 {%- endfor -%}
 {%- assign cards-in-set = cards | size -%}
 {%- assign cards = cards | sort: "set.number" -%}
+{%- assign game-created = site.games | where:"number", page.game-created | first -%}
 <div class="infobox">
     <div class="infobox-title">{{page.title}}</div>
     {% if page.image.path -%}
@@ -32,12 +33,22 @@ layout: default
             <td>{{page.number}}</td>
         </tr>
         <tr>
-            <th>Author</th>
-            <td>{{page.author}}</td>
+            <th>Game Created</th>
+            <td>
+                {%- if game-created -%}
+                <a href="{{game-created.url}}">{{game-created.title}}</a>
+                {%- else -%}
+                Game #{{page.game-created}}
+                {%- endif -%}
+            </td>
         </tr>
         <tr>
             <th>Created</th>
             <td>{{page.created-date}}</td>
+        </tr>
+        <tr>
+            <th>Author</th>
+            <td>{{page.author}}</td>
         </tr>
         <tr>
             <th>Number of Cards</th>

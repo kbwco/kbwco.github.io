@@ -8,6 +8,8 @@ collections:
     output: true
   sets:
     output: true
+  games:
+    output: true
 
 defaults:
   - scope:
@@ -25,6 +27,11 @@ defaults:
       type: "sets"
     values:
       layout: "set"
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "game"
   - scope:
       path: ""
     values:

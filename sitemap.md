@@ -21,3 +21,9 @@ Main page: [Cards](/cards.html)
 {% for card in site.cards -%}
 * [{{card.title}}]({{card.url}})
 {% endfor %}
+
+## Games
+Main page: [Games](/games.html)
+{% for game in site.games -%}
+* [{{game.title}}]({{game.url}})
+{% endfor %}
