@@ -1,6 +1,6 @@
 ---
 title: Sitemap
-blurb: This is a listing of all the pages on here.
+note: This is a listing of all the pages on here.
 ---
 [Home/About](/)
 
