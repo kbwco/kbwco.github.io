@@ -88,10 +88,12 @@ layout: default
                 </ul>
             </td>
         </tr>
+        {% if page.flavor-text -%}
         <tr>
             <th>Flavor Text</th>
             <td>{{page.flavor-text}}</td>
         </tr>
+        {%- endif %}
         {% if page.extra-text -%}
         <tr>
             <th>Extra Text</th>

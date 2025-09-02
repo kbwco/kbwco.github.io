@@ -14,7 +14,6 @@ effects:
   Boost: Punishment is 6 turns
 - |-
   If I Was Framed and TnT Killed It! is in play, this must be played immediately on the same side.
-flavor-text: 
 game-created: 6
 ---
 Some actual info about this thing TBA.
