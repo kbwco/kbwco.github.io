@@ -15,6 +15,11 @@ I've played a bunch of games of 1000 Blank White Cards with my friends and that
 information is being added here over time. Feel free to look at it to get your 
 own ideas of how to play and cards to make.
 
+This site includes information about [how to play](/basics/GameplayBasics.html), 
+[games I played with friends](/games.html), 
+[cards me and my friends made](/cards.html), and more info related to those cards 
+and how they are meant to be played.
+
 ## 1000 Blank White Cards Online
 "1000 Blank White Cards Online" (abbreviated as KBWCO) refers to a computer version 
 of 1000 Blank White Cards that I'd like to make eventually. The benefit of playing 
