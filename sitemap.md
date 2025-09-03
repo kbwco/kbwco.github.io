@@ -4,6 +4,11 @@ note: This is a listing of all the pages on here.
 ---
 [Home/About](/)
 
+## Basics
+{% for basic in site.basics -%}
+* [{{basic.title}}]({{basic.url}})
+{% endfor %}
+
 ## Categories
 Main page: [Categories](/categories.html)
 {% for category in site.categories -%}

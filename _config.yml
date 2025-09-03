@@ -10,6 +10,8 @@ collections:
     output: true
   games:
     output: true
+  basics:
+    output: true
 
 defaults:
   - scope:
@@ -32,6 +34,11 @@ defaults:
       type: "games"
     values:
       layout: "game"
+  - scope:
+      path: ""
+      type: "basics"
+    values:
+      layout: "default"
   - scope:
       path: ""
     values:
