@@ -3,7 +3,8 @@ title: |-
   Hard Work
 image: 
   path: cards/scanned/flaky/19 Hard Work.png
-  text: Hard Work
+  text: |-
+    Hard Work
 set:
   name: Flaky's Cards
   number: 19

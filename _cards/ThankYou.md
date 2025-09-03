@@ -3,7 +3,8 @@ title: |-
   Thank You!
 image: 
   path: cards/scanned/illuminati/03 Thank You!.png
-  text: Thank You!
+  text: |-
+    Thank You!
 set:
   name: Illuminati & RPG
   number: 3

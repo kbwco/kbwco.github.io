@@ -3,7 +3,8 @@ title: |-
   Wizard Gloves
 image: 
   path: cards/scanned/college/13 Wizard Gloves.png
-  text: Wizard Gloves
+  text: |-
+    Wizard Gloves
 set:
   name: College
   number: 13

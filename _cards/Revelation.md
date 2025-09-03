@@ -3,7 +3,8 @@ title: |-
   Revelation
 image: 
   path: cards/scanned/college2/06 Revelation.png
-  text: Revelation
+  text: |-
+    Revelation
 set:
   name: College 2
   number: 6

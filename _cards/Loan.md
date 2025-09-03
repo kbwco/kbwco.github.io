@@ -3,7 +3,8 @@ title: |-
   Loan
 image: 
   path: cards/scanned/snacks/13 Loan.png
-  text: Loan
+  text: |-
+    Loan
 set:
   name: Snacks & Options
   number: 13

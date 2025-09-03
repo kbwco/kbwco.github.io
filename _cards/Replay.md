@@ -3,7 +3,8 @@ title: |-
   Replay!
 image: 
   path: cards/scanned/market2/09 Replay!.png
-  text: Replay!
+  text: |-
+    Replay!
 set:
   name: Return of the Market
   number: 9

@@ -3,7 +3,8 @@ title: |-
   Debt Sucks!
 image: 
   path: cards/scanned/market/18 Debt Sucks!.png
-  text: Debt Sucks!
+  text: |-
+    Debt Sucks!
 set:
   name: Market
   number: 18

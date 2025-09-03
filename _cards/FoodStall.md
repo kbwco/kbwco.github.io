@@ -3,7 +3,8 @@ title: |-
   Food Stall
 image: 
   path: cards/scanned/illuminati/04 Food Stall.png
-  text: Food Stall
+  text: |-
+    Food Stall
 set:
   name: Illuminati & RPG
   number: 4

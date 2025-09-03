@@ -3,7 +3,8 @@ title: |-
   Mistakes were made
 image: 
   path: cards/scanned/flaky/06 Mistakes Were Made.png
-  text: Mistakes were made
+  text: |-
+    Mistakes were made
 set:
   name: Flaky's Cards
   number: 6

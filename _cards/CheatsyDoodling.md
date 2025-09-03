@@ -3,7 +3,8 @@ title: |-
   Cheatsy-Doodling
 image: 
   path: cards/scanned/college/06 Cheatsy-Doodling.png
-  text: Cheatsy-Doodling
+  text: |-
+    Cheatsy-Doodling
 set:
   name: College
   number: 6

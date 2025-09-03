@@ -3,7 +3,8 @@ title: |-
   Outta Luck
 image: 
   path: cards/scanned/college2/02 Outta Luck.png
-  text: Outta Luck
+  text: |-
+    Outta Luck
 set:
   name: College 2
   number: 2

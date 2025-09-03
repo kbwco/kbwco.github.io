@@ -3,7 +3,8 @@ title: |-
   Atleast
 image: 
   path: cards/scanned/poptarts/02 Atleast.png
-  text: Atleast
+  text: |-
+    Atleast
 set:
   name: Poptarts & Magic
   number: 2

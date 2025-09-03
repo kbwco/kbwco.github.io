@@ -3,7 +3,8 @@ title: |-
   Let It Go
 image: 
   path: cards/scanned/illuminati/15 Let It Go.png
-  text: Let It Go
+  text: |-
+    Let It Go
 set:
   name: Illuminati & RPG
   number: 15

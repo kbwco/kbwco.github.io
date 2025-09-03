@@ -3,7 +3,8 @@ title: |-
   Jesus take the Wheel
 image: 
   path: cards/scanned/flaky/08 Jesus Take the Wheel.png
-  text: Jesus take the Wheel
+  text: |-
+    Jesus take the Wheel
 set:
   name: Flaky's Cards
   number: 8

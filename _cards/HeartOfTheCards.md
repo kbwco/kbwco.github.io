@@ -3,7 +3,8 @@ title: |-
   Heart of the Cards
 image: 
   path: cards/scanned/xodah/06 Heart of the Cards.png
-  text: Heart of the Cards
+  text: |-
+    Heart of the Cards
 set:
   name: A New X.O.D.Ah
   number: 6

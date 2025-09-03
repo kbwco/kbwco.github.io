@@ -3,7 +3,8 @@ title: |-
   You're a Loser!
 image: 
   path: cards/scanned/market/17 You're a Loser!.png
-  text: You're a Loser!
+  text: |-
+    You're a Loser!
 set:
   name: Market
   number: 17

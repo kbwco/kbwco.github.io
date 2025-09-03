@@ -3,7 +3,8 @@ title: |-
   You're Antipope!
 image: 
   path: cards/scanned/market/16 You're Antipope!.png
-  text: You're Antipope!
+  text: |-
+    You're Antipope!
 set:
   name: Market
   number: 16

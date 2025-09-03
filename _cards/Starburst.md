@@ -3,7 +3,8 @@ title: |-
   Starburst
 image: 
   path: cards/scanned/snacks/05 Starburst.png
-  text: Starburst
+  text: |-
+    Starburst
 set:
   name: Snacks & Options
   number: 5

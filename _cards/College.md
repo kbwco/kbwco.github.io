@@ -3,7 +3,8 @@ title: |-
   College
 image: 
   path: cards/scanned/flaky/04 College.png
-  text: College
+  text: |-
+    College
 set:
   name: Flaky's Cards
   number: 4

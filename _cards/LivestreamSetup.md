@@ -3,7 +3,8 @@ title: |-
   Livestream setup
 image: 
   path: cards/scanned/celebrations/04 Livestream Setup.png
-  text: Livestream setup
+  text: |-
+    Livestream setup
 set:
   name: Celebrations & Alternate Dimensions
   number: 4

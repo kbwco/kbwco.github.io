@@ -3,7 +3,8 @@ title: |-
   Pentagram
 image: 
   path: cards/scanned/flaky/17 Pentagram.png
-  text: Pentagram
+  text: |-
+    Pentagram
 set:
   name: Flaky's Cards
   number: 17

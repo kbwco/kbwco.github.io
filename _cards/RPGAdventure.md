@@ -3,7 +3,8 @@ title: |-
   RPG Adventure
 image: 
   path: cards/scanned/illuminati/06 RPG Adventure.png
-  text: RPG Adventure
+  text: |-
+    RPG Adventure
 set:
   name: Illuminati & RPG
   number: 6

@@ -3,7 +3,8 @@ title: |-
   A Single Man's Sauce
 image: 
   path: cards/scanned/snacks/08 A Single Man's Sauce.png
-  text: A Single Man's Sauce
+  text: |-
+    A Single Man's Sauce
 set:
   name: Snacks & Options
   number: 8

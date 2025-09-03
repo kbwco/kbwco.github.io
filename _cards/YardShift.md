@@ -3,7 +3,8 @@ title: |-
   Yard Shift
 image: 
   path: cards/scanned/poptarts/08 Yard Shift.png
-  text: Yard Shift
+  text: |-
+    Yard Shift
 set:
   name: Poptarts & Magic
   number: 8

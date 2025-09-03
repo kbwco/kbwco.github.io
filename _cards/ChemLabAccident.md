@@ -3,7 +3,8 @@ title: |-
   Chem Lab Accident
 image: 
   path: cards/scanned/poptarts/18 Chem Lab Accident.png
-  text: Chem Lab Accident
+  text: |-
+    Chem Lab Accident
 set:
   name: Poptarts & Magic
   number: 18

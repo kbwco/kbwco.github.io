@@ -3,7 +3,8 @@ title: |-
   Genesis
 image: 
   path: cards/scanned/college2/05 Genesis.png
-  text: Genesis
+  text: |-
+    Genesis
 set:
   name: College 2
   number: 5

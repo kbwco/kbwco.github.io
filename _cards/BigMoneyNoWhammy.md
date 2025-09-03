@@ -3,7 +3,8 @@ title: |-
   Big Money, No Whammy!
 image: 
   path: cards/scanned/jymgam/04 Big Money, No Whammy!.png
-  text: Big Money, No Whammy!
+  text: |-
+    Big Money, No Whammy!
 set:
   name: Jym Gam
   number: 4

@@ -3,7 +3,8 @@ title: |-
   Poptarts
 image: 
   path: cards/scanned/poptarts/01 Poptarts.png
-  text: Poptarts
+  text: |-
+    Poptarts
 set:
   name: Poptarts & Magic
   number: 1

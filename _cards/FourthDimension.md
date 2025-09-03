@@ -3,7 +3,8 @@ title: |-
   fourth dimension
 image: 
   path: cards/scanned/celebrations/08 Fourth Dimension.png
-  text: fourth dimension
+  text: |-
+    fourth dimension
 set:
   name: Celebrations & Alternate Dimensions
   number: 8

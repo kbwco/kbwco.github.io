@@ -3,7 +3,8 @@ title: |-
   Super Sanic
 image: 
   path: cards/scanned/remastered/01 Super Sanic.png
-  text: Super Sanic
+  text: |-
+    Super Sanic
 set:
   name: Remastered
   number: 1

@@ -3,7 +3,8 @@ title: |-
   Bamboozled!
 image: 
   path: cards/scanned/market/13 Bamboozled!.png
-  text: Bamboozled!
+  text: |-
+    Bamboozled!
 set:
   name: Market
   number: 13

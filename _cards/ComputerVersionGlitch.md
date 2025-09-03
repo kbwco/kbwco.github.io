@@ -3,7 +3,8 @@ title: |-
   Computer Version Glitch
 image: 
   path: cards/scanned/jymgam/01 Computer Version Glitch.png
-  text: Computer Version Glitch
+  text: |-
+    Computer Version Glitch
 set:
   name: Jym Gam
   number: 1

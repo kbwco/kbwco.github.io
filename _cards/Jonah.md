@@ -3,7 +3,8 @@ title: |-
   Jonah
 image: 
   path: cards/scanned/celebrations/12 Jonah.png
-  text: Jonah
+  text: |-
+    Jonah
 set:
   name: Celebrations & Alternate Dimensions
   number: 12

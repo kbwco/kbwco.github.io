@@ -3,7 +3,8 @@ title: |-
   Corruption
 image: 
   path: cards/scanned/college/05 Corruption.png
-  text: Corruption
+  text: |-
+    Corruption
 set:
   name: College
   number: 5

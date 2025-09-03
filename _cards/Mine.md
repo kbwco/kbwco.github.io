@@ -3,7 +3,8 @@ title: |-
   Mine!
 image: 
   path: cards/scanned/basement/05 Mine!.png
-  text: Mine!
+  text: |-
+    Mine!
 set:
   name: Basement
   number: 5

@@ -3,9 +3,11 @@ title: |-
   Tax Day
 image: 
   path: cards/scanned/pregame/08 Tax Day Card.png
-  text: Tax Day
+  text: |-
+    Tax Day
   computer-path: cards/computer/pregame/08 Tax Day Card.png
-  computer-text: Tax Day
+  computer-text: |-
+    Tax Day
 set:
   name: Pregame
   number: 8

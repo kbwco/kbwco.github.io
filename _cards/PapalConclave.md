@@ -3,7 +3,8 @@ title: |-
   Papal Conclave
 image: 
   path: cards/scanned/celebrations/13 Papal Conclave.png
-  text: Papal Conclave
+  text: |-
+    Papal Conclave
 set:
   name: Celebrations & Alternate Dimensions
   number: 13

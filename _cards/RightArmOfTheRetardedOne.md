@@ -3,7 +3,8 @@ title: |-
   Right arm of the retarded one
 image: 
   path: cards/scanned/xodah/03 Right Arm of the Retarded One.png
-  text: Right arm of the retarded one
+  text: |-
+    Right arm of the retarded one
 set:
   name: A New X.O.D.Ah
   number: 3

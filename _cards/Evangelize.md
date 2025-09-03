@@ -3,7 +3,8 @@ title: |-
   Evangelize
 image: 
   path: cards/scanned/flaky/21 Evangelize.png
-  text: Evangelize
+  text: |-
+    Evangelize
 set:
   name: Flaky's Cards
   number: 21

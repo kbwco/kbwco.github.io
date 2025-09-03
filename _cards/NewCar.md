@@ -3,7 +3,8 @@ title: |-
   New Car
 image: 
   path: cards/scanned/market/01 New Car.png
-  text: New Car
+  text: |-
+    New Car
 set:
   name: Market
   number: 1

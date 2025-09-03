@@ -3,7 +3,8 @@ title: |-
   Sour Patch Kids
 image: 
   path: cards/scanned/trump/03 Sour Patch Kids.png
-  text: Sour Patch Kids
+  text: |-
+    Sour Patch Kids
 set:
   name: Trump
   number: 3

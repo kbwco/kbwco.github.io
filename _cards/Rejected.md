@@ -3,7 +3,8 @@ title: |-
   Rejected
 image: 
   path: cards/scanned/jymgam/03 Rejected.png
-  text: Rejected
+  text: |-
+    Rejected
 set:
   name: Jym Gam
   number: 3

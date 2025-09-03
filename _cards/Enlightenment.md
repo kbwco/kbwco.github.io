@@ -3,7 +3,8 @@ title: |-
   Enlightenment
 image: 
   path: cards/scanned/flaky/16 Enlightenment.png
-  text: Enlightenment
+  text: |-
+    Enlightenment
 set:
   name: Flaky's Cards
   number: 16

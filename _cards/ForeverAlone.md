@@ -3,7 +3,8 @@ title: |-
   Forever Alone
 image: 
   path: cards/scanned/basement/03 Forever Alone.png
-  text: Forever Alone
+  text: |-
+    Forever Alone
 set:
   name: Basement
   number: 3

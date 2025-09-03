@@ -3,7 +3,8 @@ title: |-
   Holy Mantle
 image: 
   path: cards/scanned/poptarts/06 Holy Mantle.png
-  text: Holy Mantle
+  text: |-
+    Holy Mantle
 set:
   name: Poptarts & Magic
   number: 6

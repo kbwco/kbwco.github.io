@@ -3,7 +3,8 @@ title: |-
   Enchanted Golden Apple
 image: 
   path: cards/scanned/market2/07 Enchanted Golden Apple.png
-  text: Enchanted Golden Apple
+  text: |-
+    Enchanted Golden Apple
 set:
   name: Return of the Market
   number: 7

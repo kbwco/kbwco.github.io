@@ -3,7 +3,8 @@ title: |-
   Voice of Reason
 image: 
   path: cards/scanned/market2/04 Voice of Reason.png
-  text: Voice of Reason
+  text: |-
+    Voice of Reason
 set:
   name: Return of the Market
   number: 4

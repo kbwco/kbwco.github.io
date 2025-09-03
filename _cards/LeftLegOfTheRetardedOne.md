@@ -3,7 +3,8 @@ title: |-
   Left Leg of the Retarded One
 image: 
   path: cards/scanned/illuminati/09 Left Leg of the Retarded One.png
-  text: Left Leg of the Retarded One
+  text: |-
+    Left Leg of the Retarded One
 set:
   name: Illuminati & RPG
   number: 9

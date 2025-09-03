@@ -3,7 +3,8 @@ title: |-
   Drawing a Blank...
 image: 
   path: cards/scanned/market/10 Drawing a Blank....png
-  text: Drawing a Blank...
+  text: |-
+    Drawing a Blank...
 set:
   name: Market
   number: 10

@@ -3,7 +3,8 @@ title: |-
   Underdog
 image: 
   path: cards/scanned/poptarts/11 Underdog.png
-  text: Underdog
+  text: |-
+    Underdog
 set:
   name: Poptarts & Magic
   number: 11

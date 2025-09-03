@@ -3,7 +3,8 @@ title: |-
   Catchphrase
 image: 
   path: cards/scanned/celebrations/05 Catchphrase.png
-  text: Catchphrase
+  text: |-
+    Catchphrase
 set:
   name: Celebrations & Alternate Dimensions
   number: 5

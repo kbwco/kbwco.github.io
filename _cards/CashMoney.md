@@ -3,7 +3,8 @@ title: |-
   Cash Money
 image: 
   path: cards/scanned/flaky/03 Cash Money.png
-  text: Cash Money
+  text: |-
+    Cash Money
 set:
   name: Flaky's Cards
   number: 3

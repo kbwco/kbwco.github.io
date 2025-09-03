@@ -3,7 +3,8 @@ title: |-
   Banned from Tadukooverse
 image: 
   path: cards/scanned/college/04 Banned from Tadukooverse.png
-  text: Banned from Tadukooverse
+  text: |-
+    Banned from Tadukooverse
 set:
   name: College
   number: 4

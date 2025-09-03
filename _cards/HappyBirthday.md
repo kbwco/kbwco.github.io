@@ -3,7 +3,8 @@ title: |-
   Happy Birthday
 image: 
   path: cards/scanned/celebrations/10 Happy Birthday.png
-  text: Happy Birthday
+  text: |-
+    Happy Birthday
 set:
   name: Celebrations & Alternate Dimensions
   number: 10

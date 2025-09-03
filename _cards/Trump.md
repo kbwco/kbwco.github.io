@@ -3,7 +3,8 @@ title: |-
   Trump
 image: 
   path: cards/scanned/trump/04 Trump.png
-  text: Trump
+  text: |-
+    Trump
 set:
   name: Trump
   number: 4

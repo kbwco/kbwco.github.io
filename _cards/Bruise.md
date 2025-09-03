@@ -3,7 +3,8 @@ title: |-
   Bruise
 image: 
   path: cards/scanned/snacks/12 Bruise.png
-  text: Bruise
+  text: |-
+    Bruise
 set:
   name: Snacks & Options
   number: 12

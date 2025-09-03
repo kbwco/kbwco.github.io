@@ -3,7 +3,8 @@ title: |-
   Come together
 image: 
   path: cards/scanned/poptarts/10 Come Together.png
-  text: Come together
+  text: |-
+    Come together
 set:
   name: Poptarts & Magic
   number: 10

@@ -3,9 +3,11 @@ title: |-
   Bible Study
 image: 
   path: cards/scanned/pregame/01 Bible Study Card.png
-  text: Bible Study
+  text: |-
+    Bible Study
   computer-path: cards/computer/pregame/01 Bible Study Card.png
-  computer-text: Bible Study
+  computer-text: |-
+    Bible Study
 set:
   name: Pregame
   number: 1

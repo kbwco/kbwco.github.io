@@ -3,7 +3,8 @@ title: |-
   Debt Collectors
 image: 
   path: cards/scanned/flaky/10 Debt Collectors.png
-  text: Debt Collectors
+  text: |-
+    Debt Collectors
 set:
   name: Flaky's Cards
   number: 10

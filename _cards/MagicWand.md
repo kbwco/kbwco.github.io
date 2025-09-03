@@ -3,7 +3,8 @@ title: |-
   Magic Wand
 image: 
   path: cards/scanned/college2/01 Magic Wand.png
-  text: Magic Wand
+  text: |-
+    Magic Wand
 set:
   name: College 2
   number: 1

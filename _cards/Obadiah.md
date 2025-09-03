@@ -3,7 +3,8 @@ title: |-
   Obadiah
 image: 
   path: cards/scanned/basement/06 Obadiah.png
-  text: Obadiah
+  text: |-
+    Obadiah
 set:
   name: Basement
   number: 6

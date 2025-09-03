@@ -3,7 +3,8 @@ title: |-
   Soreon
 image: 
   path: cards/scanned/illuminati/16 Soreon.png
-  text: Soreon
+  text: |-
+    Soreon
 set:
   name: Illuminati & RPG
   number: 16

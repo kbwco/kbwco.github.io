@@ -3,9 +3,11 @@ title: |-
   Satan
 image: 
   path: cards/scanned/pregame/09 Satan Card.png
-  text: Satan
+  text: |-
+    Satan
   computer-path: cards/computer/pregame/09 Satan Card.png
-  computer-text: Satan
+  computer-text: |-
+    Satan
 set:
   name: Pregame
   number: 9

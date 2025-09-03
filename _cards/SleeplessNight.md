@@ -3,7 +3,8 @@ title: |-
   Sleepless Night
 image: 
   path: cards/scanned/jymgam/02 Sleepless Night.png
-  text: Sleepless Night
+  text: |-
+    Sleepless Night
 set:
   name: Jym Gam
   number: 2

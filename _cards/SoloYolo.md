@@ -3,7 +3,8 @@ title: |-
   Solo Yolo
 image: 
   path: cards/scanned/celebrations/01 Solo Yolo.png
-  text: Solo Yolo
+  text: |-
+    Solo Yolo
 set:
   name: Celebrations & Alternate Dimensions
   number: 1

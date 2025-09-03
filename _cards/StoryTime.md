@@ -3,7 +3,8 @@ title: |-
   Story Time
 image: 
   path: cards/scanned/college/02 Story Time.png
-  text: Story Time
+  text: |-
+    Story Time
 set:
   name: College
   number: 2

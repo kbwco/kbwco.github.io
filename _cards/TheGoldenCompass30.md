@@ -3,9 +3,11 @@ title: |-
   The Golden Compass 3.0
 image: 
   path: cards/scanned/pregame/05 The Golden Compass 3.0 Card.png
-  text: The Golden Compass 3.0
+  text: |-
+    The Golden Compass 3.0
   computer-path: cards/computer/pregame/05 The Golden Compass 3.0 Card.png
-  computer-text: The Golden Compass 3.0
+  computer-text: |-
+    The Golden Compass 3.0
 set:
   name: Pregame
   number: 5

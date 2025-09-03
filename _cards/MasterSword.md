@@ -3,7 +3,8 @@ title: |-
   Master Sword
 image: 
   path: cards/scanned/illuminati/07 Master Sword.png
-  text: Master Sword
+  text: |-
+    Master Sword
 set:
   name: Illuminati & RPG
   number: 7

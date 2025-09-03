@@ -3,7 +3,8 @@ title: |-
   The Plague
 image: 
   path: cards/scanned/basement/01 The Plague.png
-  text: The Plague
+  text: |-
+    The Plague
 set:
   name: Basement
   number: 1

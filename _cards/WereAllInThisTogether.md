@@ -3,7 +3,8 @@ title: |-
   We're all in this together
 image: 
   path: cards/scanned/celebrations/03 We're All in This Together.png
-  text: We're all in this together
+  text: |-
+    We're all in this together
 set:
   name: Celebrations & Alternate Dimensions
   number: 3

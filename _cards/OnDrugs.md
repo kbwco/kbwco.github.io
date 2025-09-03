@@ -3,7 +3,8 @@ title: |-
   On Drugs
 image: 
   path: cards/scanned/college/14 On Drugs.png
-  text: On Drugs
+  text: |-
+    On Drugs
 set:
   name: College
   number: 14

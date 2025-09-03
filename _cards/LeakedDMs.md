@@ -3,7 +3,8 @@ title: |-
   Leaked DMs
 image: 
   path: cards/scanned/snacks/09 Leaked DMs.png
-  text: Leaked DMs
+  text: |-
+    Leaked DMs
 set:
   name: Snacks & Options
   number: 9

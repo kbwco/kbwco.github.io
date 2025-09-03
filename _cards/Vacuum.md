@@ -3,7 +3,8 @@ title: |-
   Vacuum
 image: 
   path: cards/scanned/flaky/11 Vacuum.png
-  text: Vacuum
+  text: |-
+    Vacuum
 set:
   name: Flaky's Cards
   number: 11

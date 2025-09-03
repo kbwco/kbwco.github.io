@@ -3,7 +3,8 @@ title: |-
   Wizard Shoes
 image: 
   path: cards/scanned/college/11 Wizard Shoes.png
-  text: Wizard Shoes
+  text: |-
+    Wizard Shoes
 set:
   name: College
   number: 11

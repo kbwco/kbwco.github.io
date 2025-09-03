@@ -3,7 +3,8 @@ title: |-
   All-Seeing Eye
 image: 
   path: cards/scanned/illuminati/01 All-Seeing Eye.png
-  text: All-Seeing Eye
+  text: |-
+    All-Seeing Eye
 set:
   name: Illuminati & RPG
   number: 1

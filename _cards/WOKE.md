@@ -3,7 +3,8 @@ title: |-
   WOKE
 image: 
   path: cards/scanned/poptarts/14 WOKE.png
-  text: WOKE
+  text: |-
+    WOKE
 set:
   name: Poptarts & Magic
   number: 14

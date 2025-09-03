@@ -3,7 +3,8 @@ title: |-
   Pepsi Fire
 image: 
   path: cards/scanned/snacks/04 Pepsi Fire.png
-  text: Pepsi Fire
+  text: |-
+    Pepsi Fire
 set:
   name: Snacks & Options
   number: 4

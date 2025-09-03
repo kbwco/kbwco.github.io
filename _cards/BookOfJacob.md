@@ -3,7 +3,8 @@ title: |-
   Book of Jacob
 image: 
   path: cards/scanned/basement/04 Book of Jacob.png
-  text: Book of Jacob
+  text: |-
+    Book of Jacob
 set:
   name: Basement
   number: 4

@@ -3,7 +3,8 @@ title: |-
   GB Sad Bois
 image: 
   path: cards/scanned/snacks/07 GB Sad Bois.png
-  text: GB Sad Bois
+  text: |-
+    GB Sad Bois
 set:
   name: Snacks & Options
   number: 7

@@ -3,9 +3,11 @@ title: |-
   Bible
 image: 
   path: cards/scanned/pregame/06 Bible Card.png
-  text: Bible
+  text: |-
+    Bible
   computer-path: cards/computer/pregame/06 Bible Card.png
-  computer-text: Bible
+  computer-text: |-
+    Bible
 set:
   name: Pregame
   number: 6

@@ -3,7 +3,8 @@ title: |-
   Illuminati
 image: 
   path: cards/scanned/illuminati/11 Illuminati.png
-  text: Illuminati
+  text: |-
+    Illuminati
 set:
   name: Illuminati & RPG
   number: 11
@@ -22,7 +23,8 @@ alternates:
     Illuminati
   image:
     path: cards/scanned/illuminati/12 Illuminati.png
-    text: Illuminati
+    text: |-
+      Illuminati
   set:
     name: Illuminati & RPG
     number: 12
@@ -30,7 +32,8 @@ alternates:
     Illuminati
   image:
     path: cards/scanned/illuminati/13 Illuminati.png
-    text: Illuminati
+    text: |-
+      Illuminati
   set:
     name: Illuminati & RPG
     number: 13

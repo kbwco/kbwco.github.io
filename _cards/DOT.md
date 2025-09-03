@@ -3,7 +3,8 @@ title: |-
   D.O.T.
 image: 
   path: cards/scanned/poptarts/17 D.O.T..png
-  text: D.O.T.
+  text: |-
+    D.O.T.
 set:
   name: Poptarts & Magic
   number: 17

@@ -3,7 +3,8 @@ title: |-
   Heretic
 image: 
   path: cards/scanned/basement/07 Heretic.png
-  text: Heretic
+  text: |-
+    Heretic
 set:
   name: Basement
   number: 7

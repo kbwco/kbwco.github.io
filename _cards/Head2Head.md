@@ -3,7 +3,8 @@ title: |-
   Head-2-Head
 image: 
   path: cards/scanned/flaky/07 Head-2-Head.png
-  text: Head-2-Head
+  text: |-
+    Head-2-Head
 set:
   name: Flaky's Cards
   number: 7

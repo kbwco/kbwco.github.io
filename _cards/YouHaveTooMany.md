@@ -3,7 +3,8 @@ title: |-
   You Have Too Many!
 image: 
   path: cards/scanned/market/11 You Have Too Many!.png
-  text: You Have Too Many!
+  text: |-
+    You Have Too Many!
 set:
   name: Market
   number: 11

@@ -3,7 +3,8 @@ title: |-
   Super Sonic
 image: 
   path: cards/scanned/Forever Lost.png
-  text: Super Sonic
+  text: |-
+    Super Sonic
 set:
   name: Market
   number: 4

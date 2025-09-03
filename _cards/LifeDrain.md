@@ -3,7 +3,8 @@ title: |-
   Life Drain
 image: 
   path: cards/scanned/market2/01 Life Drain.png
-  text: Life Drain
+  text: |-
+    Life Drain
 set:
   name: Return of the Market
   number: 1

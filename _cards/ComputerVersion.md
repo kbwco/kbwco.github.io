@@ -3,7 +3,8 @@ title: |-
   Computer Version
 image: 
   path: cards/scanned/college/01 Computer Version.png
-  text: Computer Version
+  text: |-
+    Computer Version
 set:
   name: College
   number: 1

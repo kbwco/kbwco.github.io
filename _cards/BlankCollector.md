@@ -3,7 +3,8 @@ title: |-
   Blank Collector
 image: 
   path: cards/scanned/market/08 Blank Collector.png
-  text: Blank Collector
+  text: |-
+    Blank Collector
 set:
   name: Market
   number: 8

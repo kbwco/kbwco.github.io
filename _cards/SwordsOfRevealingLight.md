@@ -3,7 +3,8 @@ title: |-
   Swords of Revealing Light
 image: 
   path: cards/scanned/celebrations/02 Swords of Revealing Light.png
-  text: Swords of Revealing Light
+  text: |-
+    Swords of Revealing Light
 set:
   name: Celebrations & Alternate Dimensions
   number: 2

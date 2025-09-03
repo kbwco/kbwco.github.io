@@ -3,7 +3,8 @@ title: |-
   Failed College
 image: 
   path: cards/scanned/market/12 Failed College.png
-  text: Failed College
+  text: |-
+    Failed College
 set:
   name: Market
   number: 12

@@ -3,7 +3,8 @@ title: |-
   BRB KMS
 image: 
   path: cards/scanned/small/01 BRB KMS.png
-  text: BRB KMS
+  text: |-
+    BRB KMS
 set:
   name: Small
   number: 1

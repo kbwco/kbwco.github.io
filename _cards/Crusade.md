@@ -3,7 +3,8 @@ title: |-
   Crusade
 image: 
   path: cards/scanned/flaky/02 Crusade.png
-  text: Crusade
+  text: |-
+    Crusade
 set:
   name: Flaky's Cards
   number: 2

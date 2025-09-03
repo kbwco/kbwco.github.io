@@ -3,7 +3,8 @@ title: |-
   Keys
 image: 
   path: cards/scanned/small/05 Keys.png
-  text: Keys
+  text: |-
+    Keys
 set:
   name: Small
   number: 5

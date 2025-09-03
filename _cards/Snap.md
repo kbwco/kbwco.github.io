@@ -3,7 +3,8 @@ title: |-
   Snap
 image: 
   path: cards/scanned/poptarts/04 Snap.png
-  text: Snap
+  text: |-
+    Snap
 set:
   name: Poptarts & Magic
   number: 4

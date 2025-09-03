@@ -3,7 +3,8 @@ title: |-
   Marriage
 image: 
   path: cards/scanned/xodah/04 Marriage.png
-  text: Marriage
+  text: |-
+    Marriage
 set:
   name: A New X.O.D.Ah
   number: 4

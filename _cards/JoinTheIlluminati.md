@@ -3,7 +3,8 @@ title: |-
   Join the Illuminati
 image: 
   path: cards/scanned/illuminati/14 Join the Illuminati.png
-  text: Join the Illuminati
+  text: |-
+    Join the Illuminati
 set:
   name: Illuminati & RPG
   number: 14

@@ -3,7 +3,8 @@ title: |-
   The Pope is Coming
 image: 
   path: cards/scanned/college2/09 The Pope is Coming.png
-  text: The Pope is Coming
+  text: |-
+    The Pope is Coming
 set:
   name: College 2
   number: 9

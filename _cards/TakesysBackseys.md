@@ -3,7 +3,8 @@ title: |-
   Takesys Backseys
 image: 
   path: cards/scanned/small/02 Takesys Backseys.png
-  text: Takesys Backseys
+  text: |-
+    Takesys Backseys
 set:
   name: Small
   number: 2

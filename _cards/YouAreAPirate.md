@@ -3,7 +3,8 @@ title: |-
   You are a Pirate!
 image: 
   path: cards/scanned/bukkit/12 You are a Pirate!.png
-  text: You are a Pirate!
+  text: |-
+    You are a Pirate!
 set:
   name: Bukkit's No Better!
   number: 12

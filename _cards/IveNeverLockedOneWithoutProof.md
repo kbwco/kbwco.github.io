@@ -3,7 +3,8 @@ title: |-
   I've Never Locked One Without Proof
 image: 
   path: cards/scanned/bukkit/18 I've Never Locked One Without Proof.png
-  text: I've Never Locked One Without Proof
+  text: |-
+    I've Never Locked One Without Proof
 set:
   name: Bukkit's No Better!
   number: 18

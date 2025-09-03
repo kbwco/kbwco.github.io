@@ -118,15 +118,15 @@ layout: default
 <div class="alt-infobox">
     <div class="infobox-title">{{alt.title}}</div>
     {% if alt.image.path or alt.image.computer-path -%}
-    <div class="infobox-image">
+    <div class="alt-infobox-image">
         {% if alt.image.path -%}
         <a href="/assets/images/{{alt.image.path}}" target="_blank">
-            <img src="/assets/images/{{alt.image.path}}" alt="{{alt.image.text}}">
+            <img src="/assets/images/{{alt.image.path}}" alt="{% raw %}{{alt.image.text}}{% endraw %}">
         </a>
         {% endif -%}
         {%- if alt.image.computer-path -%}
         <a href="/assets/images/{{alt.image.computer-path}}" target="_blank">
-            <img src="/assets/images/{{alt.image.computer-path}}" alt="{{alt.image.computer-text}}">
+            <img src="/assets/images/{{alt.image.computer-path}}" alt="{% raw %}{{alt.image.computer-text}}{% endraw %}">
         </a>
         {%- endif %}
     </div>

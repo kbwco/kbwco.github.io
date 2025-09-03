@@ -3,7 +3,8 @@ title: |-
   Zap
 image: 
   path: cards/scanned/poptarts/07 Zap.png
-  text: Zap
+  text: |-
+    Zap
 set:
   name: Poptarts & Magic
   number: 7

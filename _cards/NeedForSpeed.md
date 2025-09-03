@@ -3,7 +3,8 @@ title: |-
   Need for Speed
 image: 
   path: cards/scanned/flaky/20 Need for Speed.png
-  text: Need for Speed
+  text: |-
+    Need for Speed
 set:
   name: Flaky's Cards
   number: 20

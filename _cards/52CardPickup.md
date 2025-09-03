@@ -3,7 +3,8 @@ title: |-
   52 Card Pickup
 image: 
   path: cards/scanned/market/06 52 Card Pickup.png
-  text: 52 Card Pickup
+  text: |-
+    52 Card Pickup
 set:
   name: Market
   number: 6

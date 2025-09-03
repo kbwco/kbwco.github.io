@@ -3,7 +3,8 @@ title: |-
   Bukkit's No Better!
 image: 
   path: cards/scanned/bukkit/01 Bukkit's No Better!.png
-  text: Bukkit's No Better!
+  text: |-
+    Bukkit's No Better!
 set:
   name: Bukkit's No Better!
   number: 1

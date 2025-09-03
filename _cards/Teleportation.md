@@ -3,7 +3,8 @@ title: |-
   Teleportation
 image: 
   path: cards/scanned/flaky/18 Teleportation.png
-  text: Teleportation
+  text: |-
+    Teleportation
 set:
   name: Flaky's Cards
   number: 18

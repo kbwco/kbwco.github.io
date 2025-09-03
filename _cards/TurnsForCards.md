@@ -3,7 +3,8 @@ title: |-
   Turns for Cards
 image: 
   path: cards/scanned/market2/06 Turns for Cards.png
-  text: Turns for Cards
+  text: |-
+    Turns for Cards
 set:
   name: Return of the Market
   number: 6

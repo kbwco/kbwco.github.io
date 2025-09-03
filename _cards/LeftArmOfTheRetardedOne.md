@@ -3,7 +3,8 @@ title: |-
   Left arm of the Retarded One
 image: 
   path: cards/scanned/xodah/02 Left Arm of the Retarded One.png
-  text: Left arm of the Retarded One
+  text: |-
+    Left arm of the Retarded One
 set:
   name: A New X.O.D.Ah
   number: 2

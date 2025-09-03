@@ -3,7 +3,8 @@ title: |-
   Isolation
 image: 
   path: cards/scanned/xodah/05 Isolation.png
-  text: Isolation
+  text: |-
+    Isolation
 set:
   name: A New X.O.D.Ah
   number: 5

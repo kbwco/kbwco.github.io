@@ -3,7 +3,8 @@ title: |-
   What's One is Now Two
 image: 
   path: cards/scanned/market2/05 What's One is Now Two.png
-  text: What's One is Now Two
+  text: |-
+    What's One is Now Two
 set:
   name: Return of the Market
   number: 5

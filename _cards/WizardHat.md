@@ -3,7 +3,8 @@ title: |-
   Wizard Hat
 image: 
   path: cards/scanned/college/07 Wizard Hat.png
-  text: Wizard Hat
+  text: |-
+    Wizard Hat
 set:
   name: College
   number: 7

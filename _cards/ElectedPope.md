@@ -3,7 +3,8 @@ title: |-
   Elected Pope
 image: 
   path: cards/scanned/flaky/01 Elected Pope.png
-  text: Elected Pope
+  text: |-
+    Elected Pope
 set:
   name: Flaky's Cards
   number: 1

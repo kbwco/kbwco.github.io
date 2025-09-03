@@ -3,7 +3,8 @@ title: |-
   Wizard Robe
 image: 
   path: cards/scanned/college/12 Wizard Robe.png
-  text: Wizard Robe
+  text: |-
+    Wizard Robe
 set:
   name: College
   number: 12

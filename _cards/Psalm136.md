@@ -3,7 +3,8 @@ title: |-
   Psalm 136
 image: 
   path: cards/scanned/college2/03 Psalm 136.png
-  text: Psalm 136
+  text: |-
+    Psalm 136
 set:
   name: College 2
   number: 3

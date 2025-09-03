@@ -3,7 +3,8 @@ title: |-
   Waguggy
 image: 
   path: cards/scanned/poptarts/05 Waguggy.png
-  text: Waguggy
+  text: |-
+    Waguggy
 set:
   name: Poptarts & Magic
   number: 5

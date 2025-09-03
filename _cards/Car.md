@@ -3,7 +3,8 @@ title: |-
   Car :(
 image: 
   path: cards/scanned/flaky/05 Car -Sadface-.png
-  text: Car :(
+  text: |-
+    Car :(
 set:
   name: Flaky's Cards
   number: 5

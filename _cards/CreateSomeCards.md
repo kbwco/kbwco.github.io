@@ -3,7 +3,8 @@ title: |-
   Create Some Cards
 image: 
   path: cards/scanned/market/03 Create Some Cards.png
-  text: Create Some Cards
+  text: |-
+    Create Some Cards
 set:
   name: Market
   number: 3

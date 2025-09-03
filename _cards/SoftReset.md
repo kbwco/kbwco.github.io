@@ -3,7 +3,8 @@ title: |-
   Soft Reset
 image: 
   path: cards/scanned/market2/03 Soft Reset.png
-  text: Soft Reset
+  text: |-
+    Soft Reset
 set:
   name: Return of the Market
   number: 3

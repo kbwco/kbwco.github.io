@@ -3,7 +3,8 @@ title: |-
   Homeostasis
 image: 
   path: cards/scanned/poptarts/03 Homeostasis.png
-  text: Homeostasis
+  text: |-
+    Homeostasis
 set:
   name: Poptarts & Magic
   number: 3

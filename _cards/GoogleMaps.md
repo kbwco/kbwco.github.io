@@ -3,7 +3,8 @@ title: |-
   Google Maps
 image: 
   path: cards/scanned/market/02 Google Maps.png
-  text: Google Maps
+  text: |-
+    Google Maps
 set:
   name: Market
   number: 2

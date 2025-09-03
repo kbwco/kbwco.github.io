@@ -3,7 +3,8 @@ title: |-
   Zoophobia
 image: 
   path: cards/scanned/snacks/11 Zoophobia.png
-  text: Zoophobia
+  text: |-
+    Zoophobia
 set:
   name: Snacks & Options
   number: 11

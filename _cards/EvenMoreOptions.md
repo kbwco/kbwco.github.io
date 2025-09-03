@@ -3,7 +3,8 @@ title: |-
   Even More Options
 image: 
   path: cards/scanned/snacks/03 Even More Options.png
-  text: Even More Options
+  text: |-
+    Even More Options
 set:
   name: Snacks & Options
   number: 3

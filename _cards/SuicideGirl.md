@@ -3,7 +3,8 @@ title: |-
   Suicide girl
 image: 
   path: cards/scanned/celebrations/06 Suicide Girl.png
-  text: Suicide girl
+  text: |-
+    Suicide girl
 set:
   name: Celebrations & Alternate Dimensions
   number: 6

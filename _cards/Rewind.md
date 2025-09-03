@@ -3,7 +3,8 @@ title: |-
   Rewind
 image: 
   path: cards/scanned/snacks/02 Rewind.png
-  text: Rewind
+  text: |-
+    Rewind
 set:
   name: Snacks & Options
   number: 2

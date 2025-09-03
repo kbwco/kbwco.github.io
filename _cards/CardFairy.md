@@ -3,7 +3,8 @@ title: |-
   Card Fairy
 image: 
   path: cards/scanned/flaky/09 Card Fairy.png
-  text: Card Fairy
+  text: |-
+    Card Fairy
 set:
   name: Flaky's Cards
   number: 9

@@ -3,7 +3,8 @@ title: |-
   Tough Spot
 image: 
   path: cards/scanned/poptarts/09 Tough Spot.png
-  text: Tough Spot
+  text: |-
+    Tough Spot
 set:
   name: Poptarts & Magic
   number: 9

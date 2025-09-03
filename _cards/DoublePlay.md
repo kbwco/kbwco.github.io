@@ -3,7 +3,8 @@ title: |-
   Double Play
 image: 
   path: cards/scanned/college2/07 Double Play.png
-  text: Double Play
+  text: |-
+    Double Play
 set:
   name: College 2
   number: 7

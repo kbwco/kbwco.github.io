@@ -3,7 +3,8 @@ title: |-
   Sanic
 image: 
   path: cards/scanned/market2/02 Sanic.png
-  text: Sanic
+  text: |-
+    Sanic
 set:
   name: Return of the Market
   number: 2

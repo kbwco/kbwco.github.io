@@ -3,7 +3,8 @@ title: |-
   Bad performance
 image: 
   path: cards/scanned/celebrations/07 Bad Performance.png
-  text: Bad performance
+  text: |-
+    Bad performance
 set:
   name: Celebrations & Alternate Dimensions
   number: 7

@@ -3,7 +3,8 @@ title: |-
   Snake 3
 image: 
   path: cards/scanned/college/10 Snake 3.png
-  text: Snake 3
+  text: |-
+    Snake 3
 set:
   name: College
   number: 10

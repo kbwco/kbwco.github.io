@@ -3,7 +3,8 @@ title: |-
   Slow Down Guys!!!
 image: 
   path: cards/scanned/market/15 Slow Down Guys!!!.png
-  text: Slow Down Guys!!!
+  text: |-
+    Slow Down Guys!!!
 set:
   name: Market
   number: 15

@@ -3,7 +3,8 @@ title: |-
   Exodus
 image: 
   path: cards/scanned/poptarts/13 Exodus.png
-  text: Exodus
+  text: |-
+    Exodus
 set:
   name: Poptarts & Magic
   number: 13

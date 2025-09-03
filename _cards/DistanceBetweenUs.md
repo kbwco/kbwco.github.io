@@ -3,7 +3,8 @@ title: |-
   Distance Between Us
 image: 
   path: cards/scanned/illuminati/05 Distance Between Us.png
-  text: Distance Between Us
+  text: |-
+    Distance Between Us
 set:
   name: Illuminati & RPG
   number: 5

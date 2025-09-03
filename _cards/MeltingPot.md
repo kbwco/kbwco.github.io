@@ -3,7 +3,8 @@ title: |-
   Melting pot
 image: 
   path: cards/scanned/small/04 Melting Pot.png
-  text: Melting pot
+  text: |-
+    Melting pot
 set:
   name: Small
   number: 4

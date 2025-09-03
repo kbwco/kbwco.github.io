@@ -3,7 +3,8 @@ title: |-
   Magnet
 image: 
   path: cards/scanned/poptarts/15 Magnet.png
-  text: Magnet
+  text: |-
+    Magnet
 set:
   name: Poptarts & Magic
   number: 15

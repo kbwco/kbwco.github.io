@@ -3,7 +3,8 @@ title: |-
   Mugged
 image: 
   path: cards/scanned/market/05 Mugged.png
-  text: Mugged
+  text: |-
+    Mugged
 set:
   name: Market
   number: 5

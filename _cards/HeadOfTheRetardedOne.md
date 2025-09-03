@@ -3,7 +3,8 @@ title: |-
   Head of the Retarded One
 image: 
   path: cards/scanned/xodah/01 Head of the Retarded One.png
-  text: Head of the Retarded One
+  text: |-
+    Head of the Retarded One
 set:
   name: A New X.O.D.Ah
   number: 1

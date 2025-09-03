@@ -3,7 +3,8 @@ title: |-
   Web Server Down!
 image: 
   path: cards/scanned/market2/08 Web Server Down!.png
-  text: Web Server Down!
+  text: |-
+    Web Server Down!
 set:
   name: Return of the Market
   number: 8

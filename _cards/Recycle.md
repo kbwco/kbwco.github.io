@@ -3,7 +3,8 @@ title: |-
   Recycle
 image: 
   path: cards/scanned/flaky/15 Recycle.png
-  text: Recycle
+  text: |-
+    Recycle
 set:
   name: Flaky's Cards
   number: 15

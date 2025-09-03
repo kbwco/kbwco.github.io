@@ -3,7 +3,8 @@ title: |-
   Books of the Bible
 image: 
   path: cards/scanned/college/03 Books of the Bible.png
-  text: Books of the Bible
+  text: |-
+    Books of the Bible
 set:
   name: College
   number: 3

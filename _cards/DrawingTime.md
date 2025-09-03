@@ -3,7 +3,8 @@ title: |-
   Drawing Time
 image: 
   path: cards/scanned/market/07 Drawing Time.png
-  text: Drawing Time
+  text: |-
+    Drawing Time
 set:
   name: Market
   number: 7

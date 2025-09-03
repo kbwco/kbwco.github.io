@@ -3,7 +3,8 @@ title: |-
   The 99%
 image: 
   path: cards/scanned/flaky/13 The 99.png
-  text: The 99%
+  text: |-
+    The 99%
 set:
   name: Flaky's Cards
   number: 13

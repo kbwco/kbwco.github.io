@@ -3,7 +3,8 @@ title: |-
   Aquafina
 image: 
   path: cards/scanned/snacks/06 Aquafina.png
-  text: Aquafina
+  text: |-
+    Aquafina
 set:
   name: Snacks & Options
   number: 6

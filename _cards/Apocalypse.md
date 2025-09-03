@@ -3,7 +3,8 @@ title: |-
   Apocalypse
 image: 
   path: cards/scanned/market/19 Apocalypse.png
-  text: Apocalypse
+  text: |-
+    Apocalypse
 set:
   name: Market
   number: 19

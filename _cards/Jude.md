@@ -3,7 +3,8 @@ title: |-
   Jude
 image: 
   path: cards/scanned/basement/08 Jude.png
-  text: Jude
+  text: |-
+    Jude
 set:
   name: Basement
   number: 8

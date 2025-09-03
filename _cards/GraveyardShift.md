@@ -3,7 +3,8 @@ title: |-
   Graveyard Shift
 image: 
   path: cards/scanned/market/14 Graveyard Shift.png
-  text: Graveyard Shift
+  text: |-
+    Graveyard Shift
 set:
   name: Market
   number: 14

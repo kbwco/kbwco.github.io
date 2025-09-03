@@ -3,7 +3,8 @@ title: |-
   1 Chronicles
 image: 
   path: cards/scanned/college2/08 1 Chronicles.png
-  text: 1 Chronicles
+  text: |-
+    1 Chronicles
 set:
   name: College 2
   number: 8

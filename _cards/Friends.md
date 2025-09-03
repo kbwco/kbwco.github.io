@@ -3,7 +3,8 @@ title: |-
   Friends
 image: 
   path: cards/scanned/basement/02 Friends.png
-  text: Friends
+  text: |-
+    Friends
 set:
   name: Basement
   number: 2

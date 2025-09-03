@@ -3,9 +3,11 @@ title: |-
   Satin
 image: 
   path: cards/scanned/pregame/10 Satin Card.png
-  text: Satin
+  text: |-
+    Satin
   computer-path: cards/computer/pregame/10 Satin Card.png
-  computer-text: Satin
+  computer-text: |-
+    Satin
 set:
   name: Pregame
   number: 10

@@ -3,7 +3,8 @@ title: |-
   Lynch
 image: 
   path: cards/scanned/snacks/10 Lynch.png
-  text: Lynch
+  text: |-
+    Lynch
 set:
   name: Snacks & Options
   number: 10

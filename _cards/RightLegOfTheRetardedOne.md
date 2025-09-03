@@ -3,7 +3,8 @@ title: |-
   Right Leg of the Retarded One
 image: 
   path: cards/scanned/illuminati/10 Right Leg of the Retarded One.png
-  text: Right Leg of the Retarded One
+  text: |-
+    Right Leg of the Retarded One
 set:
   name: Illuminati & RPG
   number: 10

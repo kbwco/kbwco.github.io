@@ -3,7 +3,8 @@ title: |-
   Stroke of Luck
 image: 
   path: cards/scanned/college2/04 Stroke of Luck.png
-  text: Stroke of Luck
+  text: |-
+    Stroke of Luck
 set:
   name: College 2
   number: 4

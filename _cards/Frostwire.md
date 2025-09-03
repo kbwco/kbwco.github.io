@@ -3,7 +3,8 @@ title: |-
   Frostwire
 image: 
   path: cards/scanned/trump/01 Frostwire.png
-  text: Frostwire
+  text: |-
+    Frostwire
 set:
   name: Trump
   number: 1

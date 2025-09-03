@@ -3,7 +3,8 @@ title: |-
   Loose Pockets
 image: 
   path: cards/scanned/flaky/12 Loose Pockets.png
-  text: Loose Pockets
+  text: |-
+    Loose Pockets
 set:
   name: Flaky's Cards
   number: 12

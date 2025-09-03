@@ -3,7 +3,8 @@ title: |-
   Ranch
 image: 
   path: cards/scanned/small/03 Ranch.png
-  text: Ranch
+  text: |-
+    Ranch
 set:
   name: Small
   number: 3

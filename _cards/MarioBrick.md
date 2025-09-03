@@ -3,7 +3,8 @@ title: |-
   Mario Brick
 image: 
   path: cards/scanned/trump/05 Mario Brick.png
-  text: Mario Brick
+  text: |-
+    Mario Brick
 set:
   name: Trump
   number: 5

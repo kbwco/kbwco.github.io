@@ -3,7 +3,8 @@ title: |-
   Nuggies
 image: 
   path: cards/scanned/illuminati/02 Nuggies.png
-  text: Nuggies
+  text: |-
+    Nuggies
 set:
   name: Illuminati & RPG
   number: 2

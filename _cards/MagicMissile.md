@@ -3,7 +3,8 @@ title: |-
   Magic Missile
 image: 
   path: cards/scanned/poptarts/16 Magic Missile.png
-  text: Magic Missile
+  text: |-
+    Magic Missile
 set:
   name: Poptarts & Magic
   number: 16

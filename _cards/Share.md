@@ -3,7 +3,8 @@ title: |-
   Share
 image: 
   path: cards/scanned/poptarts/12 Share.png
-  text: Share
+  text: |-
+    Share
 set:
   name: Poptarts & Magic
   number: 12

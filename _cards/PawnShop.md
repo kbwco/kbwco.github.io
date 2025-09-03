@@ -3,7 +3,8 @@ title: |-
   Pawn Shop
 image: 
   path: cards/scanned/trump/02 Pawn Shop.png
-  text: Pawn Shop
+  text: |-
+    Pawn Shop
 set:
   name: Trump
   number: 2

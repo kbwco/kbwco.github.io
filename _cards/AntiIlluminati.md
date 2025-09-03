@@ -3,7 +3,8 @@ title: |-
   Anti-Illuminati!
 image: 
   path: cards/scanned/market2/10 Anti-Illuminati!.png
-  text: Anti-Illuminati!
+  text: |-
+    Anti-Illuminati!
 set:
   name: Return of the Market
   number: 10

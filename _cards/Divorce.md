@@ -3,7 +3,8 @@ title: |-
   Divorce
 image: 
   path: cards/scanned/celebrations/11 Divorce.png
-  text: Divorce
+  text: |-
+    Divorce
 set:
   name: Celebrations & Alternate Dimensions
   number: 11

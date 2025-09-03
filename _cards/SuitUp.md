@@ -3,7 +3,8 @@ title: |-
   Suit Up!
 image: 
   path: cards/scanned/illuminati/08 Suit Up!.png
-  text: Suit Up!
+  text: |-
+    Suit Up!
 set:
   name: Illuminati & RPG
   number: 8

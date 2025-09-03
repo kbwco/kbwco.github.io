@@ -3,7 +3,8 @@ title: |-
   Sanshira's Soulful Patch
 image: 
   path: cards/scanned/snacks/14 Sanshira's Soulful Patch.png
-  text: Sanshira's Soulful Patch
+  text: |-
+    Sanshira's Soulful Patch
 set:
   name: Snacks & Options
   number: 14

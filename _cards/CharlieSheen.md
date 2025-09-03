@@ -3,7 +3,8 @@ title: |-
   Charlie Sheen
 image: 
   path: cards/scanned/college/15 Charlie Sheen.png
-  text: Charlie Sheen
+  text: |-
+    Charlie Sheen
 set:
   name: College
   number: 15
