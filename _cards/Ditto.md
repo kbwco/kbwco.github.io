@@ -114,5 +114,59 @@ alternates:
   set:
     name: Characters
     number: 18
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/the/01 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: The Set
+    number: 1
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/ditto2/01 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Ditto 2 & Boi
+    number: 1
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/ditto2/02 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Ditto 2 & Boi
+    number: 2
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/ditto2/03 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Ditto 2 & Boi
+    number: 3
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/ditto2/04 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Ditto 2 & Boi
+    number: 4
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/ditto2/05 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Ditto 2 & Boi
+    number: 5
 ---
 Some actual info about this thing TBA.
