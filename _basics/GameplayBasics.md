@@ -21,6 +21,12 @@ complex effects will be complex to actually carry out.
   immediately. If this happens, you don't get to draw back up to 10 cards.
 * Who gets the first turn is decided by the players however they want to decide it.
 
+## Your Hand
+* 10 cards is neither a limit nor a minimum of cards in your hand, that's just the 
+amount you start with. You can have any number of cards in your hand without 
+having to discard or draw more. You would only discard or draw more if told so 
+by a card in the game.
+
 ## Rotation
 * Play proceeds clockwise from whoever had the first turn.
 * On your turn, you must draw a card from the deck and play one card (you can only
