@@ -5,7 +5,8 @@ winners:
 - Brett
 losers: 
 - Logan
-game-ending-condition: Default Lose Condition
+game-ending-condition: |-
+  Default Lose Condition
 pre-drawn-cards: 20
 blanks: 30
 played-date: March 16, 2017
