@@ -156,12 +156,28 @@ layout: default
         {%- else -%}
         {%- assign created-date = set.created-date -%}
         {%- endif -%}
+        {%- if alternate.game-created -%}
+        {%- assign game-created-num = alternate.game-created -%}
+        {%- else -%}
+        {%- assign game-created-num = set.game-created -%}
+        {%- endif -%}
+        {%- assign alt-game-created = site.games | where:"number", game-created-num | first -%}
         <tr>
             <th>Set</th>
             <td><a href="{{set.url}}">{{set.title}}</a> {{alt.set.number}}
                 {%- unless set.exclude-total -%}
                 /{{cards-in-set}}
                 {%- endunless -%}</td>
+        </tr>
+        <tr>
+            <th>Game Created</th>
+            <td>
+                {%- if alt-game-created -%}
+                <a href="{{alt-game-created.url}}">{{alt-game-created.title}}</a>
+                {%- else -%}
+                Game #{{game-created-num}}
+                {%- endif -%}
+            </td>
         </tr>
         {%- if alt.category -%}
         <tr>

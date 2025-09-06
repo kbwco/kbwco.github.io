@@ -168,5 +168,44 @@ alternates:
   set:
     name: Ditto 2 & Boi
     number: 5
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/the2/03 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: The 2 Set
+    number: 3
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/the2/05 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: The 2 Set
+    number: 5
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/galiel/01 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Time Travel & Galiel
+    number: 1
+  flavor-text: |-
+    "Antimatter for the master plan"
+    "ctrl+c, ctrl+v ctrl+c, ctrl+v"
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/galiel/02 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Time Travel & Galiel
+    number: 2
 ---
 Some actual info about this thing TBA.
