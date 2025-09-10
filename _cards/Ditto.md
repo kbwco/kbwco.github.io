@@ -207,5 +207,14 @@ alternates:
   set:
     name: Time Travel & Galiel
     number: 2
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/counting/02 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Counting Dittos
+    number: 2
 ---
 Some actual info about this thing TBA.
