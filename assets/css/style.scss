@@ -3,6 +3,19 @@
 ---
 @import "jekyll-theme-midnight";
 
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+}
+
 /* override section in all contexts */
 .wrapper,
 section,
@@ -26,7 +39,16 @@ body main section {
     max-width: 100%;
     margin-top: 40px;
   }
-  nav {
-      display: block !important;
-    }
+  .menu-icon {
+    display: block;
+  }
+  #header nav {
+    background: #252525;
+    display: none;
+    flex-direction: column;
+  }
+  #menu-toggle:checked + .menu-icon + nav{
+    display: flex;
+    flex-direction: column;
+  }
 }
