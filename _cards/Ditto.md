@@ -216,5 +216,21 @@ alternates:
   set:
     name: Counting Dittos
     number: 2
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/galleria/06 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Galleria
+    number: 6
+  effects: 
+  - |-
+    Copy a card in play.
+  - |-
+    Can be played out of turn.
+  - |-
+    Any cards affecting it affect the copy as well.
 ---
 Some actual info about this thing TBA.
