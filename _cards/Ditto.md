@@ -258,5 +258,19 @@ alternates:
   - |-
     Any cards affecting it affect the copy as well.
   flavor-text: ctrl+c, ctrl+v ctrl+c, ctrl+x
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/ekwality/01 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Hinduism ekWaLity
+    number: 1
+  effects: 
+  - |-
+    Copy a card in play.
+  - |-
+    This Ditto is not affected by cards affecting the original.
 ---
 Some actual info about this thing TBA.
