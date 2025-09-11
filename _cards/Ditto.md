@@ -232,5 +232,31 @@ alternates:
     Can be played out of turn.
   - |-
     Any cards affecting it affect the copy as well.
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/rabbits/07 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Rabbits & Letters
+    number: 7
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/rabbits/08 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Rabbits & Letters
+    number: 8
+  effects: 
+  - |-
+    When placed on a card w/ other dittos, the other dittos no longer have an effect.
+  - |-
+    Copy a card in play.
+  - |-
+    Any cards affecting it affect the copy as well.
+  flavor-text: ctrl+c, ctrl+v ctrl+c, ctrl+x
 ---
 Some actual info about this thing TBA.
