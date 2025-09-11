@@ -29,6 +29,15 @@ layout: default
 {%- endfor -%}
 {%- endif -%}
 {%- endfor -%}
+{%- if page.players -%}
+{%- assign players = page.players -%}
+{%- else -%}
+{%- assign players = page.winners -%}
+{%- for loser in page.losers -%}
+{%- assign players = players | push: loser -%}
+{%- endfor -%}
+{%- endif -%}
+{%- assign players = players | sort -%}
 <div class="infobox">
     <div class="infobox-title">{{page.title}}</div>
     {% if page.image.path -%}
@@ -60,6 +69,12 @@ layout: default
             <td>{{all-cards-created | size}}</td>
         </tr>
         {%- endunless %}
+        <tr>
+            <th>Players</th>
+            <td><ul>{% for player in players %}
+                <li>{{player}}</li>
+            {% endfor %}</ul></td>
+        </tr>
         {% if page.winners -%}
         <tr>
             <th>Winners</th>
