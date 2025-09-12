@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Prove life is worth living in 5 rounds or your will go bye-byes. (you lose)
-flavor-text: "he said to no one in particular"
+flavor-text: |-
+  "he said to no one in particular"
 ---
 Some actual info about this thing TBA.

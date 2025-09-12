@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Any suicide related counters increase by 1.
-flavor-text: "you lost your keys."
+flavor-text: |-
+  "you lost your keys."
 ---
 Some actual info about this thing TBA.

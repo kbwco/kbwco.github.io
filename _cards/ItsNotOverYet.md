@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Can be played at any time. Destroy any win/lose condition cards from play and any player's hand.
-flavor-text: "We can make a comeback"
+flavor-text: |-
+  "We can make a comeback"
 ---
 Some actual info about this thing TBA.

@@ -15,7 +15,8 @@ effects:
   All Common Sense, Bukkit, or Minecraft cards (not in this set) are nullified.
 - |-
   Field Card
-flavor-text: Than the Westboro Baptist Church, that is. You started this train wreck, let's follow it through.
+flavor-text: |-
+  Than the Westboro Baptist Church, that is. You started this train wreck, let's follow it through.
 game-created: 6
 ---
 Some actual info about this thing TBA.

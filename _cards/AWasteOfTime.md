@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   When drawing this card, discard it and draw another.
-flavor-text: "Do it again!"
+flavor-text: |-
+  "Do it again!"
 ---
 Some actual info about this thing TBA.

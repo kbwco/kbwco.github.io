@@ -15,6 +15,7 @@ category: Golden Compass
 effects: 
 - |-
   Discard all Christian, Satanic, Atheist, and Golden Compass cards in play or any player's hand.
-flavor-text: The trilogy is now complete in dumpsters around the world.
+flavor-text: |-
+  The trilogy is now complete in dumpsters around the world.
 ---
 Some actual info about this thing TBA.

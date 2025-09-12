@@ -12,6 +12,7 @@ category: Bad Luck
 effects: 
 - |-
   - $1
-flavor-text: You should probably wear clothes that fit you.
+flavor-text: |-
+  You should probably wear clothes that fit you.
 ---
 Some actual info about this thing TBA.

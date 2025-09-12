@@ -12,6 +12,7 @@ category: Minecraft
 effects: 
 - |-
   Banish 1 card
-flavor-text: "It's not Switzerland"
+flavor-text: |-
+  "It's not Switzerland"
 ---
 Some actual info about this thing TBA.

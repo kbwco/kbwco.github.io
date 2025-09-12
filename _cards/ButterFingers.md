@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Discard your hand.
-flavor-text: Too slippery!
+flavor-text: |-
+  Too slippery!
 ---
 Some actual info about this thing TBA.

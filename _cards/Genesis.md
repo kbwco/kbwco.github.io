@@ -12,6 +12,7 @@ category: Books of the Bible
 effects: 
 - |-
   + 1 Bible point
-flavor-text: Congrats, you read book # 1 of the Bible.
+flavor-text: |-
+  Congrats, you read book # 1 of the Bible.
 ---
 Some actual info about this thing TBA.

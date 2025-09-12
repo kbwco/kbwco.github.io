@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Generate a random number between 1-6, say out loud a number first. If the numbers match, you lose. If they do not match, draw that number of cards.
-flavor-text: "Former version"
+flavor-text: |-
+  "Former version"
 ---
 Some actual info about this thing TBA.

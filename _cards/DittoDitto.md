@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Any cards that were Ditto are dittoed. + in future. Field card.
-flavor-text: ctrl+c, ctrl+v ctrl+c, ctrl+v ctrl+c, ctrl+v ctrl+c, ctrl+v
+flavor-text: |-
+  ctrl+c, ctrl+v ctrl+c, ctrl+v ctrl+c, ctrl+v ctrl+c, ctrl+v
 ---
 Some actual info about this thing TBA.

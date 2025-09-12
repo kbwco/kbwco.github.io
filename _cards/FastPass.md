@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field card: Before drawing, you may choose to skip your turn by paying 1 card in your hand (do not draw)
-flavor-text: "EZ pass"
+flavor-text: |-
+  "EZ pass"
 ---
 Some actual info about this thing TBA.

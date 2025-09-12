@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You must have as many cards as your opponent at all times. (draw when they do, discard when they do, etc.)
-flavor-text: "You a copy-cat"
+flavor-text: |-
+  "You a copy-cat"
 ---
 Some actual info about this thing TBA.

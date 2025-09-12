@@ -12,6 +12,7 @@ category: Suicide
 effects: 
 - |-
   If you have this, suicide girl, and catchphrase all on your field, kill yourself (you lose)
-flavor-text: "Let the world see, some people will enjoy it."
+flavor-text: |-
+  "Let the world see, some people will enjoy it."
 ---
 Some actual info about this thing TBA.

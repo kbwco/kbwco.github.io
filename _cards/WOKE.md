@@ -12,6 +12,7 @@ category: Waguggy
 effects: 
 - |-
   Look through all the deck, choose to reshuffle or not
-flavor-text: "Visions of words of truth of the forgotten flood you."
+flavor-text: |-
+  "Visions of words of truth of the forgotten flood you."
 ---
 Some actual info about this thing TBA.

@@ -12,6 +12,7 @@ category: Suicide
 effects: 
 - |-
   If you have this, the livestream setup, and suicide girl all on your field, kill yourself (you lose)
-flavor-text: "Goodbye"
+flavor-text: |-
+  "Goodbye"
 ---
 Some actual info about this thing TBA.

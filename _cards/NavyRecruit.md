@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You joined the navy, you hunt down and stop pirates.
-flavor-text: "finding a purpose"
+flavor-text: |-
+  "finding a purpose"
 ---
 Some actual info about this thing TBA.

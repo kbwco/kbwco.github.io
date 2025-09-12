@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field Card: Banish all current + future Dittos from play, bypassing protection.
-flavor-text: We had too many in play!
+flavor-text: |-
+  We had too many in play!
 ---
 Some actual info about this thing TBA.

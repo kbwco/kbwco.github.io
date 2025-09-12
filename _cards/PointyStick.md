@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   "Pop" (discard) all bubble cards.
-flavor-text: "What's brown and sticky?"
+flavor-text: |-
+  "What's brown and sticky?"
 ---
 Some actual info about this thing TBA.

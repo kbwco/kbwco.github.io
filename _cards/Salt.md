@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Any deactivated (or delayed) cards are now destroyed.
-flavor-text: Add in salt to injury.
+flavor-text: |-
+  Add in salt to injury.
 ---
 Some actual info about this thing TBA.

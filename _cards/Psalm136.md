@@ -16,6 +16,7 @@ effects:
   Succeed: + 1000 Bible points
 - |-
   Fail: - 10,000 Bible points
-flavor-text: "His love endures forever."
+flavor-text: |-
+  "His love endures forever."
 ---
 Some actual info about this thing TBA.

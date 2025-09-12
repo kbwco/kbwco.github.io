@@ -12,6 +12,7 @@ category: Waguggy
 effects: 
 - |-
   Replay the (bottom) first card in the discard pile, triple its affect
-flavor-text: This is how it all began.
+flavor-text: |-
+  This is how it all began.
 ---
 Some actual info about this thing TBA.

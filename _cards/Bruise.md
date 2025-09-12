@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   each player chooses one bad effect card and uses it on there opponent
-flavor-text: "How did I even get it?"
+flavor-text: |-
+  "How did I even get it?"
 ---
 Some actual info about this thing TBA.

@@ -14,6 +14,7 @@ effects:
   Can only activate if you have "God" on your side of the field
 - |-
   Attempt to convert the opponent, if they cannot play a anti-religious card in 5 turns, they lose.
-flavor-text: We can all be friends!
+flavor-text: |-
+  We can all be friends!
 ---
 Some actual info about this thing TBA.

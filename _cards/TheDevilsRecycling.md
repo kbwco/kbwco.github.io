@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Move the Banish pile to your hand, your hand to the graveyard, and the graveyard to the banish pile. (Banish this card)
-flavor-text: "Game balance is hard."
+flavor-text: |-
+  "Game balance is hard."
 ---
 Some actual info about this thing TBA.

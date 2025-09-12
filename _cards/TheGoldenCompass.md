@@ -17,6 +17,7 @@ effects:
   Discard God
 - |-
   At the start of each of your turns, remove a card with (title or text) "Christ", "God", "Jesus", "Bible", or "Christian" from in front of you or in your hand until you remove this one last.
-flavor-text: The Golden Compass wasn't a good movie, so it's fighting to be useful here.
+flavor-text: |-
+  The Golden Compass wasn't a good movie, so it's fighting to be useful here.
 ---
 Some actual info about this thing TBA.

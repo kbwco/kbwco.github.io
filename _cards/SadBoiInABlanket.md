@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You threaten to post a photo of TNT being a snug boi, he gives in and gives up his accusation.
-flavor-text: "EXPOSE HIM"
+flavor-text: |-
+  "EXPOSE HIM"
 ---
 Some actual info about this thing TBA.

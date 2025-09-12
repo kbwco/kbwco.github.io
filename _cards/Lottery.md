@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Generate a random number between 0-99, if it matches the number of cards in your hand, you win.
-flavor-text: "Super Duper high school level Luckster"
+flavor-text: |-
+  "Super Duper high school level Luckster"
 ---
 Some actual info about this thing TBA.

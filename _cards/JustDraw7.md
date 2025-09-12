@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Draw 7 cards.
-flavor-text: "The latest Just Draw"
+flavor-text: |-
+  "The latest Just Draw"
 ---
 Some actual info about this thing TBA.

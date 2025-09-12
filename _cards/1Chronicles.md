@@ -12,6 +12,7 @@ category: Books of the Bible
 effects: 
 - |-
   + 100 Bible points
-flavor-text: All those names were pretty hard, weren't they?
+flavor-text: |-
+  All those names were pretty hard, weren't they?
 ---
 Some actual info about this thing TBA.

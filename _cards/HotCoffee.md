@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Destroy a card on an opponent's field.
-flavor-text: No one wants that!
+flavor-text: |-
+  No one wants that!
 ---
 Some actual info about this thing TBA.

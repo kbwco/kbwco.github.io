@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Starting at 0, count up by 1 every turn. At 100 or above, draw 100 cards.
-flavor-text: You passed pre-school by counting to 100.
+flavor-text: |-
+  You passed pre-school by counting to 100.
 ---
 Some actual info about this thing TBA.

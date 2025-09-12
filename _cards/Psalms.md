@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   +10,000 Bible points
-flavor-text: At 150 chapters, you read around 10% of the Bible with just one book!
+flavor-text: |-
+  At 150 chapters, you read around 10% of the Bible with just one book!
 ---
 Some actual info about this thing TBA.

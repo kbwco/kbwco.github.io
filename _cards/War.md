@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field Card: All weapons and armor are ditto'd
-flavor-text: Fiery-red like Cheetos
+flavor-text: |-
+  Fiery-red like Cheetos
 ---
 Some actual info about this thing TBA.

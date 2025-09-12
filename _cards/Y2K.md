@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All computer cards are nullified!
-flavor-text: "it's like, too many bits or something, and all the computers are going down, man!"
+flavor-text: |-
+  "it's like, too many bits or something, and all the computers are going down, man!"
 ---
 Some actual info about this thing TBA.

@@ -14,6 +14,7 @@ effects:
   + 15 strenght
 - |-
   + 5 healthyness
-flavor-text: The ladies can't get enough of you.
+flavor-text: |-
+  The ladies can't get enough of you.
 ---
 Some actual info about this thing TBA.

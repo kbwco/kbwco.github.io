@@ -12,6 +12,7 @@ category: Slow
 effects: 
 - |-
   Remove any cards referencing speed, sonic, or that speed the game up from play.
-flavor-text: Snails can't win fast races.
+flavor-text: |-
+  Snails can't win fast races.
 ---
 Some actual info about this thing TBA.

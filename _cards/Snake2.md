@@ -16,6 +16,7 @@ effects:
   If you would draw the entire deck, reshuffle it; you lost.
 - |-
   Reshuffle the card that didn't have it and any you don't keep back into the deck.
-flavor-text: <None>
+flavor-text: |-
+  <None>
 ---
 Some actual info about this thing TBA.

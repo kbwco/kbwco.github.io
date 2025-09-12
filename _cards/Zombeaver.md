@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Your opponent loses 27 Bible points.
-flavor-text: "I'll gnaw yer arm off!"
+flavor-text: |-
+  "I'll gnaw yer arm off!"
 ---
 Some actual info about this thing TBA.

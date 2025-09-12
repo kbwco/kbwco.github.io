@@ -16,6 +16,7 @@ effects:
   Any magic aimed at your feet is only 1/2 effective as normal.
 - |-
   + 5 Magic
-flavor-text: Your a wiz-boy, Harold!
+flavor-text: |-
+  Your a wiz-boy, Harold!
 ---
 Some actual info about this thing TBA.

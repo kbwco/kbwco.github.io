@@ -12,6 +12,7 @@ category: Poor
 effects: 
 - |-
   All players go to $0
-flavor-text: Wealthy people are evil, strive to live a better life than them.
+flavor-text: |-
+  Wealthy people are evil, strive to live a better life than them.
 ---
 Some actual info about this thing TBA.

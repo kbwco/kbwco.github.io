@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Life is now suffering, no one draws cards.
-flavor-text: "Yes, I watch Richard and Mortimer."
+flavor-text: |-
+  "Yes, I watch Richard and Mortimer."
 ---
 Some actual info about this thing TBA.

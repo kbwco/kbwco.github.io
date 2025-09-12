@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You may have to spend hundreds on e-bay but atleast you have some dip now.
-flavor-text: "We only have 20"
+flavor-text: |-
+  "We only have 20"
 ---
 Some actual info about this thing TBA.

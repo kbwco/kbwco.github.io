@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Banish as many cards as you want from your hand and your side.
-flavor-text: The Ultimate Just Banish
+flavor-text: |-
+  The Ultimate Just Banish
 ---
 Some actual info about this thing TBA.

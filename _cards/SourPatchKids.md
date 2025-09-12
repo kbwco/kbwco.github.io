@@ -17,6 +17,7 @@ effects:
   Sweet = You play the card immediately, doesn't count as a play
 - |-
   Gone = discard that card
-flavor-text: Sour, then sweet, then gone.
+flavor-text: |-
+  Sour, then sweet, then gone.
 ---
 Some actual info about this thing TBA.

@@ -12,6 +12,7 @@ category: Christian
 effects: 
 - |-
   Josheb-Basshebeth raises his spear and your opponent loses 800 Bible points.
-flavor-text: "He raised his spear against eight hundred men, whom he killed in one encounter."
+flavor-text: |-
+  "He raised his spear against eight hundred men, whom he killed in one encounter."
 ---
 Some actual info about this thing TBA.

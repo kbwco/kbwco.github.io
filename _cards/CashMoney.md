@@ -12,6 +12,7 @@ category: Riches
 effects: 
 - |-
   Discard 1 for $1,000, every additional card adds a zero.
-flavor-text: A millionair offers to buy cards from you.
+flavor-text: |-
+  A millionair offers to buy cards from you.
 ---
 Some actual info about this thing TBA.

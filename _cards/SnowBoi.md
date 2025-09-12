@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You are a cold boi, no cards on your field have any effects activate.
-flavor-text: "he so cold"
+flavor-text: |-
+  "he so cold"
 ---
 Some actual info about this thing TBA.

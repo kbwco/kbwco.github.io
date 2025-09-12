@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field card: All counters tick twice per count.
-flavor-text: "half-cut"
+flavor-text: |-
+  "half-cut"
 ---
 Some actual info about this thing TBA.

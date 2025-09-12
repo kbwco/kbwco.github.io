@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   pick a card, it is destroyed after 1 turn.
-flavor-text: "You are already dead."
+flavor-text: |-
+  "You are already dead."
 ---
 Some actual info about this thing TBA.

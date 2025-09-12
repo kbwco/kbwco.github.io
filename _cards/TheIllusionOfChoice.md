@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   play one card from your hand, its play cannot be stopped.
-flavor-text: "free will isn't real"
+flavor-text: |-
+  "free will isn't real"
 ---
 Some actual info about this thing TBA.

@@ -12,6 +12,7 @@ category: Books of the Bible
 effects: 
 - |-
   + 1 Bible point
-flavor-text: Congrats, you read about the apocalypse!
+flavor-text: |-
+  Congrats, you read about the apocalypse!
 ---
 Some actual info about this thing TBA.

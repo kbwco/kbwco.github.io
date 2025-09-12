@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You have 4 rounds to run a mile or you fail gym (lose)
-flavor-text: "out of shape"
+flavor-text: |-
+  "out of shape"
 ---
 Some actual info about this thing TBA.

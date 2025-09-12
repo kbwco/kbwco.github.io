@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Steal a card from an opponent.
-flavor-text: "Theithery"
+flavor-text: |-
+  "Theithery"
 ---
 Some actual info about this thing TBA.

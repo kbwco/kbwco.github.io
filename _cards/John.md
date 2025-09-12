@@ -12,6 +12,7 @@ category: Books of the Bible
 effects: 
 - |-
   +300 Bible Points
-flavor-text: You read the spiritual Gospel!
+flavor-text: |-
+  You read the spiritual Gospel!
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   If someone is stealing a win, no one wins (the game continues) and all cards in play and related to the win are destroyed
-flavor-text: ...except if their parents manage a company.
+flavor-text: |-
+  ...except if their parents manage a company.
 ---
 Some actual info about this thing TBA.

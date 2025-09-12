@@ -12,6 +12,7 @@ category: Fast
 effects: 
 - |-
   Field Card: Turns cannot be longer than 15 seconds (unless drawing) (destroys itself after 3 rounds)
-flavor-text: "Gotta go even faster."
+flavor-text: |-
+  "Gotta go even faster."
 ---
 Some actual info about this thing TBA.

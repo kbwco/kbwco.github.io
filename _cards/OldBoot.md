@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Can be played with no effect.
-flavor-text: "Italy"
+flavor-text: |-
+  "Italy"
 ---
 Some actual info about this thing TBA.

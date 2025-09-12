@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Discard an end game condition card from play.
-flavor-text: The game ends when I say it ends!
+flavor-text: |-
+  The game ends when I say it ends!
 ---
 Some actual info about this thing TBA.

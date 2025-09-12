@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Deal 1 damage to your opponent each round.
-flavor-text: "helping from the backline"
+flavor-text: |-
+  "helping from the backline"
 ---
 Some actual info about this thing TBA.

@@ -12,6 +12,7 @@ category: Spongebob
 effects: 
 - |-
   Search through the discard pile and draw one card of your choice.
-flavor-text: Late nights and bar fights.
+flavor-text: |-
+  Late nights and bar fights.
 ---
 Some actual info about this thing TBA.

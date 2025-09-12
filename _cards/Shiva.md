@@ -15,6 +15,7 @@ effects:
   Note: Can be sacrificed along with Brahma and Vishnu from play and/or your hand to summon Dattatreya.
 - |-
   If you're sacrificing all 3 from your hand to summon Dattatreya, you win.
-flavor-text: "The Destroyer"
+flavor-text: |-
+  "The Destroyer"
 ---
 Some actual info about this thing TBA.

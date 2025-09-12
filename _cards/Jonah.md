@@ -12,6 +12,7 @@ category: Books of the Bible
 effects: 
 - |-
   + 50 Bible points
-flavor-text: You read about the man in the whale!
+flavor-text: |-
+  You read about the man in the whale!
 ---
 Some actual info about this thing TBA.

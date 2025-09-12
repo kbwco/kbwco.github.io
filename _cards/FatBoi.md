@@ -13,6 +13,7 @@ effects:
   Destroy one card.
 - |-
   Must sacrifice two cards on your field as food to summon Fat Boi.
-flavor-text: "THICC"
+flavor-text: |-
+  "THICC"
 ---
 Some actual info about this thing TBA.

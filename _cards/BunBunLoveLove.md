@@ -13,6 +13,7 @@ effects:
   +1 cuteness
 - |-
   Can be sacrificed to special summon Lopunny from your hand or the graveyard
-flavor-text: "Super cutie that becomes a super hotie. -Brett Jones"
+flavor-text: |-
+  "Super cutie that becomes a super hotie. -Brett Jones"
 ---
 Some actual info about this thing TBA.

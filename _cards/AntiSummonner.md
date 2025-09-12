@@ -15,6 +15,7 @@ effects:
   May be played at any time.
 - |-
   Destroys all cards involved.
-flavor-text: Un-summon the summons!
+flavor-text: |-
+  Un-summon the summons!
 ---
 Some actual info about this thing TBA.

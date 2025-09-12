@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Can be substituted from play with a card being destroyed.
-flavor-text: "Mario_Brick.jpg"
+flavor-text: |-
+  "Mario_Brick.jpg"
 ---
 Some actual info about this thing TBA.

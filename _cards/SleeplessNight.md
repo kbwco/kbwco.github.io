@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Use a random number generator for 1 through 10. Discard that many cards if you have them.
-flavor-text: You can't sleep tonight.
+flavor-text: |-
+  You can't sleep tonight.
 ---
 Some actual info about this thing TBA.

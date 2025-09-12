@@ -12,6 +12,7 @@ category: Christian End Times
 effects: 
 - |-
   Field Card: The game has 7 rounds left. Whoever has the most Christian cards in play wins.
-flavor-text: 7 years of tribulation.
+flavor-text: |-
+  7 years of tribulation.
 ---
 Some actual info about this thing TBA.

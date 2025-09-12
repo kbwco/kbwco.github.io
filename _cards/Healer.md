@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Heal 1 damage each round
-flavor-text: "supporting from the backline"
+flavor-text: |-
+  "supporting from the backline"
 ---
 Some actual info about this thing TBA.

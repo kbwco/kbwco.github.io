@@ -12,6 +12,7 @@ category: Humans
 effects: 
 - |-
   If you are On Drugs, you win.
-flavor-text: Charlie Sheen is "winning" all the time, everyday.
+flavor-text: |-
+  Charlie Sheen is "winning" all the time, everyday.
 ---
 Some actual info about this thing TBA.

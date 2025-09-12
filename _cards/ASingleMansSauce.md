@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Can only be played on a single man. Keeps you single and ready to mingle. Relationship cards no longer effect you.
-flavor-text: "Not as good as ranch."
+flavor-text: |-
+  "Not as good as ranch."
 ---
 Some actual info about this thing TBA.

@@ -14,6 +14,7 @@ effects:
   Field Card: After 3 rounds, the Pope arrives and judges everyone's Bible knowledge (Bible points).
 - |-
   Player with the most wins, unless someone is Pope (they win). A tie results in a sword drill.
-flavor-text: <None>
+flavor-text: |-
+  <None>
 ---
 Some actual info about this thing TBA.

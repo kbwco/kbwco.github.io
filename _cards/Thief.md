@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Steal a card from an opponent (switching stuff in play).
-flavor-text: Thanks for letting me "borrow" that.
+flavor-text: |-
+  Thanks for letting me "borrow" that.
 ---
 Some actual info about this thing TBA.

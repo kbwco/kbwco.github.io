@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   one nullified computer card can work now.
-flavor-text: "Ol reliable"
+flavor-text: |-
+  "Ol reliable"
 ---
 Some actual info about this thing TBA.

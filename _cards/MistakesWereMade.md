@@ -12,6 +12,7 @@ category: Mistakes
 effects: 
 - |-
   Pick any one card in play and destroy it, regardless of protection
-flavor-text: Destroys the meanie bully card you played by mistake.
+flavor-text: |-
+  Destroys the meanie bully card you played by mistake.
 ---
 Some actual info about this thing TBA.

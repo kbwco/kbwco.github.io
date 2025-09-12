@@ -13,6 +13,7 @@ effects:
   Each player gains a countdown = the # of field cards
 - |-
   each round the count goes down by 1 and each player gets to destroy 1 card on the field until the countdown reaches 0.
-flavor-text: "Doo-de-dee"
+flavor-text: |-
+  "Doo-de-dee"
 ---
 Some actual info about this thing TBA.

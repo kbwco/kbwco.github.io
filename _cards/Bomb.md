@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   destroy 1 card
-flavor-text: "help"
+flavor-text: |-
+  "help"
 ---
 Some actual info about this thing TBA.

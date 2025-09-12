@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You cannot gain any items.
-flavor-text: "My potions are too strong for you"
+flavor-text: |-
+  "My potions are too strong for you"
 ---
 Some actual info about this thing TBA.

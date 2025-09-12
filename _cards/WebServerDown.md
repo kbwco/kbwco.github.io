@@ -16,6 +16,7 @@ effects:
   All RPG stats are removed.
 - |-
   In play + all player's hands
-flavor-text: Either the server's down, or your internet sucks. Either way, you're not playing Runes.
+flavor-text: |-
+  Either the server's down, or your internet sucks. Either way, you're not playing Runes.
 ---
 Some actual info about this thing TBA.

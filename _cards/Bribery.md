@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You win all cases or accusations against you.
-flavor-text: "Money can solve all problems"
+flavor-text: |-
+  "Money can solve all problems"
 ---
 Some actual info about this thing TBA.

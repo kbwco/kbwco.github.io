@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Discard one field card.
-flavor-text: "The opposite of a field"
+flavor-text: |-
+  "The opposite of a field"
 ---
 Some actual info about this thing TBA.

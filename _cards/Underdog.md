@@ -16,6 +16,7 @@ effects:
   (this card does not count towards the #)
 - |-
   The player with less cards on their side of the field draws cards equal to the number of cards on the opponents field
-flavor-text: They are far more interesting
+flavor-text: |-
+  They are far more interesting
 ---
 Some actual info about this thing TBA.

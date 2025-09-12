@@ -12,6 +12,7 @@ category: Waguggy
 effects: 
 - |-
   Replay one card from the discard pile
-flavor-text: Your getting closer and closer to remembering the truth.
+flavor-text: |-
+  Your getting closer and closer to remembering the truth.
 ---
 Some actual info about this thing TBA.

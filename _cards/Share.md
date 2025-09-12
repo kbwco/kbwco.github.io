@@ -14,6 +14,7 @@ effects:
   Players add their hands then shuffle and draw back so you both have the same amount.
 - |-
   If an odd number, the player who started with more gets the extra
-flavor-text: It shows you care.
+flavor-text: |-
+  It shows you care.
 ---
 Some actual info about this thing TBA.

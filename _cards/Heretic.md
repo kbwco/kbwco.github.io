@@ -14,6 +14,7 @@ effects:
   Discard any Christian cards in front of you or in your hand.
 - |-
   You cannot play Christian cards until you get rid of this.
-flavor-text: You're a heretic! (says the Pope)
+flavor-text: |-
+  You're a heretic! (says the Pope)
 ---
 Some actual info about this thing TBA.

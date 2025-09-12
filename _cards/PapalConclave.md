@@ -12,6 +12,7 @@ category: Catholic
 effects: 
 - |-
   Summon the elected pope to your field
-flavor-text: "In with the new."
+flavor-text: |-
+  "In with the new."
 ---
 Some actual info about this thing TBA.

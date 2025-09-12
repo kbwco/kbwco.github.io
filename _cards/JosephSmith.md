@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All human religious figures must bow to the one true Prophet
-flavor-text: I wasn't speaking as a Prophet...
+flavor-text: |-
+  I wasn't speaking as a Prophet...
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You now are made of foam. You can float on water and are a squishy boi.
-flavor-text: "F O A M B O I"
+flavor-text: |-
+  "F O A M B O I"
 ---
 Some actual info about this thing TBA.

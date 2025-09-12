@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You become obese, each turn you must eat (discard) one card before you draw.
-flavor-text: "Browns storemade"
+flavor-text: |-
+  "Browns storemade"
 ---
 Some actual info about this thing TBA.

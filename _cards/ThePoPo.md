@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Can be played at any time to stop a criminal or suspicious person.
-flavor-text: "Put those hands up; put those hands down"
+flavor-text: |-
+  "Put those hands up; put those hands down"
 ---
 Some actual info about this thing TBA.

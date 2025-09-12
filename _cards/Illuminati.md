@@ -17,7 +17,8 @@ effects:
   Must not have another Illuminati in that spot.
 - |-
   When all 3 are present, summon Soreon.
-flavor-text: "Real"
+flavor-text: |-
+  "Real"
 alternates:
 - title: |-
     Illuminati

@@ -14,6 +14,7 @@ effects:
   Lose $500
 - |-
   and a turn
-flavor-text: Your car got towed, since public parking doesn't exist in York.
+flavor-text: |-
+  Your car got towed, since public parking doesn't exist in York.
 ---
 Some actual info about this thing TBA.

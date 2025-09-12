@@ -19,6 +19,7 @@ effects:
   If only the opponent laughs, you draw 2 cards.
 - |-
   If neither laughs, you draw one card.
-flavor-text: Whatever you do, don't laugh!
+flavor-text: |-
+  Whatever you do, don't laugh!
 ---
 Some actual info about this thing TBA.

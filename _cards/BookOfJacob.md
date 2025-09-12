@@ -12,6 +12,7 @@ category: Books of the Bible
 effects: 
 - |-
   + 1000 Bible points
-flavor-text: You read the book written by Jacob (and realized his name isn't James).
+flavor-text: |-
+  You read the book written by Jacob (and realized his name isn't James).
 ---
 Some actual info about this thing TBA.

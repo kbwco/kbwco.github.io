@@ -16,6 +16,7 @@ effects:
   Any magic aimed at your arms or hands is only 1/2 effective as normal.
 - |-
   + 5 Magic
-flavor-text: UR wizzy-wizzle, Hum-hum School.
+flavor-text: |-
+  UR wizzy-wizzle, Hum-hum School.
 ---
 Some actual info about this thing TBA.

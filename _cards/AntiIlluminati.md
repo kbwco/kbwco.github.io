@@ -16,6 +16,7 @@ effects:
   Discard all Illuminati cards from play.
 - |-
   If you are stopping the summon (discarding all 3), it is cancelled and you draw 25 cards at this time.
-flavor-text: The Anti-Illuminati is fighting the Illuminati at every turn!
+flavor-text: |-
+  The Anti-Illuminati is fighting the Illuminati at every turn!
 ---
 Some actual info about this thing TBA.

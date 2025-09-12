@@ -12,6 +12,7 @@ category: Basic Card
 effects: 
 - |-
   Draw 3 cards.
-flavor-text: It's as simple as that.
+flavor-text: |-
+  It's as simple as that.
 ---
 Some actual info about this thing TBA.

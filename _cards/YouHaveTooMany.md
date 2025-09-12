@@ -12,6 +12,7 @@ category: Basic Card
 effects: 
 - |-
   Randomly discard down to 10 cards.
-flavor-text: We gave you too many cards. Get rid of some.
+flavor-text: |-
+  We gave you too many cards. Get rid of some.
 ---
 Some actual info about this thing TBA.

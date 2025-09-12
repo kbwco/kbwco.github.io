@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All damage taken is reduced by one
-flavor-text: "protecting you from the frontline."
+flavor-text: |-
+  "protecting you from the frontline."
 ---
 Some actual info about this thing TBA.

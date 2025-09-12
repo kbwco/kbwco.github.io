@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Steal a card from your opponent
-flavor-text: "It was the perfect crime. Downright calculated"
+flavor-text: |-
+  "It was the perfect crime. Downright calculated"
 ---
 Some actual info about this thing TBA.

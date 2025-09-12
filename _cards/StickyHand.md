@@ -15,6 +15,7 @@ effects:
   if removed from hand for any reason, take back along with any cards directly touching it.
 - |-
   Shuffle where the card goes
-flavor-text: "Stain on the ceiling since 1995"
+flavor-text: |-
+  "Stain on the ceiling since 1995"
 ---
 Some actual info about this thing TBA.

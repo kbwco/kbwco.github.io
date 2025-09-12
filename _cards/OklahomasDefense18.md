@@ -15,6 +15,7 @@ effects:
   Lasts for 60 minutes.
 - |-
   Goes into play automatically once you earn any points.
-flavor-text: "Half a team"
+flavor-text: |-
+  "Half a team"
 ---
 Some actual info about this thing TBA.

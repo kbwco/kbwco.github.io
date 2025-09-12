@@ -15,6 +15,7 @@ effects:
   Then destroy this card
 - |-
   (this is protected)
-flavor-text: "Skipping ticks"
+flavor-text: |-
+  "Skipping ticks"
 ---
 Some actual info about this thing TBA.

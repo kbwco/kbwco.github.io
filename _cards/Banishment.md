@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Banish all protected cards.
-flavor-text: "the act of the banish"
+flavor-text: |-
+  "the act of the banish"
 ---
 Some actual info about this thing TBA.

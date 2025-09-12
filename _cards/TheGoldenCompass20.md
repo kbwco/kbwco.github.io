@@ -19,6 +19,7 @@ effects:
   Any Satanic or Atheist cards' effects are now doubled and protected.
 - |-
   Golden Compass cards are protected too, except from The Golden Compass 3.0.
-flavor-text: The sequel is even worse!
+flavor-text: |-
+  The sequel is even worse!
 ---
 Some actual info about this thing TBA.

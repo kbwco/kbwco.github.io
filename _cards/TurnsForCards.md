@@ -14,6 +14,7 @@ effects:
   Field Card: Players may play up to 10 cards on their turn, 
 - |-
   but each one above the otherwise limit = a turn lost.
-flavor-text: Will you lose turns to draw cards?
+flavor-text: |-
+  Will you lose turns to draw cards?
 ---
 Some actual info about this thing TBA.

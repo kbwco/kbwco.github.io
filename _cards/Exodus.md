@@ -12,6 +12,7 @@ category: Christian
 effects: 
 - |-
   Switch one blank card from your hand with the first drawn on card in the deck.
-flavor-text: Walking is easier than walking.
+flavor-text: |-
+  Walking is easier than walking.
 ---
 Some actual info about this thing TBA.

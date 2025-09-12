@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Discard as many cards as you want from your hand.
-flavor-text: The ultimate Just Lose
+flavor-text: |-
+  The ultimate Just Lose
 ---
 Some actual info about this thing TBA.

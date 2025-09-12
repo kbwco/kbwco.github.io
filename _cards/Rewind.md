@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All cards containing a count, have the count reset and starts again.
-flavor-text: "Back to the start."
+flavor-text: |-
+  "Back to the start."
 ---
 Some actual info about this thing TBA.

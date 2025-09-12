@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field Card: All cards go to the bottom of the deck instead of the discard pile when destroyed and vise-versa.
-flavor-text: "I hate my family"
+flavor-text: |-
+  "I hate my family"
 ---
 Some actual info about this thing TBA.

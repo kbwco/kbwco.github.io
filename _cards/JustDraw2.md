@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Draw 2 cards.
-flavor-text: It's the prequel!
+flavor-text: |-
+  It's the prequel!
 ---
 Some actual info about this thing TBA.

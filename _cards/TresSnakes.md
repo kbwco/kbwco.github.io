@@ -11,7 +11,8 @@ set:
 effects: 
 - |-
   Summon Snake 3 to your field.
-flavor-text: 3 Snakes (in a conga line) to rule them all.
+flavor-text: |-
+  3 Snakes (in a conga line) to rule them all.
 extra-text: (Pronounce Snake-ace)
 ---
 Some actual info about this thing TBA.

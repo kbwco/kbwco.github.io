@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   This card is protected and the next card you play destroys this, but becomes protected.
-flavor-text: "Reserved"
+flavor-text: |-
+  "Reserved"
 ---
 Some actual info about this thing TBA.

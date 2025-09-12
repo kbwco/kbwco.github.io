@@ -91,6 +91,7 @@ effects:
   Note: Can be sacrificed along with Brahma and Shiva from play and/or your hand to summon Dattatreya.
 - |-
   If you're sacrificing all 3 from your hand to summon Dattatreya, you win.
-flavor-text: "Too many avatars, didn't even include all here"
+flavor-text: |-
+  "Too many avatars, didn't even include all here"
 ---
 Some actual info about this thing TBA.

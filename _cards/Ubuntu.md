@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Every 3rd card you draw has no effect.
-flavor-text: "Just get a Windows VM"
+flavor-text: |-
+  "Just get a Windows VM"
 ---
 Some actual info about this thing TBA.

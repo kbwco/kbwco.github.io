@@ -14,6 +14,7 @@ effects:
   + 15 intellegence
 - |-
   - $100,000
-flavor-text: You probably learned something, probably ...
+flavor-text: |-
+  You probably learned something, probably ...
 ---
 Some actual info about this thing TBA.

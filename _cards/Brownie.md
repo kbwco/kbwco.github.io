@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   -1 Bunny
-flavor-text: Why did you try to touch his nose?
+flavor-text: |-
+  Why did you try to touch his nose?
 ---
 Some actual info about this thing TBA.

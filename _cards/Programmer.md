@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All cards containing the word "glitch" are destroyed.
-flavor-text: "expensive but effective"
+flavor-text: |-
+  "expensive but effective"
 ---
 Some actual info about this thing TBA.

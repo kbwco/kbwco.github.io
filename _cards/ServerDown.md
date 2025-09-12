@@ -13,6 +13,7 @@ effects:
   May be played at any time.
 - |-
   Banish any one electronic card.
-flavor-text: "An electromagnetic wave"
+flavor-text: |-
+  "An electromagnetic wave"
 ---
 Some actual info about this thing TBA.

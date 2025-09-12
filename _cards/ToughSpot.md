@@ -20,6 +20,7 @@ effects:
   3:$3,000
 - |-
   or 0:$0 but lose a turn
-flavor-text: Do you care more about cards, or money?
+flavor-text: |-
+  Do you care more about cards, or money?
 ---
 Some actual info about this thing TBA.

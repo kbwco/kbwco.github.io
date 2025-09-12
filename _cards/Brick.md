@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   It's a brick.
-flavor-text: "Brick brick brick brick, brick brick brick brick, it's fun!"
+flavor-text: |-
+  "Brick brick brick brick, brick brick brick brick, it's fun!"
 ---
 Some actual info about this thing TBA.

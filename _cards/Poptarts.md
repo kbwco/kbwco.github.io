@@ -12,6 +12,7 @@ category: Junk Food
 effects: 
 - |-
   Don't draw a card next turn
-flavor-text: The quality might not be the best but it's still filling at least.
+flavor-text: |-
+  The quality might not be the best but it's still filling at least.
 ---
 Some actual info about this thing TBA.

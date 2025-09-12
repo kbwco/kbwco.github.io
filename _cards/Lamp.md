@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Look at the top of your opponents hand. then put it back.
-flavor-text: "I can see! ...Mostly"
+flavor-text: |-
+  "I can see! ...Mostly"
 ---
 Some actual info about this thing TBA.

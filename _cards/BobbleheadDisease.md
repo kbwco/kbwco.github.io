@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Makes life not worth living, drown yourself in your bathtub IRL if you can't cure Parkinsons w/ your next turn.
-flavor-text: "Also known as Michael J. Fox disease."
+flavor-text: |-
+  "Also known as Michael J. Fox disease."
 ---
 Some actual info about this thing TBA.

@@ -12,6 +12,7 @@ category: Suicide
 effects: 
 - |-
   If you have this, the livestream setup, and catchphrase all on your field, kill yourself (you lose)
-flavor-text: 12 years is plenty, no point in staying any longer.
+flavor-text: |-
+  12 years is plenty, no point in staying any longer.
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Kill (discard) all animal cards.
-flavor-text: "We killin' Bambi"
+flavor-text: |-
+  "We killin' Bambi"
 ---
 Some actual info about this thing TBA.

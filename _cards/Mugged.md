@@ -12,6 +12,7 @@ category: Crime
 effects: 
 - |-
   Lose $200
-flavor-text: You got mugged going to work.
+flavor-text: |-
+  You got mugged going to work.
 ---
 Some actual info about this thing TBA.

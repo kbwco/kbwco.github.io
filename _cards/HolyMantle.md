@@ -14,6 +14,7 @@ effects:
   place on another card
 - |-
   if that card is going to be destroyed, remove this card instead
-flavor-text: protects you from all the bad things, once...
+flavor-text: |-
+  protects you from all the bad things, once...
 ---
 Some actual info about this thing TBA.

@@ -13,6 +13,7 @@ effects:
   You are now a fish and can live in water.
 - |-
   You can play 1 extra cards when in water.
-flavor-text: Blub Blub
+flavor-text: |-
+  Blub Blub
 ---
 Some actual info about this thing TBA.

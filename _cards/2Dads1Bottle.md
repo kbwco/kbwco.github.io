@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field Card: When either player sets down their drink, both players must dab quickly after, if you don't dab, discard a random card from your hand.
-flavor-text: "Juxtaposition"
+flavor-text: |-
+  "Juxtaposition"
 ---
 Some actual info about this thing TBA.

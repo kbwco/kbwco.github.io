@@ -12,6 +12,7 @@ category: Christian Music
 effects: 
 - |-
   Next turn you must play the card you draw, triple its effect.
-flavor-text: Jesus decides to help you out, trust his Judgement.
+flavor-text: |-
+  Jesus decides to help you out, trust his Judgement.
 ---
 Some actual info about this thing TBA.

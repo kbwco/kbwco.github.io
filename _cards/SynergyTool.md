@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Do nothing for 3 turns. then discard (on drawing)
-flavor-text: "They didn't even use it"
+flavor-text: |-
+  "They didn't even use it"
 ---
 Some actual info about this thing TBA.

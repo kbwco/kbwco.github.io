@@ -12,6 +12,7 @@ category: Celebrations
 effects: 
 - |-
   Take 1 card from your side and place it on an opponents
-flavor-text: "I don't need this, so you can have it"
+flavor-text: |-
+  "I don't need this, so you can have it"
 ---
 Some actual info about this thing TBA.

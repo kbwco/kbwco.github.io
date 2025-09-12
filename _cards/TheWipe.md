@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Discard all unprotected cards.
-flavor-text: Wipe always
+flavor-text: |-
+  Wipe always
 ---
 Some actual info about this thing TBA.

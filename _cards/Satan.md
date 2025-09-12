@@ -17,6 +17,7 @@ effects:
   Discard all Christian cards.
 - |-
   All Satanic cards' effects are doubled and protected.
-flavor-text: He's big, fat, and red, and children love him... no wait, wrong guy, he's Satan.
+flavor-text: |-
+  He's big, fat, and red, and children love him... no wait, wrong guy, he's Satan.
 ---
 Some actual info about this thing TBA.

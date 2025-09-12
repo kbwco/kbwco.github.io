@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Each player pretends to be another player on top of their rounds. (additional player)
-flavor-text: "You son of a gun. I'm in"
+flavor-text: |-
+  "You son of a gun. I'm in"
 ---
 Some actual info about this thing TBA.

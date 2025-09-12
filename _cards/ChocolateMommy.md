@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Play 3 cards (spaghetti) at random from your hand.
-flavor-text: "I'm not racist"
+flavor-text: |-
+  "I'm not racist"
 ---
 Some actual info about this thing TBA.

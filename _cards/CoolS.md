@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field card: All cards w/ a name beginning with an "S" are ditto'd.
-flavor-text: "I'm not backwards, you're backwards."
+flavor-text: |-
+  "I'm not backwards, you're backwards."
 ---
 Some actual info about this thing TBA.

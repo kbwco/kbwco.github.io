@@ -12,6 +12,7 @@ category: Books of the Bible
 effects: 
 - |-
   +250 Bible Points
-flavor-text: You read one of the Gospels!
+flavor-text: |-
+  You read one of the Gospels!
 ---
 Some actual info about this thing TBA.

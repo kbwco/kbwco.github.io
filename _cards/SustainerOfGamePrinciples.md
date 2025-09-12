@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field card: No new gameplay rules may be put into effect
-flavor-text: "That card is banned in tournament play"
+flavor-text: |-
+  "That card is banned in tournament play"
 ---
 Some actual info about this thing TBA.

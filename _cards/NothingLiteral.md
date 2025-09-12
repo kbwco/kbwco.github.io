@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   This card has no effect but cannot be removed from play in any way.
-flavor-text: "oooohh~~"
+flavor-text: |-
+  "oooohh~~"
 ---
 Some actual info about this thing TBA.

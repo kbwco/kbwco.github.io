@@ -12,6 +12,7 @@ category: Anti-Religious
 effects: 
 - |-
   Destroy all religious cards in your possetion
-flavor-text: "Heathans take over the vatican and topple your religion."
+flavor-text: |-
+  "Heathans take over the vatican and topple your religion."
 ---
 Some actual info about this thing TBA.

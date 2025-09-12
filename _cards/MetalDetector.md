@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Discard all metal items from play, including class/wedding rings (includes pictures).
-flavor-text: You got got.
+flavor-text: |-
+  You got got.
 ---
 Some actual info about this thing TBA.

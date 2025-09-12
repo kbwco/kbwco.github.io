@@ -19,6 +19,7 @@ effects:
   A player can attack instead of playing a card, the attack does your Att - opp. Def damage. Your turn ends after the attack.
 - |-
   Any player whose health equals 0 loses
-flavor-text: "The best genre."
+flavor-text: |-
+  "The best genre."
 ---
 Some actual info about this thing TBA.

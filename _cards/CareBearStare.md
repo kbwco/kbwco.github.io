@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Each player chooses one card from their hand and gives it to the opponent.
-flavor-text: "Spread love."
+flavor-text: |-
+  "Spread love."
 ---
 Some actual info about this thing TBA.

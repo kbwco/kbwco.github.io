@@ -12,6 +12,7 @@ category: Isolation
 effects: 
 - |-
   play on a card: this card is uneffected by any cards laying on the field.
-flavor-text: "nothingness"
+flavor-text: |-
+  "nothingness"
 ---
 Some actual info about this thing TBA.

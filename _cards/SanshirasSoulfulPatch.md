@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field Card: All delayed activation cards and this card are protected.
-flavor-text: "Save her."
+flavor-text: |-
+  "Save her."
 ---
 Some actual info about this thing TBA.

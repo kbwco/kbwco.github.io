@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Play when a card is played on you to discard it instead before it takes effect. It still counts as a play on their turn.
-flavor-text: "Wipe always"
+flavor-text: |-
+  "Wipe always"
 ---
 Some actual info about this thing TBA.

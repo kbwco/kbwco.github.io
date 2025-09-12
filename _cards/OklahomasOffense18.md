@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Score like 100pts and gain like a million yards.
-flavor-text: "The expectation is that you get a touchdown on every drive"
+flavor-text: |-
+  "The expectation is that you get a touchdown on every drive"
 ---
 Some actual info about this thing TBA.

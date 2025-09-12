@@ -13,6 +13,7 @@ effects:
   Can only be played on someone who played a bathroom related card on their last turn.
 - |-
   They are now a poopy handed loser, they cannot draw until they wash their hands IRL.
-flavor-text: "I'd rather die than be in the lower class."
+flavor-text: |-
+  "I'd rather die than be in the lower class."
 ---
 Some actual info about this thing TBA.

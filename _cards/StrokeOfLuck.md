@@ -12,6 +12,7 @@ category: Good Luck
 effects: 
 - |-
   Get rid of any bad luck cards in front of you or in your hand.
-flavor-text: Looks like your luck's turning around for once.
+flavor-text: |-
+  Looks like your luck's turning around for once.
 ---
 Some actual info about this thing TBA.

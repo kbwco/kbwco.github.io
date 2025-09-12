@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All chili dog loving hedgehogs are played from wherever they are. (except banish pile)
-flavor-text: "It's a sale..."
+flavor-text: |-
+  "It's a sale..."
 ---
 Some actual info about this thing TBA.

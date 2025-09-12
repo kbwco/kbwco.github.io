@@ -12,6 +12,7 @@ category: Golden Compass
 effects: 
 - |-
   Get the Golden Compass 3.0 ,no matter where it is
-flavor-text: SUCC
+flavor-text: |-
+  SUCC
 ---
 Some actual info about this thing TBA.

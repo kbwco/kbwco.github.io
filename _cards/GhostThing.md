@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Each turn, take 1 random card from your opponents hand.
-flavor-text: "not Kirby"
+flavor-text: |-
+  "not Kirby"
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All dangerous non-human beasts of the earth and plagues are ditto'd.
-flavor-text: Hades ain't lookin' so good
+flavor-text: |-
+  Hades ain't lookin' so good
 ---
 Some actual info about this thing TBA.

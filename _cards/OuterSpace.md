@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Destroy all field cards.
-flavor-text: It's a vacuum
+flavor-text: |-
+  It's a vacuum
 ---
 Some actual info about this thing TBA.

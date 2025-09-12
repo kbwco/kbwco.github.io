@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   destroy a card
-flavor-text: "Loud noise"
+flavor-text: |-
+  "Loud noise"
 ---
 Some actual info about this thing TBA.

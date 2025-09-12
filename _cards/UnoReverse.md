@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   trade 1 of your cards with an opponents card. Each person chooses what to trade.
-flavor-text: "it's not even a reverse"
+flavor-text: |-
+  "it's not even a reverse"
 ---
 Some actual info about this thing TBA.

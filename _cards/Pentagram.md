@@ -12,6 +12,7 @@ category: Satanic
 effects: 
 - |-
   Steal 1 random card from someone elses hand
-flavor-text: The power of the devil flows through you.
+flavor-text: |-
+  The power of the devil flows through you.
 ---
 Some actual info about this thing TBA.

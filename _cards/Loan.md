@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Give half your money to the other player, they have to return double the amount in 3 turns or they must give you 2 cards.
-flavor-text: "gimme gimme."
+flavor-text: |-
+  "gimme gimme."
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   When an opponent plays a card, after its effect ends use the card again (if relevant) choose who/where the effect is used.
-flavor-text: "I'm a virgin"
+flavor-text: |-
+  "I'm a virgin"
 ---
 Some actual info about this thing TBA.

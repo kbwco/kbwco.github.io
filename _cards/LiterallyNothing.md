@@ -11,7 +11,8 @@ set:
 effects: 
 - |-
   This card does nothing, but stays on your field.
-flavor-text: ...
+flavor-text: |-
+  ...
 alternates:
 - title: |-
     Literally Nothing

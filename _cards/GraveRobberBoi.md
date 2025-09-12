@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   take 1 card from the discard pile and play it.
-flavor-text: "that's one way to win."
+flavor-text: |-
+  "that's one way to win."
 ---
 Some actual info about this thing TBA.

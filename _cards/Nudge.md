@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Change the position of any card in the field to another on field position
-flavor-text: "Wipe always"
+flavor-text: |-
+  "Wipe always"
 ---
 Some actual info about this thing TBA.

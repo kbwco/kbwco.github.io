@@ -12,6 +12,7 @@ category: Waguggy
 effects: 
 - |-
   Replay the last (top) card in the discard pile
-flavor-text: The end is here it is time to form together with the other Sauron pieces.
+flavor-text: |-
+  The end is here it is time to form together with the other Sauron pieces.
 ---
 Some actual info about this thing TBA.

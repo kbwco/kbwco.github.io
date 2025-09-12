@@ -14,6 +14,7 @@ effects:
   May be played at any time.
 - |-
   Do the effect of the last card you played again.
-flavor-text: Do it again!
+flavor-text: |-
+  Do it again!
 ---
 Some actual info about this thing TBA.

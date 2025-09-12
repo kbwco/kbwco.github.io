@@ -14,6 +14,7 @@ effects:
   Discard all cards from play, respecting protection.
 - |-
   Put the discard pile on the bottom of the deck. Don't reshuffle.
-flavor-text: It's a reset, but not a full one.
+flavor-text: |-
+  It's a reset, but not a full one.
 ---
 Some actual info about this thing TBA.

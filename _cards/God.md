@@ -19,6 +19,7 @@ effects:
   No cards that include either "Christ", "God", "Bible", or "Christian" may be destroyed except by "The Golden Compass".
 - |-
   In addition, all Christian cards' effects are doubled.
-flavor-text: "No one has ever seen God"
+flavor-text: |-
+  "No one has ever seen God"
 ---
 Some actual info about this thing TBA.

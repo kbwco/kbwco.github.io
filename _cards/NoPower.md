@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Can be played at any time to destroy all computer and/or game cards.
-flavor-text: "No electricity for dem vidyo gaems"
+flavor-text: |-
+  "No electricity for dem vidyo gaems"
 ---
 Some actual info about this thing TBA.

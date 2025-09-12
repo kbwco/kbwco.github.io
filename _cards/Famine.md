@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field Card: All food prices are ditto'd.
-flavor-text: "A quart of wheat for a day's wages, and three quarts of barley for a day's wages, and do not damage the oil and the wine!"
+flavor-text: |-
+  "A quart of wheat for a day's wages, and three quarts of barley for a day's wages, and do not damage the oil and the wine!"
 ---
 Some actual info about this thing TBA.

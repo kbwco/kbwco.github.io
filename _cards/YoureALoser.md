@@ -12,6 +12,7 @@ category: Bad Luck
 effects: 
 - |-
   Lose all stats, money, etc. (anything you currently have).
-flavor-text: You're a huge loser and can't keep anything.
+flavor-text: |-
+  You're a huge loser and can't keep anything.
 ---
 Some actual info about this thing TBA.

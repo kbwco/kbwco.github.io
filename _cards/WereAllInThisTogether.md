@@ -12,6 +12,7 @@ category: Empathy
 effects: 
 - |-
   The player with less cards draws until they have the same amount as the player with the most cards
-flavor-text: "The musical"
+flavor-text: |-
+  "The musical"
 ---
 Some actual info about this thing TBA.

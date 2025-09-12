@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Summon Snake 1 to play, wherever it is.
-flavor-text: One snake to rule them all.
+flavor-text: |-
+  One snake to rule them all.
 ---
 Some actual info about this thing TBA.

@@ -14,6 +14,7 @@ effects:
   [play on a card]
 - |-
   remove from play for 2 rounds
-flavor-text: "you gotta be joshin me"
+flavor-text: |-
+  "you gotta be joshin me"
 ---
 Some actual info about this thing TBA.

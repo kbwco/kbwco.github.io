@@ -16,6 +16,7 @@ effects:
   + 50 Magic
 - |-
   If you have all 4 wizard clothing items, you win.
-flavor-text: You got your first wand!
+flavor-text: |-
+  You got your first wand!
 ---
 Some actual info about this thing TBA.

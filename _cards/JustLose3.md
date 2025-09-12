@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Discard 3 cards from your hand (you choose).
-flavor-text: We need you to lose cards!
+flavor-text: |-
+  We need you to lose cards!
 ---
 Some actual info about this thing TBA.

@@ -14,6 +14,7 @@ effects:
   If you possess all pieces of the retarded one, you win
 - |-
   Card can be played w/ no effect
-flavor-text: "Hola"
+flavor-text: |-
+  "Hola"
 ---
 Some actual info about this thing TBA.

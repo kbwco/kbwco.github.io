@@ -12,6 +12,7 @@ category: Unity
 effects: 
 - |-
   Each players next turn: any card you play affects both players
-flavor-text: Being together is far better than being apart
+flavor-text: |-
+  Being together is far better than being apart
 ---
 Some actual info about this thing TBA.

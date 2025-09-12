@@ -13,6 +13,7 @@ effects:
   Make a card sticky.
 - |-
   Sticky cards cannot be destroyed and also protect all cards directly affected by it from being destroyed.
-flavor-text: "Pay in 4"
+flavor-text: |-
+  "Pay in 4"
 ---
 Some actual info about this thing TBA.

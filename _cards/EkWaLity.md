@@ -13,6 +13,7 @@ effects:
   Can only be played if it's your only card after drawing on your turn.
 - |-
   Draw as many cards as an opponent has.
-flavor-text: Dumb privilege points!
+flavor-text: |-
+  Dumb privilege points!
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field card: At the start of each round, beginning w/ the turn after this card is played, do R.P.S. and the winner has their turn first.
-flavor-text: "Prolong each game"
+flavor-text: |-
+  "Prolong each game"
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field card: All cards being played delayed are destroyed after they come into effect
-flavor-text: "pure water, perfect taste."
+flavor-text: |-
+  "pure water, perfect taste."
 ---
 Some actual info about this thing TBA.

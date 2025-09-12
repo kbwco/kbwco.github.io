@@ -14,6 +14,7 @@ effects:
   If you possess all pieces of the retarded one, you win
 - |-
   Card can be played w/ no effect
-flavor-text: "I'm okay I guess..."
+flavor-text: |-
+  "I'm okay I guess..."
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Just discard or banish some card in play or (random if opponent) a hand.
-flavor-text: I have no ideas.
+flavor-text: |-
+  I have no ideas.
 ---
 Some actual info about this thing TBA.

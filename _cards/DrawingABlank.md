@@ -12,6 +12,7 @@ category: Basic Card
 effects: 
 - |-
   Draw cards until you get a blank one. Keep all of them.
-flavor-text: We need you to create a card.
+flavor-text: |-
+  We need you to create a card.
 ---
 Some actual info about this thing TBA.

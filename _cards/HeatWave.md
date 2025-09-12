@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field card: Any card vulnerable to melting, will do so. (be discarded)
-flavor-text: "Hoot"
+flavor-text: |-
+  "Hoot"
 ---
 Some actual info about this thing TBA.

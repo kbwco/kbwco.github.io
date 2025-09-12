@@ -13,6 +13,7 @@ effects:
   When an opponent plays a card on one side, attach this card to it. (Can be played at any time)
 - |-
   Horse girl carries the card back and forth between sides, always being on the side whose turn it is not.
-flavor-text: "Uma musume"
+flavor-text: |-
+  "Uma musume"
 ---
 Some actual info about this thing TBA.

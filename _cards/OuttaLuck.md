@@ -12,6 +12,7 @@ category: Bad Luck
 effects: 
 - |-
   Don't draw a card for 3 rounds.
-flavor-text: You're unluckiest person ever.
+flavor-text: |-
+  You're unluckiest person ever.
 ---
 Some actual info about this thing TBA.

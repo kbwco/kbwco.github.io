@@ -12,6 +12,7 @@ category: Christian
 effects: 
 - |-
   Abishai son of Zeruiah raises his spear and your opponent loses 500 Bible points.
-flavor-text: "Was he not held in greater honor than the three?"
+flavor-text: |-
+  "Was he not held in greater honor than the three?"
 ---
 Some actual info about this thing TBA.

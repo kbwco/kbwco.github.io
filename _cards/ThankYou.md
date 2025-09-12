@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Bring the nuggies into play, no matter where they are. (except banished)
-flavor-text: "Come again."
+flavor-text: |-
+  "Come again."
 ---
 Some actual info about this thing TBA.

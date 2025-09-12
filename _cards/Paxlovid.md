@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Destroy all sickness cards.
-flavor-text: "It works for covid, who knows what else it cures?"
+flavor-text: |-
+  "It works for covid, who knows what else it cures?"
 ---
 Some actual info about this thing TBA.

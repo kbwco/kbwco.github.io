@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Draw 5 cards.
-flavor-text: 5 more for me!
+flavor-text: |-
+  5 more for me!
 ---
 Some actual info about this thing TBA.

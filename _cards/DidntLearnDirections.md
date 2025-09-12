@@ -15,6 +15,7 @@ category: Anti-Navigational
 effects: 
 - |-
   Discard all cards that include "Compass", "Map", or a direction in play.
-flavor-text: Better go back to Pre-school!
+flavor-text: |-
+  Better go back to Pre-school!
 ---
 Some actual info about this thing TBA.

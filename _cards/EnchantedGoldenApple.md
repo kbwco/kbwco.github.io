@@ -20,6 +20,7 @@ effects:
   Gain 4 Def.
 - |-
   Gain 2 Att.
-flavor-text: 8 cubic meters of gold infused in an apple.
+flavor-text: |-
+  8 cubic meters of gold infused in an apple.
 ---
 Some actual info about this thing TBA.

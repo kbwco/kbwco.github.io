@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Destroy a card in play.
-flavor-text: It's da bomb!
+flavor-text: |-
+  It's da bomb!
 ---
 Some actual info about this thing TBA.

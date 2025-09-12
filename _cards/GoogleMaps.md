@@ -12,6 +12,7 @@ category: Map Program
 effects: 
 - |-
   Lose $20 due to gas.
-flavor-text: You were looking for free parking, but none exists.
+flavor-text: |-
+  You were looking for free parking, but none exists.
 ---
 Some actual info about this thing TBA.

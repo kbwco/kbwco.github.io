@@ -16,6 +16,7 @@ effects:
   Any magic aimed at your head is only 1/2 effective as normal.
 - |-
   + 10 Magic
-flavor-text: You're a wizard, Hairy!
+flavor-text: |-
+  You're a wizard, Hairy!
 ---
 Some actual info about this thing TBA.

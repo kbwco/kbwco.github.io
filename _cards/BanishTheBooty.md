@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Banish a Ditto.
-flavor-text: "Begone Thot"
+flavor-text: |-
+  "Begone Thot"
 ---
 Some actual info about this thing TBA.

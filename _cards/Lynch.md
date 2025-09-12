@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   destroy all cards with bad people in their pictures.
-flavor-text: "He dead."
+flavor-text: |-
+  "He dead."
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Every player picks one card on their field to keep and discard all the others
-flavor-text: "I'm da bes."
+flavor-text: |-
+  "I'm da bes."
 ---
 Some actual info about this thing TBA.

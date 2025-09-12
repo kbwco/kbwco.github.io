@@ -12,6 +12,7 @@ category: Spells
 effects: 
 - |-
   Lose a turn
-flavor-text: Just a little jolt.
+flavor-text: |-
+  Just a little jolt.
 ---
 Some actual info about this thing TBA.

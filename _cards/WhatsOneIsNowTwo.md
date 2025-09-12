@@ -14,6 +14,7 @@ effects:
   Split the deck into 2 decks.
 - |-
   When drawing, a player may choose from either one.
-flavor-text: "One of these decks is not like the other."
+flavor-text: |-
+  "One of these decks is not like the other."
 ---
 Some actual info about this thing TBA.

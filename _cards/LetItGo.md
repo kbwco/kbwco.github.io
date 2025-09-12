@@ -15,6 +15,7 @@ effects:
   Stop the opponent from playing a card, it is returned to their hand and they may not play it until there next turn.
 - |-
   The returned card does not count as them playing a card.
-flavor-text: "Here I am."
+flavor-text: |-
+  "Here I am."
 ---
 Some actual info about this thing TBA.

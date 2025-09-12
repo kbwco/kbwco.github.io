@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Discard a possession and draw 5 cards.
-flavor-text: Trade in a valuable object for some crap.
+flavor-text: |-
+  Trade in a valuable object for some crap.
 ---
 Some actual info about this thing TBA.

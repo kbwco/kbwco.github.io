@@ -13,6 +13,7 @@ effects:
   If you possess all pieces of the retarded one, you win.
 - |-
   Card can be played w/ no effect
-flavor-text: "Squeaky clean"
+flavor-text: |-
+  "Squeaky clean"
 ---
 Some actual info about this thing TBA.

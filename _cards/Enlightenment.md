@@ -12,6 +12,7 @@ category: Christian
 effects: 
 - |-
   Search for the "God" card and use it immediatly. (take from graveyard, deck, and even other players hands)
-flavor-text: You found God!
+flavor-text: |-
+  You found God!
 ---
 Some actual info about this thing TBA.

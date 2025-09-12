@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Lose $100 per round.
-flavor-text: "You'll be paying them back for the rest of your life."
+flavor-text: |-
+  "You'll be paying them back for the rest of your life."
 ---
 Some actual info about this thing TBA.

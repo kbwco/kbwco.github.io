@@ -12,6 +12,7 @@ category: Science
 effects: 
 - |-
   Get naked
-flavor-text: You done goofed, get naked.
+flavor-text: |-
+  You done goofed, get naked.
 ---
 Some actual info about this thing TBA.

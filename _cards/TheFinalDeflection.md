@@ -13,6 +13,7 @@ effects:
   When an opponent plays a card, play this to discard it before it takes effect. It still counts as a play on their turn.
 - |-
   Cards cannot be played to cancel this.
-flavor-text: "Wipe always"
+flavor-text: |-
+  "Wipe always"
 ---
 Some actual info about this thing TBA.

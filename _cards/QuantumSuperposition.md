@@ -17,6 +17,7 @@ effects:
   A win or loss on any board carries over.
 - |-
   When this card is destroyed, the player who destroyed it decides what board will continue to be used.
-flavor-text: "16 micrograms"
+flavor-text: |-
+  "16 micrograms"
 ---
 Some actual info about this thing TBA.

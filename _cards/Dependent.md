@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Play on a card. When that card's effect is used to do an action normally impossible, whoever played this discards one field card. (1 effect)
-flavor-text: Gotta love that sweet moola
+flavor-text: |-
+  Gotta love that sweet moola
 ---
 Some actual info about this thing TBA.

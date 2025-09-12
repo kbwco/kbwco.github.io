@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Discard a card from your field to discard 2 other cards in play.
-flavor-text: 2 = 1 if you think about it.
+flavor-text: |-
+  2 = 1 if you think about it.
 ---
 Some actual info about this thing TBA.

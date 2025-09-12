@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Select one card on the field and place it in your hand.
-flavor-text: "I want it back"
+flavor-text: |-
+  "I want it back"
 ---
 Some actual info about this thing TBA.

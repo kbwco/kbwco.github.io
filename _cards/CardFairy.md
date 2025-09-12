@@ -12,6 +12,7 @@ category: Magic
 effects: 
 - |-
   All players draw until they reach 10 cards.
-flavor-text: "You found a Card fairy!"
+flavor-text: |-
+  "You found a Card fairy!"
 ---
 Some actual info about this thing TBA.

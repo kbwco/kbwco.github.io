@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field card: All desert or heat related cards have their effect doubled and they affect both players.
-flavor-text: "Anubis-Aqsa"
+flavor-text: |-
+  "Anubis-Aqsa"
 ---
 Some actual info about this thing TBA.

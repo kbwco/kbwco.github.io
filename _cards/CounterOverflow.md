@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Double all counts until they reach or go over the intended end. If they went over discard them without activating their effect.
-flavor-text: "Drippin' that sauce"
+flavor-text: |-
+  "Drippin' that sauce"
 ---
 Some actual info about this thing TBA.

@@ -14,6 +14,7 @@ effects:
   When an opponent plays a card, play this to discard it before it takes effect.
 - |-
   It still counts as a play on their turn.
-flavor-text: "I really don't think you want to do that..."
+flavor-text: |-
+  "I really don't think you want to do that..."
 ---
 Some actual info about this thing TBA.

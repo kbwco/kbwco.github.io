@@ -12,6 +12,7 @@ category: Order
 effects: 
 - |-
   Field card: All players must end their turn with the same number of cards as they began (Draw of discard to reach it)
-flavor-text: Change is scary, so lets not change.
+flavor-text: |-
+  Change is scary, so lets not change.
 ---
 Some actual info about this thing TBA.

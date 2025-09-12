@@ -22,6 +22,7 @@ effects:
   You cannot banish this card, only opponents can.
 - |-
   If this card would be discarded, you instead play it on an opponent of your choice.
-flavor-text: <None>
+flavor-text: |-
+  <None>
 ---
 Some actual info about this thing TBA.

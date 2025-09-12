@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Look at your opponents hand.
-flavor-text: "He sees you when your sleeping."
+flavor-text: |-
+  "He sees you when your sleeping."
 ---
 Some actual info about this thing TBA.

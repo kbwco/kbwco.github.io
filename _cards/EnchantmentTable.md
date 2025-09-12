@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All stats on your side are doubled until this card is destroyed
-flavor-text: "getting more powerful"
+flavor-text: |-
+  "getting more powerful"
 ---
 Some actual info about this thing TBA.

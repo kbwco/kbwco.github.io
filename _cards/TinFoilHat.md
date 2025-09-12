@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Destroy all phone carrier companies and/or radio towers.
-flavor-text: "It protects from the 3G radiation"
+flavor-text: |-
+  "It protects from the 3G radiation"
 ---
 Some actual info about this thing TBA.

@@ -13,7 +13,8 @@ effects:
   Change a card's effect(s) by 25% of 1 effect (remove) (choose).
 - |-
   Can be played at any time.
-flavor-text: Glitchiness FTW!
+flavor-text: |-
+  Glitchiness FTW!
 alternates:
 - title: |-
     ...with a Glitch!

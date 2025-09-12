@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Cure all diseases
-flavor-text: "It was distilled essence of cheese the whole time"
+flavor-text: |-
+  "It was distilled essence of cheese the whole time"
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Any Minecraft related card has no effect
-flavor-text: Forge is better anyway...
+flavor-text: |-
+  Forge is better anyway...
 ---
 Some actual info about this thing TBA.

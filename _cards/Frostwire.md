@@ -13,6 +13,7 @@ effects:
   Everyone pirates stuff, so it's okay, but... You got caught
 - |-
   so lose 3 random cards from your hand.
-flavor-text: Limewire reborn.
+flavor-text: |-
+  Limewire reborn.
 ---
 Some actual info about this thing TBA.

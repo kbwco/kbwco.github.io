@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Summon Snake 2 to your field.
-flavor-text: 2 snakes are better than one.
+flavor-text: |-
+  2 snakes are better than one.
 ---
 Some actual info about this thing TBA.

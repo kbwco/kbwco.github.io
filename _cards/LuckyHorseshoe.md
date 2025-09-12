@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   May be played any time. Discard all bad luck cards in play.
-flavor-text: "Good luck forevs"
+flavor-text: |-
+  "Good luck forevs"
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   If you can use it in a way that allows transportation through time, you win.
-flavor-text: "There and back again"
+flavor-text: |-
+  "There and back again"
 ---
 Some actual info about this thing TBA.

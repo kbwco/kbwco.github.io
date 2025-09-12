@@ -12,6 +12,7 @@ category: Dip
 effects: 
 - |-
   All potato based cards have double the effect
-flavor-text: No Preservatives!
+flavor-text: |-
+  No Preservatives!
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   You have asthma, you only draw a card every other turn.
-flavor-text: "Two not so breathy bois"
+flavor-text: |-
+  "Two not so breathy bois"
 ---
 Some actual info about this thing TBA.

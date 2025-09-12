@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Can only be played on top of Galiel, double Galiel's max pickup
-flavor-text: "pretty princess"
+flavor-text: |-
+  "pretty princess"
 ---
 Some actual info about this thing TBA.

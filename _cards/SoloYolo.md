@@ -12,6 +12,7 @@ category: Bad Luck
 effects: 
 - |-
   Play the first (bottom) card of the deck and triple its effect
-flavor-text: The odds arn't in your favor, don't let your dreams be dreams.
+flavor-text: |-
+  The odds arn't in your favor, don't let your dreams be dreams.
 ---
 Some actual info about this thing TBA.

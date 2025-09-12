@@ -12,6 +12,7 @@ category: Debt Removal
 effects: 
 - |-
   Discard all cards that include the word debt from play.
-flavor-text: Nobody likes debt! :,(
+flavor-text: |-
+  Nobody likes debt! :,(
 ---
 Some actual info about this thing TBA.

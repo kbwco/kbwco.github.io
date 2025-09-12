@@ -12,6 +12,7 @@ category: Challenge
 effects: 
 - |-
   The player w/ the most stat points wins 3 card draws
-flavor-text: It's time to put your skills to the test.
+flavor-text: |-
+  It's time to put your skills to the test.
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Your computer cards are destroyed.
-flavor-text: "You asked for help, and now you have a new operating system."
+flavor-text: |-
+  "You asked for help, and now you have a new operating system."
 ---
 Some actual info about this thing TBA.

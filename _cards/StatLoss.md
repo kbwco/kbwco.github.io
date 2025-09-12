@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All stats decrease by 5 on you, except health/damage taken.
-flavor-text: You got 200 tail whips!
+flavor-text: |-
+  You got 200 tail whips!
 ---
 Some actual info about this thing TBA.

@@ -12,6 +12,7 @@ category: Mistakes
 effects: 
 - |-
   discard 1 card on the field
-flavor-text: "Not well recieved"
+flavor-text: |-
+  "Not well recieved"
 ---
 Some actual info about this thing TBA.

@@ -12,6 +12,7 @@ category: Isolation
 effects: 
 - |-
   Destroy all marriage related cards in play
-flavor-text: "Gb bae"
+flavor-text: |-
+  "Gb bae"
 ---
 Some actual info about this thing TBA.

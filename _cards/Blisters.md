@@ -15,6 +15,7 @@ effects:
   Discard from player's field first.
 - |-
   If field is empty, then hand.
-flavor-text: You can break 'em, but then they leak forever.
+flavor-text: |-
+  You can break 'em, but then they leak forever.
 ---
 Some actual info about this thing TBA.

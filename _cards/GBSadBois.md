@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Any card with sad people or angry people in its picture are discarded from the field and both players hands.
-flavor-text: "Hap boing only."
+flavor-text: |-
+  "Hap boing only."
 ---
 Some actual info about this thing TBA.

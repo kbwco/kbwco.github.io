@@ -12,6 +12,7 @@ category: Magic
 effects: 
 - |-
   + 300 $1 bills
-flavor-text: You gained a super power! with only 2 uses... you rob a bank...
+flavor-text: |-
+  You gained a super power! with only 2 uses... you rob a bank...
 ---
 Some actual info about this thing TBA.

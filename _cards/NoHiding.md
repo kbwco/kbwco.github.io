@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field Card: Players must have their hands visible at all times.
-flavor-text: You can run, but you can't hide!
+flavor-text: |-
+  You can run, but you can't hide!
 ---
 Some actual info about this thing TBA.

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   +$1,567,982
-flavor-text: "You won"
+flavor-text: |-
+  "You won"
 ---
 Some actual info about this thing TBA.

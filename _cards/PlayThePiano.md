@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Play the piano, if one is nearby. If you can't, you lose.
-flavor-text: "just do it"
+flavor-text: |-
+  "just do it"
 ---
 Some actual info about this thing TBA.

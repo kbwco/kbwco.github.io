@@ -13,7 +13,8 @@ effects:
   Copy a card in play.
 - |-
   Any cards affecting it affect the copy as well.
-flavor-text: ctrl+c, ctrl+v ctrl+c, ctrl+v
+flavor-text: |-
+  ctrl+c, ctrl+v ctrl+c, ctrl+v
 alternates:
 - title: |-
     Ditto
@@ -257,7 +258,8 @@ alternates:
     Copy a card in play.
   - |-
     Any cards affecting it affect the copy as well.
-  flavor-text: ctrl+c, ctrl+v ctrl+c, ctrl+x
+  flavor-text: |-
+    ctrl+c, ctrl+v ctrl+c, ctrl+x
 - title: |-
     Ditto
   image:

@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   When an opponent plays a card, banish it before it takes effect
-flavor-text: Salt is always the right choice
+flavor-text: |-
+  Salt is always the right choice
 ---
 Some actual info about this thing TBA.

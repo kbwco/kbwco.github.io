@@ -12,6 +12,7 @@ category: Selfishness
 effects: 
 - |-
   Take one card from an opponent's field and put it in your field.
-flavor-text: What's yours is mine!
+flavor-text: |-
+  What's yours is mine!
 ---
 Some actual info about this thing TBA.

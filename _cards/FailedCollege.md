@@ -12,6 +12,7 @@ category: College
 effects: 
 - |-
   Lose 25 intelligence
-flavor-text: You flunked out of college.
+flavor-text: |-
+  You flunked out of college.
 ---
 Some actual info about this thing TBA.

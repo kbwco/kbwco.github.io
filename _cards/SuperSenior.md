@@ -15,6 +15,7 @@ effects:
   +500 stupidity
 - |-
   +$2,000,000 in debt
-flavor-text: Ryan finally graduated college! Now he can retire! Still doesn't know what an API is
+flavor-text: |-
+  Ryan finally graduated college! Now he can retire! Still doesn't know what an API is
 ---
 Some actual info about this thing TBA.

@@ -17,6 +17,7 @@ effects:
   Discard Satan from anyone's hand or play.
 - |-
   This can be played at any time.
-flavor-text: You spelled Satan wrong!
+flavor-text: |-
+  You spelled Satan wrong!
 ---
 Some actual info about this thing TBA.

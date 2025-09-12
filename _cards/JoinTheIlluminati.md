@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Take one Illuminati card from the graveyard or deck (prioritize graveyard) and add it to your hand
-flavor-text: "Dreams are real."
+flavor-text: |-
+  "Dreams are real."
 ---
 Some actual info about this thing TBA.

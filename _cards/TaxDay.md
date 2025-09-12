@@ -15,6 +15,7 @@ category: Taxes
 effects: 
 - |-
   Lose all your money.
-flavor-text: The government comes and takes all your money by force.
+flavor-text: |-
+  The government comes and takes all your money by force.
 ---
 Some actual info about this thing TBA.

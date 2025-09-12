@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   All sad boy cards are removed from play (sad or angry people in pic)
-flavor-text: "all better!"
+flavor-text: |-
+  "all better!"
 ---
 Some actual info about this thing TBA.

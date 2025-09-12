@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Field Card: When played with Nuggies, if one player has dip, both players draw two cards per turn
-flavor-text: These fries don't need no dip
+flavor-text: |-
+  These fries don't need no dip
 ---
 Some actual info about this thing TBA.

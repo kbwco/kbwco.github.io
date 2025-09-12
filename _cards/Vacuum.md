@@ -12,6 +12,7 @@ category: Bad Luck
 effects: 
 - |-
   each player discard 2 cards
-flavor-text: Pacman appeared and ate some cards.
+flavor-text: |-
+  Pacman appeared and ate some cards.
 ---
 Some actual info about this thing TBA.

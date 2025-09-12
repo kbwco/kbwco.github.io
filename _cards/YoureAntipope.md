@@ -14,6 +14,7 @@ effects:
   Discard all Christian cards you have in front of you or in your hand
 - |-
   and immediately play any Satanic cards.
-flavor-text: The cardinals changed their minds and you're an antipope with your own faction after a Great Schism.
+flavor-text: |-
+  The cardinals changed their minds and you're an antipope with your own faction after a Great Schism.
 ---
 Some actual info about this thing TBA.

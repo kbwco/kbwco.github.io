@@ -15,7 +15,8 @@ category: Bible
 effects: 
 - |-
   +5 Bible Points
-flavor-text: You and a friend attend a Bible study
+flavor-text: |-
+  You and a friend attend a Bible study
 extra-text: If God is present, add 5 more Bible points.
 ---
 Some actual info about this thing TBA.

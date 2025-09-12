@@ -15,6 +15,7 @@ effects:
   +2 Att.
 - |-
   +2 Def.
-flavor-text: "Can't start an adventure w/o gear!"
+flavor-text: |-
+  "Can't start an adventure w/o gear!"
 ---
 Some actual info about this thing TBA.

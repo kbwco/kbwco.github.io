@@ -11,6 +11,7 @@ set:
 effects: 
 - |-
   Steal one card from your opponent
-flavor-text: "stelf"
+flavor-text: |-
+  "stelf"
 ---
 Some actual info about this thing TBA.

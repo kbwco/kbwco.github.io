@@ -12,6 +12,7 @@ category: Christian
 effects: 
 - |-
   Shammah son of Agee. If "Field Full on Lentils" is in play, your opponent discards Philistines and loses 500 Bible points.
-flavor-text: "Shammah took his stand in the middle of the field. He defended it and struck the Philistines down."
+flavor-text: |-
+  "Shammah took his stand in the middle of the field. He defended it and struck the Philistines down."
 ---
 Some actual info about this thing TBA.

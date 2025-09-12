@@ -12,6 +12,7 @@ category: Minecraft
 effects: 
 - |-
   Remove 1 card from play and banish it.
-flavor-text: Tadukoo loves banning people too much.
+flavor-text: |-
+  Tadukoo loves banning people too much.
 ---
 Some actual info about this thing TBA.

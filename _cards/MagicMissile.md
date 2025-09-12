@@ -12,6 +12,7 @@ category: Spells
 effects: 
 - |-
   Opponent takes 3 damage if he isn't protecting his chest
-flavor-text: Your weak point is exposed!
+flavor-text: |-
+  Your weak point is exposed!
 ---
 Some actual info about this thing TBA.
