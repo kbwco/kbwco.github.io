@@ -62,7 +62,11 @@ layout: default
     {% for card in cards -%}
     {%- assign url = card.url -%}
     {%- unless card.url -%}
+    {%- if card.base-title -%}
+    {%- assign real_card = site.cards | where: "title", card.base-title | first -%}
+    {%- else -%}
     {%- assign real_card = site.cards | where: "title", card.title | first -%}
+    {%- endif -%}
     {%- assign url = real_card.url -%}
     {%- endunless -%}
     <div class="card">
