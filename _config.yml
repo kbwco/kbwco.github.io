@@ -12,6 +12,8 @@ collections:
     output: true
   basics:
     output: true
+  players:
+    output: true
 
 defaults:
   - scope:
@@ -39,6 +41,11 @@ defaults:
       type: "basics"
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "players"
+    values:
+      layout: "player"
   - scope:
       path: ""
     values:

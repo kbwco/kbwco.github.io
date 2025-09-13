@@ -102,7 +102,13 @@ layout: default
         {%- endif %}
         <tr>
             <th>Author</th>
+            {%- assign player = site.players | where:"title", author -%}
+            {%- if player -%}
+            {%- assign player = player | first -%}
+            <td><a href="{{player.url}}">{{player.title}}</a></td>
+            {%- else -%}
             <td>{{author}}</td>
+            {%- endif -%}
         </tr>
         <tr>
             <th>Created</th>
@@ -211,7 +217,13 @@ layout: default
         {%- endif %}
         <tr>
             <th>Author</th>
+            {%- assign player = site.players | where:"title", author -%}
+            {%- if player -%}
+            {%- assign player = player | first -%}
+            <td><a href="{{player.url}}">{{player.title}}</a></td>
+            {%- else -%}
             <td>{{author}}</td>
+            {%- endif -%}
         </tr>
         <tr>
             <th>Created</th>

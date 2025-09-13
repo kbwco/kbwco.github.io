@@ -72,14 +72,26 @@ layout: default
         <tr>
             <th>Players</th>
             <td><ul>{% for player in players %}
+                {%- assign author = site.players | where:"title", player -%}
+                {%- if author -%}
+                {%- assign author = author | first -%}
+                <li><a href="{{author.url}}">{{author.title}}</a></li>
+                {%- else -%}
                 <li>{{player}}</li>
+                {%- endif -%}
             {% endfor %}</ul></td>
         </tr>
         {% if page.winners -%}
         <tr>
             <th>Winners</th>
             <td><ul>{% for winner in page.winners %}
+                {%- assign author = site.players | where:"title", winner -%}
+                {%- if author -%}
+                {%- assign author = author | first -%}
+                <li><a href="{{author.url}}">{{author.title}}</a></li>
+                {%- else -%}
                 <li>{{winner}}</li>
+                {%- endif -%}
             {% endfor %}</ul></td>
         </tr>
         {%- endif %}
@@ -87,7 +99,13 @@ layout: default
         <tr>
             <th>Losers</th>
             <td><ul>{% for loser in page.losers %}
+                {%- assign author = site.players | where:"title", loser -%}
+                {%- if author -%}
+                {%- assign author = author | first -%}
+                <li><a href="{{author.url}}">{{author.title}}</a></li>
+                {%- else -%}
                 <li>{{loser}}</li>
+                {%- endif -%}
             {% endfor %}</ul></td>
         </tr>
         {%- endif %}

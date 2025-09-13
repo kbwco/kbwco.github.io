@@ -48,7 +48,13 @@ layout: default
         </tr>
         <tr>
             <th>Author</th>
+            {%- assign author = site.players | where:"title", page.author -%}
+            {%- if author -%}
+            {%- assign author = author | first -%}
+            <td><a href="{{author.url}}">{{author.title}}</a></td>
+            {%- else -%}
             <td>{{page.author}}</td>
+            {%- endif -%}
         </tr>
         <tr>
             <th>Number of Cards</th>

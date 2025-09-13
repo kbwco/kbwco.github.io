@@ -1,0 +1,75 @@
+---
+layout: default
+---
+{%- assign games = site.games | sorted:"number" -%}
+{%- assign first_game = empty -%}
+{%- assign games_played = "" | split:"," -%}
+{%- for game in games -%}
+{%- if game.winners contains page.title or game.losers contains page.title or game.players contains page.title -%}
+{%- assign games_played = games_played | push: game -%}
+{%- if first_game == empty -%}
+{%- assign first_game = game -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign sets_created = site.sets | where:"author", page.title -%}
+{%- assign sets_created = sets_created | sort:"number" -%}
+{%- assign first_set = sets_created | first -%}
+{%- assign first_card = empty -%}
+{%- assign cards_created = "" | split:"," -%}
+{%- for set in sets_created -%}
+{%- assign cards = site.cards | where:"set.name", set.title -%}
+{%- for card in site.cards -%}
+{%- if card.alternates -%}
+{%- for alt in card.alternates -%}
+{%- if alt.set.name == set.title -%}
+{%- assign cards = cards | push: alt -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign cards = cards | sort: "set.number" -%}
+{%- for card in cards -%}
+{%- if first_card == empty -%}
+{%- assign first_card = card -%}
+{%- endif -%}
+{%- assign cards_created = cards_created | push:card -%}
+{%- endfor -%}
+{%- endfor -%}
+<div class="infobox">
+    <div class="infobox-title">{{page.title}}</div>
+    {% if page.image.path -%}
+    <div class="infobox-image">
+        <a href="/assets/images/{{page.image.path}}" target="_blank">
+            <img src="/assets/images/{{page.image.path}}" alt="{{page.image.text}}">
+        </a>
+    </div>
+    {%- endif %}
+    <table class="infobox-table">
+        <tr>
+            <th>First Game</th>
+            <td><a href="{{first_game.url}}">{{first_game.title}}</a></td>
+        </tr>
+        <tr>
+            <th># of Games Played</th>
+            <td>{{games_played | size}}</td>
+        </tr>
+        <tr>
+            <th>First Set</th>
+            <td><a href="{{first_set.url}}">{{first_set.title}}</a></td>
+        </tr>
+        <tr>
+            <th># of Sets Created</th>
+            <td>{{sets_created | size}}</td>
+        </tr>
+        <tr>
+            <th>First Card</th>
+            <td><a href="{{first_card.url}}">{{first_card.title}}</a></td>
+        </tr>
+        <tr>
+            <th># of Cards Created</th>
+            <td>{{cards_created | size}}</td>
+        </tr>
+    </table>
+</div>
+{{content | markdownify}}
