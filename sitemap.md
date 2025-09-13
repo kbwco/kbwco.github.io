@@ -32,3 +32,9 @@ Main page: [Games](/games.html)
 {% for game in site.games -%}
 * [{{game.title}}]({{game.url}})
 {% endfor %}
+
+## Players
+Main page: [Players](/players.html)
+{% for player in site.players -%}
+* [{{player.title}}]({{player.url}})
+{% endfor %}
