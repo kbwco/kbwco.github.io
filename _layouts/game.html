@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-{%- assign base-cards-created = site.cards | where: "game-created", page.number -%}
-{%- assign all-cards-created = base-cards-created -%}
+{%- assign all-cards-created = "" | split:"," -%}
 {%- assign sets-created = site.sets | where: "game-created", page.number -%}
+{%- assign sets-created = sets-created | sort:"number" -%}
 {%- for set in sets-created -%}
 {%- assign cards-in-set = site.cards | where: "set.name", set.title -%}
+{%- assign cards-in-set = cards-in-set | sort:"set.number" -%}
 {%- for card in cards-in-set -%}
 {%- unless card.game-created -%}
 {%- assign all-cards-created = all-cards-created | push: card -%}
@@ -28,6 +29,11 @@ layout: default
 {%- endif -%}
 {%- endfor -%}
 {%- endif -%}
+{%- endfor -%}
+{%- assign base-cards-created = site.cards | where: "game-created", page.number -%}
+{%- assign base-cards-created = base-cards-created | sort:"set.number" -%}
+{%- for card in base-cards-created -%}
+{%- assign all-cards-created = all-cards-created | push:card -%}
 {%- endfor -%}
 {%- if page.players -%}
 {%- assign players = page.players -%}
@@ -125,3 +131,37 @@ layout: default
     </table>
 </div>
 {{content}}
+
+<h2 id="sets-created">Sets Created</h2>
+<ul>
+    {% for set in sets-created -%}
+    <li><a href="{{set.url}}">{{set.title}}</a></li>
+    {% endfor -%}
+</ul>
+
+<h2 id="cards-created">Cards Created</h2>
+<div class="card-grid">
+    {% for card in all-cards-created -%}
+    {%- assign url = card.url -%}
+    {%- unless card.url -%}
+    {%- if card.base-title -%}
+    {%- assign real_card = site.cards | where: "title", card.base-title | first -%}
+    {%- else -%}
+    {%- assign real_card = site.cards | where: "title", card.title | first -%}
+    {%- endif -%}
+    {%- assign url = real_card.url -%}
+    {%- endunless -%}
+    <div class="card">
+        <a href="{{url}}">{{card.title}}</a>
+        {%- if card.image.computer-path -%}
+        <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
+            <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
+        </a>
+        {%- else -%}
+        <a href="/assets/images/{{card.image.path}}" target="_blank">
+            <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
+        </a>
+        {%- endif -%}
+    </div>
+    {% endfor %}
+</div>
