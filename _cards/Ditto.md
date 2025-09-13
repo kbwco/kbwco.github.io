@@ -274,5 +274,19 @@ alternates:
     Copy a card in play.
   - |-
     This Ditto is not affected by cards affecting the original.
+- title: |-
+    Ditto
+  image:
+    path: cards/scanned/scorched/07 Ditto.png
+    text: |-
+      Ditto
+  set:
+    name: Scorched Races
+    number: 7
+  effects: 
+  - |-
+    Copy a card in play.
+  - |-
+    Any cards affecting the card affect it as well.
 ---
 Some actual info about this thing TBA.
