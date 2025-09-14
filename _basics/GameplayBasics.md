@@ -9,10 +9,14 @@ be changed by a card to allow you to play up to 3 cards per turn)
   * If someone has failed to do what a card says, if it's caught in the moment, 
   it should be corrected. But if it's caught sometime later when it no longer 
   matters, just move on.
+
+## Blanks
 * Any time you have a blank in your hand, you can create a new card from it. You do 
 not need to wait until it's your turn to create a card. In theory, the card can do 
 anything, but try to avoid "I win" / "you lose" cards and keep in mind that 
 complex effects will be complex to actually carry out.
+* Blanks cannot be played as blanks, you have to create a card out of the blank to 
+play it.
 
 ## Start of Game
 * Cards made previously should be shuffled together with a bunch of blanks.
