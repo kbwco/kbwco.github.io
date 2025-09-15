@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+{%- assign games-won = 0 -%}
+{%- assign games-lost = 0 -%}
+{%- assign games-tied = 0 -%}
+{%- assign games-unknown = 0 -%}
 {%- assign games = site.games | sorted:"number" -%}
 {%- assign first_game = empty -%}
 {%- assign games_played = "" | split:"," -%}
@@ -9,6 +13,18 @@ layout: default
 {%- assign games_played = games_played | push: game -%}
 {%- if first_game == empty -%}
 {%- assign first_game = game -%}
+{%- endif -%}
+{%- if game.winners contains page.title -%}
+{%- assign number-winners = game.winners | size -%}
+{%- if number-winners == 1 -%}
+{%- assign games-won = games-won | plus: 1 -%}
+{%- else -%}
+{%- assign games-tied = games-tied | plus: 1 -%}
+{%- endif -%}
+{%- elsif game.losers contains page.title -%}
+{%- assign games-lost = games-lost | plus: 1 -%}
+{%- else -%}
+{%- assign games-unknown = games-unknown | plus: 1-%}
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
@@ -53,6 +69,10 @@ layout: default
         <tr>
             <th># of Games Played</th>
             <td>{{games_played | size}}</td>
+        </tr>
+        <tr>
+            <th>Games Won/Lost/Tied/Unk</th>
+            <td>{{games-won}}/{{games-lost}}/{{games-tied}}/{{games-unknown}}</td>
         </tr>
         <tr>
             <th>First Set</th>
