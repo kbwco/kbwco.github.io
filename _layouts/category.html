@@ -149,31 +149,7 @@ layout: default
 {{page.blurb | markdownify}}
 {{content}}
 <h2 id="cards">Cards</h2>
-<div class="card-grid">
-    {% for card in cards -%}
-    {%- assign url = card.url -%}
-    {%- unless card.url -%}
-    {%- if card.base-title -%}
-    {%- assign real_card = cards | where: "title", card.base-title | first -%}
-    {%- else -%}
-    {%- assign real_card = cards | where: "title", card.title | first -%}
-    {%- endif -%}
-    {%- assign url = real_card.url -%}
-    {%- endunless -%}
-    <div class="card">
-        <a href="{{url}}">{{card.title}}</a>
-        {%- if card.image.computer-path -%}
-        <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
-            <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
-        </a>
-        {%- else -%}
-        <a href="/assets/images/{{card.image.path}}" target="_blank">
-            <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
-        </a>
-        {%- endif -%}
-    </div>
-    {% endfor %}
-</div>
+{% include card-grid.html cards=cards %}
 {% unless sub-categories == empty %}
 <h2 id="subcategories">Sub-Categories</h2>
 <blockquote>Note: Sub-Categories here is referring to any descendant categories, not just child categories.</blockquote>
@@ -197,26 +173,6 @@ layout: default
 {%- endif -%}
 {%- endfor -%}
 {%- assign cards-in-sub-category = cards-in-sub-category | sort_natural:"title" -%}
-<div class="card-grid">
-    {% for card in cards-in-sub-category -%}
-    {%- assign url = card.url -%}
-    {%- unless card.url -%}
-    {%- assign real_card = cards | where: "title", card.title | first -%}
-    {%- assign url = real_card.url -%}
-    {%- endunless -%}
-    <div class="card">
-        <a href="{{url}}">{{card.title}}</a>
-        {%- if card.image.computer-path -%}
-        <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
-            <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
-        </a>
-        {%- else -%}
-        <a href="/assets/images/{{card.image.path}}" target="_blank">
-            <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
-        </a>
-        {%- endif -%}
-    </div>
-    {% endfor %}
-</div>
+{% include card-grid.html cards=cards-in-sub-category %}
 {% endfor %}
 {% endunless %}

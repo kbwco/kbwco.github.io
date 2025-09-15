@@ -1,0 +1,30 @@
+{%- comment -%}
+This accepts a variable called "cards" (that is a collection of cards and alternates) and uses them to display a
+card grid containing those cards.
+Call: {% include card-grid.html cards=cards-object %}
+{%- endcomment -%}
+<div class="card-grid">
+    {%- for card in include.cards -%}
+    {%- assign url = card.url -%}
+    {%- unless card.url -%}
+    {%- if card.base-title -%}
+    {%- assign real_card = site.cards | where: "title", card.base-title | first -%}
+    {%- else -%}
+    {%- assign real_card = site.cards | where: "title", card.title | first -%}
+    {%- endif -%}
+    {%- assign url = real_card.url -%}
+    {%- endunless -%}
+    <div class="card">
+        <a href="{{url}}">{{card.title}}</a>
+        {%- if card.image.computer-path -%}
+        <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
+            <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
+        </a>
+        {%- else -%}
+        <a href="/assets/images/{{card.image.path}}" target="_blank">
+            <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
+        </a>
+        {%- endif -%}
+    </div>
+    {%- endfor -%}
+</div>

@@ -64,28 +64,4 @@ layout: default
 </div>
 {{content | markdownify}}
 <h2 id="cards">Cards</h2>
-<div class="card-grid">
-    {% for card in cards -%}
-    {%- assign url = card.url -%}
-    {%- unless card.url -%}
-    {%- if card.base-title -%}
-    {%- assign real_card = site.cards | where: "title", card.base-title | first -%}
-    {%- else -%}
-    {%- assign real_card = site.cards | where: "title", card.title | first -%}
-    {%- endif -%}
-    {%- assign url = real_card.url -%}
-    {%- endunless -%}
-    <div class="card">
-        <a href="{{url}}">{{card.title}}</a>
-        {%- if card.image.computer-path -%}
-        <a href="/assets/images/{{card.image.computer-path}}" target="_blank">
-            <img src="/assets/images/{{card.image.computer-path}}" alt="{{card.image.computer-text}}">
-        </a>
-        {%- else -%}
-        <a href="/assets/images/{{card.image.path}}" target="_blank">
-            <img src="/assets/images/{{card.image.path}}" alt="{{card.image.text}}">
-        </a>
-        {%- endif -%}
-    </div>
-    {% endfor %}
-</div>
+{% include card-grid.html cards=cards %}
