@@ -41,7 +41,7 @@ play one card during your turn unless cards allow otherwise)
 * The default lose condition is if you cannot draw during your turn due to the deck 
 being empty, and cannot play during your turn (because you either have 0 cards in 
 your hand, or all cards in your hand cannot be played)
-* Usually these win and loss conditions don't matter and a card will end the game  
+* Usually these win and loss conditions don't matter and a card will end the game 
 and/or specify conditions for who won/lost.
 
 ## Multiple Games
