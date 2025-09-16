@@ -20,11 +20,6 @@ layout: default
 {%- else -%}
   {%- assign author = set.author -%}
 {%- endif -%}
-{%- if page.created-date -%}
-  {%- assign created-date = page.created-date -%}
-{%- else -%}
-  {%- assign created-date = set.created-date -%}
-{%- endif -%}
 {%- if page.game-created -%}
 {%- assign game-created-num = page.game-created -%}
 {%- else -%}
@@ -112,7 +107,7 @@ layout: default
         </tr>
         <tr>
             <th>Created</th>
-            <td>{{created-date}}</td>
+            <td>{% include card-created-date.html card=page %}</td>
         </tr>
     </table>
 </div>
@@ -156,11 +151,6 @@ layout: default
         {%- assign author = alt.author -%}
         {%- else -%}
         {%- assign author = set.author -%}
-        {%- endif -%}
-        {%- if alt.created-date -%}
-        {%- assign created-date = alt.created-date -%}
-        {%- else -%}
-        {%- assign created-date = set.created-date -%}
         {%- endif -%}
         {%- if alternate.game-created -%}
         {%- assign game-created-num = alternate.game-created -%}
@@ -227,7 +217,7 @@ layout: default
         </tr>
         <tr>
             <th>Created</th>
-            <td>{{created-date}}</td>
+            <td>{% include card-created-date.html card=alt %}</td>
         </tr>
     </table>
 </div>

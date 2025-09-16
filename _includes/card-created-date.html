@@ -1,0 +1,6 @@
+{%- if include.card.created-date -%}
+{{include.card.created-date}}
+{%- else -%}
+{%- assign set = site.sets | where:"title", include.card.set.name | first -%}
+{{set.created-date}}
+{%- endif -%}
