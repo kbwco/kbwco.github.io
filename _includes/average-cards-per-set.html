@@ -1,0 +1,10 @@
+{%- assign sets = include.sets | sort:"number" -%}
+{%- assign total-cards-in-sets = 0 -%}
+{%- for set in sets -%}
+    {%- capture num-cards-in-set -%}{% include num-cards-in-set.html set=set %}{%- endcapture -%}
+    {%- assign num-cards-in-set = num-cards-in-set | plus: 0 -%}
+    {%- assign total-cards-in-sets = total-cards-in-sets | plus: num-cards-in-set -%}
+{%- endfor -%}
+{%- assign num-sets = sets | size -%}
+{%- assign average = total-cards-in-sets | divided_by:num-sets -%}
+{{average}}

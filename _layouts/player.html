@@ -81,37 +81,24 @@ layout: default
 {%- assign last_set = sets_created | last -%}
 {%- assign first_card = empty -%}
 {%- assign cards_created = "" | split:"," -%}
-{%- assign highest-cards-in-set = 0 -%}
-{%- assign lowest-cards-in-set = 0 -%}
-{%- assign smallest-set = empty -%}
-{%- assign largest-set = empty -%}
 {%- for set in sets_created -%}
     {%- assign cards = site.cards | where:"set.name", set.title -%}
     {%- for card in site.cards -%}
-    {%- if card.alternates -%}
-    {%- for alt in card.alternates -%}
-    {%- if alt.set.name == set.title -%}
-    {%- assign cards = cards | push: alt -%}
-    {%- endif -%}
+        {%- if card.alternates -%}
+            {%- for alt in card.alternates -%}
+                {%- if alt.set.name == set.title -%}
+                    {%- assign cards = cards | push: alt -%}
+                {%- endif -%}
+            {%- endfor -%}
+        {%- endif -%}
     {%- endfor -%}
-    {%- endif -%}
-    {%- endfor -%}
-    {%- assign num-cards-in-set = cards | size -%}
-    {%- if lowest-cards-in-set > num-cards-in-set or lowest-cards-in-set == 0 -%}
-    {%- assign lowest-cards-in-set = num-cards-in-set -%}
-    {%- assign smallest-set = set -%}
-    {%- endif -%}
-    {%- if highest-cards-in-set < num-cards-in-set or highest-cards-in-set == 0 -%}
-    {%- assign highest-cards-in-set = num-cards-in-set -%}
-    {%- assign largest-set = set -%}
-    {%- endif -%}
     {%- assign cards = cards | sort: "set.number" -%}
     {%- for card in cards -%}
-    {%- if first_card == empty -%}
-    {%- assign first_card = card -%}
-    {%- endif -%}
-    {%- assign last_card = card -%}
-    {%- assign cards_created = cards_created | push:card -%}
+        {%- if first_card == empty -%}
+            {%- assign first_card = card -%}
+        {%- endif -%}
+        {%- assign last_card = card -%}
+        {%- assign cards_created = cards_created | push:card -%}
     {%- endfor -%}
 {%- endfor -%}
 {%- assign num-games-played = games_played | size -%}
@@ -128,6 +115,14 @@ layout: default
     {%- endif %}
     <table class="infobox-table">
         <tr>
+            <th># of Games Played</th>
+            <td>{{num-games-played}}</td>
+        </tr>
+        <tr>
+            <th>Games Won/Lost/Tied/Unk</th>
+            <td>{{games-won}} / {{games-lost}} / {{games-tied}} / {{games-unknown}}</td>
+        </tr>
+        <tr>
             <th>First Game</th>
             <td><a href="{{first_game.url}}">{{first_game.title}}</a> ({{first_game.played-date}})</td>
         </tr>
@@ -136,12 +131,12 @@ layout: default
             <td><a href="{{last_game.url}}">{{last_game.title}}</a> ({{last_game.played-date}})</td>
         </tr>
         <tr>
-            <th># of Games Played</th>
-            <td>{{num-games-played}}</td>
+            <th># of Sets Created</th>
+            <td>{{sets_created | size}}</td>
         </tr>
         <tr>
-            <th>Games Won/Lost/Tied/Unk</th>
-            <td>{{games-won}} / {{games-lost}} / {{games-tied}} / {{games-unknown}}</td>
+            <th>Average Cards per Set</th>
+            <td>{% include average-cards-per-set.html sets=sets_created %}</td>
         </tr>
         <tr>
             <th>First Set</th>
@@ -152,24 +147,12 @@ layout: default
             <td><a href="{{last_set.url}}">{{last_set.title}}</a> ({{last_set.created-date}})</td>
         </tr>
         <tr>
-            <th>Smallest Set</th>
-            <td><a href="{{smallest-set.url}}">{{smallest-set.title}}</a> ({{lowest-cards-in-set}} cards, {{smallest-set.created-date}})</td>
+            <th>Smallest Set(s)</th>
+            <td>{% include smallest-set.html sets=sets_created %}</td>
         </tr>
         <tr>
-            <th>Largest Set</th>
-            <td><a href="{{largest-set.url}}">{{largest-set.title}}</a> ({{highest-cards-in-set}} cards, {{largest-set.created-date}})</td>
-        </tr>
-        <tr>
-            <th># of Sets Created</th>
-            <td>{{sets_created | size}}</td>
-        </tr>
-        <tr>
-            <th>First Card</th>
-            <td><a href="{{first_card.url}}">{{first_card.title}}</a> ({% include card-created-date.html card=first_card %})</td>
-        </tr>
-        <tr>
-            <th>Latest Card</th>
-            <td><a href="{{last_card.url}}">{{last_card.title}}</a> ({% include card-created-date.html card=last_card %})</td>
+            <th>Largest Set(s)</th>
+            <td>{% include largest-set.html sets=sets_created %}</td>
         </tr>
         <tr>
             <th># of Cards Created</th>
@@ -186,6 +169,14 @@ layout: default
         <tr>
             <th>Most Cards Created in a Game</th>
             <td>{{highest-cards-in-game}} cards (<a href="{{highest-game.url}}">{{highest-game.title}}</a>, {{highest-game.played-date}})</td>
+        </tr>
+        <tr>
+            <th>First Card</th>
+            <td><a href="{{first_card.url}}">{{first_card.title}}</a> ({% include card-created-date.html card=first_card %})</td>
+        </tr>
+        <tr>
+            <th>Latest Card</th>
+            <td><a href="{{last_card.url}}">{{last_card.title}}</a> ({% include card-created-date.html card=last_card %})</td>
         </tr>
     </table>
 </div>

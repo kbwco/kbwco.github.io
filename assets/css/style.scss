@@ -3,6 +3,17 @@
 ---
 @import "jekyll-theme-midnight";
 
+#header nav {
+  background: none;
+  max-width: 100%;
+  text-align: center;
+}
+
+#header nav ul {
+  display: flex;
+  justify-content:center;
+}
+
 #menu-toggle {
   display: none;
 }
@@ -47,6 +58,12 @@ body main section {
     background: #252525;
     display: none;
     flex-direction: column;
+  }
+  #header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
   }
   #menu-toggle:checked + .menu-icon + nav{
     display: flex;

@@ -1,0 +1,23 @@
+{%- assign sets = include.sets | sort:"number" -%}
+{%- assign lowest-cards-in-set = -1 -%}
+{%- assign smallest-set = "" | split:"," -%}
+{%- for set in sets -%}
+    {%- capture num-cards-in-set -%}{% include num-cards-in-set.html set=set %}{%- endcapture -%}
+    {%- assign num-cards-in-set = num-cards-in-set | plus: 0 -%}
+    {%- if lowest-cards-in-set > num-cards-in-set or lowest-cards-in-set == -1 -%}
+        {%- assign lowest-cards-in-set = num-cards-in-set -%}
+        {%- assign smallest-set = "" | split:"," -%}
+        {%- assign smallest-set = smallest-set | push: set -%}
+    {%- elsif lowest-cards-in-set == num-cards-in-set -%}
+        {%- assign smallest-set = smallest-set | push: set -%}
+    {%- endif -%}
+{%- endfor -%}
+<ul>
+    {%- for set in smallest-set -%}
+    {%- assign game = site.games | where:"number", set.game-created | first -%}
+    <li><a href="{{set.url}}">{{set.title}}</a> ({{set.created-date}}{% if include.author -%}
+    {%- assign player = site.players | where:"title", set.author | first -%}
+    , <a href="{{player.url}}">{{player.title}}</a>
+    {%- endif -%}, <a href="{{game.url}}">{{game.title}}</a>)
+    {%- unless forloop.last -%}, {% endunless -%}</li>{%- endfor %}<li>({{lowest-cards-in-set}} cards)</li>
+</ul>

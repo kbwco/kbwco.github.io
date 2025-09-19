@@ -1,0 +1,23 @@
+{%- assign sets = include.sets | sort:"number" -%}
+{%- assign highest-cards-in-set = -1 -%}
+{%- assign largest-set = "" | split:"," -%}
+{%- for set in sets -%}
+    {%- capture num-cards-in-set -%}{% include num-cards-in-set.html set=set %}{%- endcapture -%}
+    {%- assign num-cards-in-set = num-cards-in-set | plus: 0 -%}
+    {%- if highest-cards-in-set < num-cards-in-set or highest-cards-in-set == -1 -%}
+        {%- assign highest-cards-in-set = num-cards-in-set -%}
+        {%- assign largest-set = "" | split:"," -%}
+        {%- assign largest-set = largest-set | push: set -%}
+    {%- elsif highest-cards-in-set == num-cards-in-set -%}
+        {%- assign largest-set = largest-set | push: set -%}
+    {%- endif -%}
+{%- endfor -%}
+<ul>
+    {%- for set in largest-set -%}
+    {%- assign game = site.games | where:"number", set.game-created | first -%}
+    <li><a href="{{set.url}}">{{set.title}}</a> ({{set.created-date}}{% if include.author -%}
+        {%- assign player = site.players | where:"title", set.author | first -%}
+        , <a href="{{player.url}}">{{player.title}}</a>
+        {%- endif -%}, <a href="{{game.url}}">{{game.title}}</a>)
+        {%- unless forloop.last -%}, {% endunless -%}</li>{%- endfor %}<li>({{highest-cards-in-set}} cards)</li>
+</ul>

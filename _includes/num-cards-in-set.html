@@ -1,0 +1,11 @@
+{%- assign cards = site.cards | where:"set.name", include.set.title -%}
+{%- for card in site.cards -%}
+    {%- if card.alternates -%}
+        {%- for alt in card.alternates -%}
+            {%- if alt.set.name == include.set.title -%}
+                {%- assign cards = cards | push: alt -%}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+{%- endfor -%}
+{{cards | size}}
