@@ -9,72 +9,24 @@ layout: default
 {%- assign games_played = "" | split:"," -%}
 {%- for game in games -%}
     {%- if game.winners contains page.title or game.losers contains page.title or game.players contains page.title -%}
-    {%- assign games_played = games_played | push: game -%}
-    {%- if game.winners contains page.title -%}
-    {%- assign number-winners = game.winners | size -%}
-    {%- if number-winners == 1 -%}
-    {%- assign games-won = games-won | plus: 1 -%}
-    {%- else -%}
-    {%- assign games-tied = games-tied | plus: 1 -%}
-    {%- endif -%}
-    {%- elsif game.losers contains page.title -%}
-    {%- assign games-lost = games-lost | plus: 1 -%}
-    {%- else -%}
-    {%- assign games-unknown = games-unknown | plus: 1-%}
-    {%- endif -%}
+        {%- assign games_played = games_played | push: game -%}
+        {%- if game.winners contains page.title -%}
+            {%- assign number-winners = game.winners | size -%}
+            {%- if number-winners == 1 -%}
+                {%- assign games-won = games-won | plus: 1 -%}
+            {%- else -%}
+                {%- assign games-tied = games-tied | plus: 1 -%}
+            {%- endif -%}
+        {%- elsif game.losers contains page.title -%}
+            {%- assign games-lost = games-lost | plus: 1 -%}
+        {%- else -%}
+            {%- assign games-unknown = games-unknown | plus: 1-%}
+        {%- endif -%}
     {%- endif -%}
 {%- endfor -%}
 {%- assign games_played = games_played | sort:"number" -%}
-{%- assign lowest-cards-in-game = -1 -%}
-{%- assign lowest-game = empty -%}
-{%- assign highest-cards-in-game = -1 -%}
-{%- assign highest-game = empty -%}
 {%- assign sets_created = site.sets | where:"author", page.title -%}
 {%- assign sets_created = sets_created | sort:"number" -%}
-{%- for game in games_played -%}
-    {%- assign game-cards-created = "" | split: "," -%}
-    {%- assign game-sets-created = site.sets | where: "game-created", game.number -%}
-    {%- assign game-sets-created = game-sets-created | where:"author", page.title -%}
-    {%- assign game-sets-created = game-sets-created | sort:"number" -%}
-    {%- for set in game-sets-created -%}
-        {%- assign cards-in-set = site.cards | where: "set.name", set.title -%}
-        {%- assign cards-in-set = cards-in-set | sort:"set.number" -%}
-        {%- for card in cards-in-set -%}
-            {%- unless card.game-created -%}
-            {%- assign game-cards-created = game-cards-created | push: card -%}
-            {%- endunless -%}
-        {%- endfor -%}
-    {%- endfor -%}
-    {%- assign set-names-created = sets_created | map:"title" -%}
-    {%- assign game-set-names-created = game-sets-created | map:"title" -%}
-    {%- for card in site.cards -%}
-        {%- if card.alternates -%}
-        {%- for alternate in card.alternates -%}
-            {%- if alternate.game-created == game.number and set-names-created contains alternate.set.name -%}
-            {%- assign game-cards-created = game-cards-created | push: alternate -%}
-            {%- elsif game-set-names-created contains alternate.set.name -%}
-            {%- assign game-cards-created = game-cards-created | push: alternate -%}
-            {%- endif -%}
-        {%- endfor -%}
-        {%- endif -%}
-    {%- endfor -%}
-    {%- assign base-cards-created = site.cards | where: "game-created", game.number -%}
-    {%- assign base-cards-created = base-cards-created | sort:"set.number" -%}
-    {%- for card in base-cards-created -%}
-        {%- if set-names-created contains card.set.name -%}
-        {%- assign game-cards-created = game-cards-created | push:card -%}
-        {%- endif -%}
-    {%- endfor -%}
-    {%- assign num-cards-created = game-cards-created | size -%}
-    {%- if lowest-cards-in-game == -1 or lowest-cards-in-game > num-cards-created -%}
-    {%- assign lowest-cards-in-game = num-cards-created -%}
-    {%- assign lowest-game = game -%}
-    {%- endif -%}
-    {%- if highest-cards-in-game == -1 or highest-cards-in-game < num-cards-created -%}
-    {%- assign highest-cards-in-game = num-cards-created -%}
-    {%- assign highest-game = game -%}
-    {%- endif -%}
-{%- endfor -%}
 {%- assign first_game = games_played | first -%}
 {%- assign last_game = games_played | last -%}
 {%- assign first_set = sets_created | first -%}
@@ -103,7 +55,6 @@ layout: default
 {%- endfor -%}
 {%- assign num-games-played = games_played | size -%}
 {%- assign num-cards-created = cards_created | size -%}
-{%- assign average-cards-per-game = num-cards-created | divided_by: num-games-played -%}
 <div class="infobox">
     <div class="infobox-title">{{page.title}}</div>
     {% if page.image.path -%}
@@ -160,15 +111,15 @@ layout: default
         </tr>
         <tr>
             <th>Average Cards Created per Game</th>
-            <td>{{average-cards-per-game}}</td>
+            <td>{% include average-cards-per-game.html games=games_played player=page.title sets-created=sets_created %}</td>
         </tr>
         <tr>
             <th>Least Cards Created in a Game</th>
-            <td>{{lowest-cards-in-game}} cards (<a href="{{lowest-game.url}}">{{lowest-game.title}}</a>, {{lowest-game.played-date}})</td>
+            <td>{% include smallest-cards-in-game.html games=games_played player=page.title sets-created=sets_created %}</td>
         </tr>
         <tr>
             <th>Most Cards Created in a Game</th>
-            <td>{{highest-cards-in-game}} cards (<a href="{{highest-game.url}}">{{highest-game.title}}</a>, {{highest-game.played-date}})</td>
+            <td>{% include largest-cards-in-game.html games=games_played player=page.title sets-created=sets_created %}</td>
         </tr>
         <tr>
             <th>First Card</th>

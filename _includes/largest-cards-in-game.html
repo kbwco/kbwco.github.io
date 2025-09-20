@@ -1,0 +1,21 @@
+{%- assign highest-cards-in-game = -1 -%}
+{%- assign highest-game = "" | split:"," -%}
+{%- assign games = include.games | sort:"number" -%}
+{%- for game in games -%}
+    {%- capture num-cards-created -%}
+        {%- include num-cards-created-in-game.html game=game player=include.player sets-created=include.sets-created -%}
+    {%- endcapture -%}
+    {%- assign num-cards-created = num-cards-created | plus:0 -%}
+    {%- if highest-cards-in-game == -1 or highest-cards-in-game < num-cards-created -%}
+        {%- assign highest-cards-in-game = num-cards-created -%}
+        {%- assign highest-game = "" | split:"," -%}
+        {%- assign highest-game = highest-game | push:game -%}
+    {%- elsif highest-cards-in-game == num-cards-created -%}
+        {%- assign highest-game = highest-game | push:game -%}
+    {%- endif -%}
+{%- endfor -%}
+<ul>
+    {%- for game in highest-game -%}
+    <li><a href="{{game.url}}">{{game.title}}</a> ({{game.played-date}})
+        {%- unless forloop.last -%}, {% endunless -%}</li>{%- endfor %}<li>({{highest-cards-in-game}} cards)</li>
+</ul>

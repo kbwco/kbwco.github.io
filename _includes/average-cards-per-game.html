@@ -1,0 +1,12 @@
+{%- assign games = include.games | sort:"number" -%}
+{%- assign total-cards-in-games = 0 -%}
+{%- for game in games -%}
+    {%- capture num-cards-in-game -%}
+        {%- include num-cards-created-in-game.html game=game player=include.player sets-created=include.sets-created -%}
+    {%- endcapture -%}
+    {%- assign num-cards-in-game = num-cards-in-game | plus: 0 -%}
+    {%- assign total-cards-in-games = total-cards-in-games | plus: num-cards-in-game -%}
+{%- endfor -%}
+{%- assign num-games = games | size -%}
+{%- assign average = total-cards-in-games | divided_by:num-games -%}
+{{average}}

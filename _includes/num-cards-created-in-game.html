@@ -1,0 +1,36 @@
+{%- assign game-cards-created = "" | split: "," -%}
+{%- assign game-sets-created = site.sets | where: "game-created", include.game.number -%}
+{%- if include.player -%}
+    {%- assign game-sets-created = game-sets-created | where:"author", include.player -%}
+{%- endif -%}
+{%- assign game-sets-created = game-sets-created | sort:"number" -%}
+{%- for set in game-sets-created -%}
+    {%- assign cards-in-set = site.cards | where: "set.name", set.title -%}
+    {%- assign cards-in-set = cards-in-set | sort:"set.number" -%}
+    {%- for card in cards-in-set -%}
+        {%- unless card.game-created -%}
+            {%- assign game-cards-created = game-cards-created | push: card -%}
+        {%- endunless -%}
+    {%- endfor -%}
+{%- endfor -%}
+{%- assign set-names-created = include.sets-created | map:"title" -%}
+{%- assign game-set-names-created = game-sets-created | map:"title" -%}
+{%- for card in site.cards -%}
+    {%- if card.alternates -%}
+        {%- for alternate in card.alternates -%}
+            {%- if alternate.game-created == include.game.number and set-names-created contains alternate.set.name -%}
+                {%- assign game-cards-created = game-cards-created | push: alternate -%}
+            {%- elsif game-set-names-created contains alternate.set.name -%}
+                {%- assign game-cards-created = game-cards-created | push: alternate -%}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+{%- endfor -%}
+{%- assign base-cards-created = site.cards | where: "game-created", include.game.number -%}
+{%- assign base-cards-created = base-cards-created | sort:"set.number" -%}
+{%- for card in base-cards-created -%}
+    {%- if set-names-created contains card.set.name or set-names-created == empty -%}
+        {%- assign game-cards-created = game-cards-created | push:card -%}
+    {%- endif -%}
+{%- endfor -%}
+{{game-cards-created | size}}

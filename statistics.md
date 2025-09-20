@@ -54,6 +54,18 @@ title: Statistics
             <th>Total Games</th>
             <td>{{site.games|size}}</td>
         </tr>
+        <tr>
+            <th>Average Cards Made per Game</th>
+            <td>{% include average-cards-per-game.html games=site.games %}</td>
+        </tr>
+        <tr>
+            <th>Least Cards Made in a Game</th>
+            <td>{% include smallest-cards-in-game.html games=site.games %}</td>
+        </tr>
+        <tr>
+            <th>Most Cards Made in a Game</th>
+            <td>{% include largest-cards-in-game.html games=site.games %}</td>
+        </tr>
     </table>
 </div>
 
