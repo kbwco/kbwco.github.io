@@ -45,6 +45,6 @@ your hand, or all cards in your hand cannot be played)
 and/or specify conditions for who won/lost.
 
 ## Multiple Games
-* If you play multiple games in a row, nothing transfers from one game to the next
+* If you play multiple games, nothing transfers from one game to the next
 (i.e. you can't carry over cards from your hand, the discard should be reshuffled 
 into the deck, etc.)
