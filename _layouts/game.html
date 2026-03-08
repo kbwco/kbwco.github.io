@@ -30,10 +30,17 @@ layout: default
 {%- endfor -%}
 {%- endif -%}
 {%- endfor -%}
-{%- assign base-cards-created = site.cards | where: "game-created", page.number -%}
-{%- assign base-cards-created = base-cards-created | sort:"set.number" -%}
-{%- for card in base-cards-created -%}
-{%- assign all-cards-created = all-cards-created | push:card -%}
+{%- assign all-sets = site.sets | sort: "number" -%}
+{%- for set in all-sets -%}
+  {%- if set.game-created <= page.number -%}
+    {%- assign cards-in-set = site.cards | where: "set.name", set.title -%}
+    {%- assign cards-in-set = cards-in-set | sort: "set.number" -%}
+    {%- for card in cards-in-set -%}
+      {%- if card.game-created == page.number -%}
+        {%- assign all-cards-created = all-cards-created | push: card -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
 {%- endfor -%}
 {%- if page.players -%}
 {%- assign players = page.players -%}
