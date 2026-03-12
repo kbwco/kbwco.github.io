@@ -1,0 +1,21 @@
+{%- assign lowest-cards-by-player = -1 -%}
+{%- assign lowest-player = "" | split:"," -%}
+{%- assign players = include.players | sort:"title" -%}
+{%- for player in players -%}
+    {%- capture num-cards-created -%}
+        {%- include num-cards-by-player.html player=player -%}
+    {%- endcapture -%}
+    {%- assign num-cards-created = num-cards-created | plus:0 -%}
+    {%- if lowest-cards-by-player == -1 or lowest-cards-by-player > num-cards-created -%}
+        {%- assign lowest-cards-by-player = num-cards-created -%}
+        {%- assign lowest-player = "" | split:"," -%}
+        {%- assign lowest-player = lowest-player | push:player -%}
+    {%- elsif lowest-cards-by-player == num-cards-created -%}
+        {%- assign lowest-player = lowest-player | push:player -%}
+    {%- endif -%}
+{%- endfor -%}
+<ul>
+    {%- for player in lowest-player -%}
+    <li><a href="{{player.url}}">{{player.title}}</a>
+        {%- unless forloop.last -%}, {% endunless -%}</li>{%- endfor %}<li>({{lowest-cards-by-player}} cards)</li>
+</ul>

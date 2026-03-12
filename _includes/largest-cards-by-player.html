@@ -1,0 +1,21 @@
+{%- assign highest-cards-by-player = -1 -%}
+{%- assign highest-player = "" | split:"," -%}
+{%- assign players = include.players | sort:"title" -%}
+{%- for player in players -%}
+    {%- capture num-cards-created -%}
+        {%- include num-cards-by-player.html player=player -%}
+    {%- endcapture -%}
+    {%- assign num-cards-created = num-cards-created | plus:0 -%}
+    {%- if highest-cards-by-player == -1 or highest-cards-by-player < num-cards-created -%}
+        {%- assign highest-cards-by-player = num-cards-created -%}
+        {%- assign highest-player = "" | split:"," -%}
+        {%- assign highest-player = highest-player | push:player -%}
+    {%- elsif highest-cards-by-player == num-cards-created -%}
+        {%- assign highest-player = highest-player | push:player -%}
+    {%- endif -%}
+{%- endfor -%}
+<ul>
+    {%- for player in highest-player -%}
+    <li><a href="{{player.url}}">{{player.title}}</a>
+        {%- unless forloop.last -%}, {% endunless -%}</li>{%- endfor %}<li>({{highest-cards-by-player}} cards)</li>
+</ul>

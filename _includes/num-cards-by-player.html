@@ -1,0 +1,18 @@
+{%- assign sets_created = site.sets | where:"author", include.player.title -%}
+{%- assign cards_created = "" | split:"," -%}
+{%- for set in sets_created -%}
+    {%- assign cards = site.cards | where:"set.name", set.title -%}
+    {%- for card in site.cards -%}
+        {%- if card.alternates -%}
+            {%- for alt in card.alternates -%}
+                {%- if alt.set.name == set.title -%}
+                    {%- assign cards = cards | push: alt -%}
+                {%- endif -%}
+            {%- endfor -%}
+        {%- endif -%}
+    {%- endfor -%}
+    {%- for card in cards -%}
+        {%- assign cards_created = cards_created | push:card -%}
+    {%- endfor -%}
+{%- endfor -%}
+{{cards_created | size}}

@@ -11,6 +11,8 @@ title: Statistics
 {%- assign num-total-cards = num-total-cards | plus: num-alternates -%}
 {%- endif -%}
 {%- endfor %}
+{%- assign num-players = site.players | size -%}
+{%- assign avg-cards-per-player = num-total-cards | divided_by: num-players -%}
 <div class="alt-infobox-stats">
     <div class="infobox-title">Cards</div>
     <table class="infobox-table">
@@ -74,7 +76,19 @@ title: Statistics
     <table class="infobox-table">
         <tr>
             <th>Total Players</th>
-            <td>{{site.players|size}}</td>
+            <td>{{num-players}}</td>
+        </tr>
+        <tr>
+            <th>Average Cards Made per Player</th>
+            <td>{{avg-cards-per-player}}</td>
+        </tr>
+        <tr>
+            <th>Player(s) with the Least Created Cards</th>
+            <td>{% include smallest-cards-by-player.html players=site.players %}</td>
+        </tr>
+        <tr>
+            <th>Player(s) with the Most Created Cards</th>
+            <td>{% include largest-cards-by-player.html players=site.players %}</td>
         </tr>
     </table>
 </div>
